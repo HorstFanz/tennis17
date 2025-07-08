@@ -1,0 +1,926 @@
+tourney_year_id;tourney_slug;tourney_round_name;match_id;round_order;match_order;match_time;match_duration;winner_name;winner_player_id;loser_name;loser_player_id;winner_sets_won;loser_sets_won;winner_games_won;loser_games_won;winner_tiebreaks_won;loser_tiebreaks_won;winner_aces;winner_double_faults;winner_first_serves_in;winner_first_serves_total;winner_service_points_won;winner_service_points_total;winner_first_serve_return_won;winner_first_serve_return_total;loser_aces;loser_double_faults;loser_first_serves_in;loser_first_serves_total;loser_service_points_won;loser_service_points_total;loser_first_serve_return_won;loser_first_serve_return_total
+2017-580;australian-open;Finals;2017-580-f324-n409;1;1;03:38:00;218;Roger Federer;f324;Rafael Nadal;n409;3;2;24;20;0;0;20;3;85;138;91;138;41;110;4;3;110;151;92;151;20;85
+2017-580;australian-open;Semi-Finals;2017-580-n409-d875;2;2;04:56:00;296;Rafael Nadal;n409;Grigor Dimitrov;d875;3;2;30;27;1;1;8;3;136;184;120;184;37;124;22;5;124;181;115;181;42;136
+2017-580;australian-open;Semi-Finals;2017-580-f324-w367;2;1;03:05:00;185;Roger Federer;f324;Stan Wawrinka;w367;3;2;24;23;0;0;11;3;86;143;95;143;33;89;10;2;89;135;88;135;24;86
+2017-580;australian-open;Quarter-Finals;2017-580-d875-gb88;3;3;02:13:00;133;Grigor Dimitrov;d875;David Goffin;gb88;3;0;18;9;0;0;9;4;62;96;61;96;14;44;7;3;44;94;49;94;16;62
+2017-580;australian-open;Quarter-Finals;2017-580-n409-r975;3;1;02:44:00;164;Rafael Nadal;n409;Milos Raonic;r975;3;0;19;14;1;0;5;4;76;105;78;105;23;71;14;2;71;107;68;107;13;76
+2017-580;australian-open;Quarter-Finals;2017-580-f324-z168;3;4;01:32:00;92;Roger Federer;f324;Mischa Zverev;z168;3;0;19;8;0;0;9;1;55;79;54;79;34;72;5;0;72;97;51;97;17;55
+2017-580;australian-open;Quarter-Finals;2017-580-w367-t786;3;2;02:15:00;135;Stan Wawrinka;w367;Jo-Wilfried Tsonga;t786;3;0;19;13;1;0;4;2;58;107;73;107;12;46;7;3;46;86;51;86;17;58
+2017-580;australian-open;Round of 16;2017-580-gb88-tb69;4;6;02:44:00;164;David Goffin;gb88;Dominic Thiem;tb69;3;1;24;17;1;0;15;2;70;125;84;125;24;77;13;5;77;128;76;128;19;70
+2017-580;australian-open;Round of 16;2017-580-d875-i165;4;8;02:25:00;145;Grigor Dimitrov;d875;Denis Istomin;i165;3;1;21;15;1;0;7;1;72;98;74;98;25;72;14;1;72;104;62;104;14;72
+2017-580;australian-open;Round of 16;2017-580-t786-e687;4;7;02:53:00;173;Jo-Wilfried Tsonga;t786;Daniel Evans;e687;3;1;24;17;0;1;17;2;81;122;91;122;27;100;9;11;100;143;89;143;15;81
+2017-580;australian-open;Round of 16;2017-580-r975-bd06;4;2;02:49:00;169;Milos Raonic;r975;Roberto Bautista Agut;bd06;3;1;22;17;1;0;33;9;74;113;78;113;32;88;9;4;88;127;77;127;14;74
+2017-580;australian-open;Round of 16;2017-580-z168-mc10;4;1;03:34:00;214;Mischa Zverev;z168;Andy Murray;mc10;3;1;24;18;0;0;7;2;91;137;81;137;33;95;10;6;95;145;80;145;31;91
+2017-580;australian-open;Round of 16;2017-580-n409-mc65;4;5;02:56:00;176;Rafael Nadal;n409;Gael Monfils;mc65;3;1;22;16;0;0;2;1;74;101;70;101;26;75;15;10;75;130;74;130;21;74
+2017-580;australian-open;Round of 16;2017-580-f324-n552;4;4;03:24:00;204;Roger Federer;f324;Kei Nishikori;n552;3;2;28;21;0;1;24;6;98;146;102;146;34;107;4;5;107;164;97;164;19;98
+2017-580;australian-open;Round of 16;2017-580-w367-sa93;4;3;02:44:00;164;Stan Wawrinka;w367;Andreas Seppi;sa93;3;0;21;18;3;0;17;2;68;117;87;117;22;85;11;3;85;136;88;136;13;68
+2017-580;australian-open;Round of 32;2017-580-sa93-d632;5;15;03:07:00;187;Andreas Seppi;sa93;Steve Darcis;d632;3;1;24;22;2;0;11;5;72;131;91;131;19;74;7;4;74;131;83;131;12;72
+2017-580;australian-open;Round of 32;2017-580-mc10-q927;5;1;01:59:00;119;Andy Murray;mc10;Sam Querrey;q927;3;0;18;10;0;0;8;2;56;86;58;86;23;52;5;2;52;87;48;87;13;56
+2017-580;australian-open;Round of 32;2017-580-e687-ta46;5;13;02:48:00;168;Daniel Evans;e687;Bernard Tomic;ta46;3;0;21;17;2;0;9;2;76;134;88;134;22;82;20;1;82;114;73;114;20;76
+2017-580;australian-open;Round of 32;2017-580-gb88-k336;5;9;01:28:00;88;David Goffin;gb88;Ivo Karlovic;k336;3;0;18;9;0;0;3;3;39;66;56;66;16;58;25;3;58;78;49;78;2;39
+2017-580;australian-open;Round of 32;2017-580-i165-cd85;5;14;03:27:00;207;Denis Istomin;i165;Pablo Carreno Busta;cd85;3;2;26;22;0;0;15;1;93;141;97;141;27;86;5;5;86;151;93;151;23;93
+2017-580;australian-open;Round of 32;2017-580-tb69-pd31;5;6;02:24:00;144;Dominic Thiem;tb69;Benoit Paire;pd31;3;1;22;15;0;0;10;3;85;128;78;128;12;53;10;9;53;110;60;110;32;85
+2017-580;australian-open;Round of 32;2017-580-mc65-k435;5;5;01:56:00;116;Gael Monfils;mc65;Philipp Kohlschreiber;k435;3;0;19;13;1;0;9;4;68;97;63;97;16;52;3;2;52;80;50;80;16;68
+2017-580;australian-open;Round of 32;2017-580-d875-g628;5;12;02:02:00;122;Grigor Dimitrov;d875;Richard Gasquet;g628;3;0;18;9;0;0;11;4;70;95;66;95;21;49;3;4;49;82;44;82;13;70
+2017-580;australian-open;Round of 32;2017-580-t786-sm25;5;10;03:33:00;213;Jo-Wilfried Tsonga;t786;Jack Sock;sm25;3;1;26;21;1;1;24;5;103;155;110;155;23;94;7;5;94;166;106;166;21;103
+2017-580;australian-open;Round of 32;2017-580-n552-l797;5;4;02:11:00;131;Kei Nishikori;n552;Lukas Lacko;l797;3;0;18;12;0;0;5;3;46;76;58;76;14;60;12;1;60;106;61;106;8;46
+2017-580;australian-open;Round of 32;2017-580-r975-sd32;5;2;02:35:00;155;Milos Raonic;r975;Gilles Simon;sd32;3;1;22;17;1;0;20;3;74;112;76;112;25;83;0;3;83;109;68;109;21;74
+2017-580;australian-open;Round of 32;2017-580-z168-j267;5;16;02:21:00;141;Mischa Zverev;z168;Malek Jaziri;j267;3;1;22;10;0;0;7;3;53;88;57;88;26;68;4;6;68;123;61;123;15;53
+2017-580;australian-open;Round of 32;2017-580-n409-z355;5;7;04:06:00;246;Rafael Nadal;n409;Alexander Zverev;z355;3;2;28;21;0;1;11;4;113;150;105;150;31;108;19;11;108;172;104;172;31;113
+2017-580;australian-open;Round of 32;2017-580-bd06-f401;5;11;04:02:00;242;Roberto Bautista Agut;bd06;David Ferrer;f401;3;1;26;22;1;1;5;5;106;182;110;182;30;82;1;6;82;151;89;151;36;106
+2017-580;australian-open;Round of 32;2017-580-f324-ba47;5;8;01:30:00;90;Roger Federer;f324;Tomas Berdych;ba47;3;0;18;10;0;0;8;2;41;70;56;70;9;52;12;3;52;81;52;81;2;41
+2017-580;australian-open;Round of 32;2017-580-w367-t840;5;3;02:32:00;152;Stan Wawrinka;w367;Viktor Troicki;t840;3;1;22;16;1;0;16;4;71;117;76;117;22;70;7;8;70;122;68;122;19;71
+2017-580;australian-open;Round of 64;2017-580-z355-td51;6;22;01:57:00;117;Alexander Zverev;z355;Frances Tiafoe;td51;3;0;18;9;0;0;9;6;55;99;67;99;21;55;4;2;55;83;50;83;14;55
+2017-580;australian-open;Round of 64;2017-580-sa93-ke17;6;14;03:09:00;189;Andreas Seppi;sa93;Nick Kyrgios;ke17;3;2;29;27;0;1;16;4;86;149;106;149;31;119;29;8;119;171;115;171;20;86
+2017-580;australian-open;Round of 64;2017-580-mc10-re44;6;1;01:37:00;97;Andy Murray;mc10;Andrey Rublev;re44;3;0;18;5;0;0;9;2;44;69;51;69;8;27;2;3;27;65;33;65;10;44
+2017-580;australian-open;Round of 64;2017-580-pd31-f510;6;32;03:29:00;209;Benoit Paire;pd31;Fabio Fognini;f510;3;2;26;24;1;0;22;10;97;176;106;176;37;93;2;7;93;160;97;160;27;97
+2017-580;australian-open;Round of 64;2017-580-ta46-e224;6;24;03:21:00;201;Bernard Tomic;ta46;Victor Estrella Burgos;e224;3;1;25;23;2;0;19;2;96;134;98;134;27;104;13;7;104;164;108;164;19;96
+2017-580;australian-open;Round of 64;2017-580-e687-c977;6;7;02:58:00;178;Daniel Evans;e687;Marin Cilic;c977;3;1;22;17;0;0;5;7;83;143;88;143;20;64;14;4;64;110;68;110;26;83
+2017-580;australian-open;Round of 64;2017-580-f401-e873;6;20;02:46:00;166;David Ferrer;f401;Ernesto Escobedo;e873;3;1;20;16;0;0;7;7;84;141;88;141;20;68;7;3;68;121;75;121;26;84
+2017-580;australian-open;Round of 64;2017-580-gb88-s694;6;11;01:45:00;105;David Goffin;gb88;Radek Stepanek;s694;3;0;18;7;0;0;7;4;44;80;55;80;19;46;3;9;46;79;39;79;12;44
+2017-580;australian-open;Round of 64;2017-580-i165-d643;6;2;04:49:00;289;Denis Istomin;i165;Novak Djokovic;d643;3;2;27;29;2;0;17;3;133;194;121;194;30;106;14;9;106;185;120;185;40;133
+2017-580;australian-open;Round of 64;2017-580-tb69-tc61;6;8;02:44:00;164;Dominic Thiem;tb69;Jordan Thompson;tc61;3;1;24;14;0;1;12;4;64;113;81;113;29;67;5;1;67;123;70;123;12;64
+2017-580;australian-open;Round of 64;2017-580-mc65-d801;6;6;01:57:00;117;Gael Monfils;mc65;Alexandr Dolgopolov;d801;3;1;19;13;0;0;20;5;62;92;60;92;24;72;6;5;72;123;67;123;13;62
+2017-580;australian-open;Round of 64;2017-580-sd32-sc73;6;23;01:36:00;96;Gilles Simon;sd32;Rogerio Dutra Silva;sc73;3;0;18;6;0;0;3;5;47;67;51;67;21;50;1;3;50;81;42;81;6;47
+2017-580;australian-open;Round of 64;2017-580-d875-ch27;6;15;02:36:00;156;Grigor Dimitrov;d875;Hyeon Chung;ch27;3;1;19;18;0;0;12;4;76;117;74;117;18;71;7;4;71;104;64;104;24;76
+2017-580;australian-open;Round of 64;2017-580-k336-w630;6;19;02:01:00;121;Ivo Karlovic;k336;Andrew Whittington;w630;3;0;18;12;0;0;19;8;51;92;67;92;11;46;5;6;46;92;58;92;7;51
+2017-580;australian-open;Round of 64;2017-580-sm25-ke29;6;21;02:15:00;135;Jack Sock;sm25;Karen Khachanov;ke29;3;0;18;11;0;0;8;5;62;107;71;107;17;58;10;6;58;111;63;111;12;62
+2017-580;australian-open;Round of 64;2017-580-t786-l987;6;12;01:46:00;106;Jo-Wilfried Tsonga;t786;Dusan Lajovic;l987;3;0;18;7;0;0;15;2;45;79;55;79;27;57;2;0;57;85;43;85;7;45
+2017-580;australian-open;Round of 64;2017-580-n552-ca12;6;5;02:06:00;126;Kei Nishikori;n552;Jeremy Chardy;ca12;3;0;18;10;0;0;2;0;61;88;56;88;22;54;5;5;54;94;48;94;20;61
+2017-580;australian-open;Round of 64;2017-580-l797-sc56;6;31;02:16:00;136;Lukas Lacko;l797;Dudi Sela;sc56;3;1;20;15;0;0;8;1;65;118;73;118;25;67;5;5;67;98;58;98;20;65
+2017-580;australian-open;Round of 64;2017-580-j267-bk92;6;30;01:37:00;97;Malek Jaziri;j267;Alexander Bublik;bk92;3;0;19;10;0;0;8;4;48;82;54;82;20;50;15;4;50;92;44;92;14;48
+2017-580;australian-open;Round of 64;2017-580-r975-ma30;6;3;01:59:00;119;Milos Raonic;r975;Gilles Muller;ma30;3;0;19;13;1;0;21;3;61;95;71;95;21;65;7;1;65;93;62;93;10;61
+2017-580;australian-open;Round of 64;2017-580-z168-i186;6;18;04:10:00;250;Mischa Zverev;z168;John Isner;i186;3;2;34;31;1;2;20;13;128;212;150;212;37;143;32;4;143;203;142;203;21;128
+2017-580;australian-open;Round of 64;2017-580-cd85-e831;6;26;01:47:00;107;Pablo Carreno Busta;cd85;Kyle Edmund;e831;3;0;18;8;0;0;7;0;58;89;62;89;11;42;6;6;42;79;45;79;12;58
+2017-580;australian-open;Round of 64;2017-580-k435-y124;6;28;01:51:00;111;Philipp Kohlschreiber;k435;Donald Young;y124;3;0;19;8;0;0;3;3;43;77;56;77;32;62;5;2;62;93;45;93;10;43
+2017-580;australian-open;Round of 64;2017-580-n409-b837;6;9;02:13:00;133;Rafael Nadal;n409;Marcos Baghdatis;b837;3;0;18;7;0;0;5;0;64;80;56;80;20;53;8;4;53;98;49;98;18;64
+2017-580;australian-open;Round of 64;2017-580-g628-b884;6;17;01:45:00;105;Richard Gasquet;g628;Carlos Berlocq;b884;3;0;18;3;0;0;2;5;39;71;50;71;18;38;2;1;38;72;31;72;10;39
+2017-580;australian-open;Round of 64;2017-580-bd06-n732;6;13;02:09:00;129;Roberto Bautista Agut;bd06;Yoshihito Nishioka;n732;3;0;18;8;0;0;9;1;62;77;47;77;37;72;2;3;72;118;54;118;22;62
+2017-580;australian-open;Round of 64;2017-580-f324-rc96;6;16;02:04:00;124;Roger Federer;f324;Noah Rubin;rc96;3;0;20;14;1;0;18;2;67;112;79;112;22;58;2;3;58;102;63;102;13;67
+2017-580;australian-open;Round of 64;2017-580-w367-j386;6;4;01:51:00;111;Stan Wawrinka;w367;Steve Johnson;j386;3;0;18;11;0;0;12;4;55;88;66;88;23;67;5;0;67;93;58;93;8;55
+2017-580;australian-open;Round of 64;2017-580-d632-sm37;6;29;02:33:00;153;Steve Darcis;d632;Diego Schwartzman;sm37;3;1;20;16;0;0;5;0;80;114;73;114;21;67;5;5;67;118;70;118;23;80
+2017-580;australian-open;Round of 64;2017-580-ba47-h940;6;10;02:05:00;125;Tomas Berdych;ba47;Ryan Harrison;h940;3;0;19;11;1;0;15;2;48;75;59;75;22;68;6;11;68;129;68;129;5;48
+2017-580;australian-open;Round of 64;2017-580-t840-l503;6;25;03:47:00;227;Viktor Troicki;t840;Paolo Lorenzi;l503;3;2;23;24;1;0;21;6;83;154;99;154;31;100;8;8;100;160;100;160;19;83
+2017-580;australian-open;Round of 128;2017-580-dh58-mi43;7;38;03:42:00;222;Alex de Minaur;dh58;Gerald Melzer;mi43;3;2;26;23;1;0;12;7;96;167;99;167;40;105;4;6;105;157;90;157;31;96
+2017-580;australian-open;Round of 128;2017-580-bk92-pf39;7;16;01:44:00;104;Alexander Bublik;bk92;Lucas Pouille;pf39;3;1;21;13;0;0;16;9;51;95;62;95;15;55;6;7;55;95;54;95;7;51
+2017-580;australian-open;Round of 128;2017-580-z355-h756;7;24;02:54:00;174;Alexander Zverev;z355;Robin Haase;h756;3;2;26;20;0;0;18;10;92;144;93;144;21;81;13;11;81;140;84;140;23;92
+2017-580;australian-open;Round of 128;2017-580-d801-cg80;7;39;02:57:00;177;Alexandr Dolgopolov;d801;Borna Coric;cg80;3;1;22;19;1;0;15;9;74;132;87;132;23;79;13;7;79;134;82;134;17;74
+2017-580;australian-open;Round of 128;2017-580-sa93-m850;7;58;03:05:00;185;Andreas Seppi;sa93;Paul-Henri Mathieu;m850;3;1;26;22;1;1;33;6;93;159;113;159;21;84;16;8;84;148;101;148;19;93
+2017-580;australian-open;Round of 128;2017-580-w630-pg32;7;62;02:25:00;145;Andrew Whittington;w630;Adam Pavlasek;pg32;3;1;22;15;0;0;12;10;64;112;75;112;19;66;13;3;66;107;63;107;16;64
+2017-580;australian-open;Round of 128;2017-580-re44-l575;7;56;02:50:00;170;Andrey Rublev;re44;Yen-Hsun Lu;l575;3;1;23;18;1;0;19;6;74;142;92;142;18;66;16;7;66;117;72;117;16;74
+2017-580;australian-open;Round of 128;2017-580-mc10-me89;7;1;02:47:00;167;Andy Murray;mc10;Illya Marchenko;me89;3;0;20;13;1;0;11;4;53;112;70;112;18;53;6;6;53;99;54;99;9;53
+2017-580;australian-open;Round of 128;2017-580-pd31-h355;7;54;01:37:00;97;Benoit Paire;pd31;Tommy Haas;h355;2;0;13;10;1;0;23;4;42;74;51;74;19;43;5;5;43;84;49;84;8;42
+2017-580;australian-open;Round of 128;2017-580-ta46-bd20;7;27;01:37:00;97;Bernard Tomic;ta46;Thomaz Bellucci;bd20;3;0;18;7;0;0;12;2;45;70;56;70;21;55;10;3;55;83;45;83;6;45
+2017-580;australian-open;Round of 128;2017-580-b884-a829;7;34;03:56:00;236;Carlos Berlocq;b884;Radu Albot;a829;3;1;25;23;2;0;18;5;92;157;104;157;36;110;7;2;110;154;99;154;22;92
+2017-580;australian-open;Round of 128;2017-580-e687-bf23;7;44;01:56:00;116;Daniel Evans;e687;Facundo Bagnis;bf23;3;0;19;10;1;0;14;3;51;88;65;88;16;50;10;4;50;94;52;94;8;51
+2017-580;australian-open;Round of 128;2017-580-f401-j553;7;21;01:26:00;86;David Ferrer;f401;Omar Jasika;j553;3;0;18;5;0;0;4;2;45;67;49;67;18;43;1;5;43;68;34;68;7;45
+2017-580;australian-open;Round of 128;2017-580-gb88-o522;7;11;02:56:00;176;David Goffin;gb88;Reilly Opelka;o522;3;2;26;22;0;0;13;7;76;146;102;146;21;85;21;7;85;144;92;144;17;76
+2017-580;australian-open;Round of 128;2017-580-i165-d646;7;46;02:35:00;155;Denis Istomin;i165;Ivan Dodig;d646;3;1;22;16;0;0;14;2;78;119;80;119;18;65;7;11;65;113;67;113;17;78
+2017-580;australian-open;Round of 128;2017-580-sm37-c882;7;22;01:22:00;82;Diego Schwartzman;sm37;Pablo Cuevas;c882;3;0;18;6;0;0;6;4;42;72;52;72;18;43;7;6;43;80;38;80;12;42
+2017-580;australian-open;Round of 128;2017-580-tb69-sl28;7;8;02:54:00;174;Dominic Thiem;tb69;Jan-Lennard Struff;sl28;3;1;22;17;0;0;12;9;62;132;82;132;15;73;13;10;73;140;85;140;10;62
+2017-580;australian-open;Round of 128;2017-580-y124-f586;7;63;02:30:00;150;Donald Young;y124;Thomas Fabbiano;f586;3;0;19;14;1;0;8;6;67;118;71;118;30;65;1;5;65;114;62;114;19;67
+2017-580;australian-open;Round of 128;2017-580-sc56-g710;7;57;02:34:00;154;Dudi Sela;sc56;Marcel Granollers;g710;3;1;23;12;0;0;1;3;84;113;67;113;31;69;4;2;69;112;54;112;30;84
+2017-580;australian-open;Round of 128;2017-580-l987-r612;7;50;02:00:00;120;Dusan Lajovic;l987;Stephane Robert;r612;3;0;18;9;0;0;4;4;57;96;59;96;25;54;3;5;54;100;52;100;15;57
+2017-580;australian-open;Round of 128;2017-580-e873-mm58;7;42;02:36:00;156;Ernesto Escobedo;e873;Daniil Medvedev;mm58;3;1;24;18;1;0;9;3;67;122;87;122;18;79;15;9;79;135;90;135;16;67
+2017-580;australian-open;Round of 128;2017-580-f510-l397;7;28;02:03:00;123;Fabio Fognini;f510;Feliciano Lopez;l397;3;0;20;13;0;0;5;3;43;81;61;81;22;70;14;8;70;133;72;133;5;43
+2017-580;australian-open;Round of 128;2017-580-td51-k926;7;61;02:37:00;157;Frances Tiafoe;td51;Mikhail Kukushkin;k926;3;1;24;13;0;1;13;4;63;114;79;114;21;65;9;3;65;111;66;111;12;63
+2017-580;australian-open;Round of 128;2017-580-mc65-v708;7;6;01:32:00;92;Gael Monfils;mc65;Jiri Vesely;v708;3;0;18;7;0;0;4;3;34;71;53;71;18;46;2;8;46;74;39;74;6;34
+2017-580;australian-open;Round of 128;2017-580-ma30-fb98;7;52;02:14:00;134;Gilles Muller;ma30;Taylor Fritz;fb98;3;0;20;15;2;0;30;4;70;108;80;108;17;70;12;4;70;103;71;103;12;70
+2017-580;australian-open;Round of 128;2017-580-sd32-mp01;7;25;01:51:00;111;Gilles Simon;sd32;Michael Mmoh;mp01;3;0;18;7;0;0;2;3;39;83;56;83;23;51;4;4;51;77;38;77;14;39
+2017-580;australian-open;Round of 128;2017-580-d875-o483;7;15;02:02:00;122;Grigor Dimitrov;d875;Christopher O'Connell;o483;3;0;19;12;1;0;15;0;47;81;67;81;20;64;6;1;64;110;67;110;1;47
+2017-580;australian-open;Round of 128;2017-580-ch27-o376;7;36;01:45:00;105;Hyeon Chung;ch27;Renzo Olivo;o376;3;0;18;7;0;0;4;1;39;69;48;69;14;38;6;7;38;80;40;80;12;39
+2017-580;australian-open;Round of 128;2017-580-k336-z184;7;20;05:15:00;315;Ivo Karlovic;k336;Horacio Zeballos;z184;2;2;22;20;0;1;76;12;140;213;171;213;27;152;32;9;152;237;174;237;13;140
+2017-580;australian-open;Round of 128;2017-580-sm25-h996;7;23;02:13:00;133;Jack Sock;sm25;Pierre-Hugues Herbert;h996;3;0;19;13;1;0;10;6;69;105;71;105;19;68;15;4;68;104;65;104;13;69
+2017-580;australian-open;Round of 128;2017-580-ca12-a479;7;35;00:23:00;23;Jeremy Chardy;ca12;Nicolas Almagro;a479;1;0;4;0;0;0;3;3;13;20;13;20;3;6;1;1;6;15;5;15;3;13
+2017-580;australian-open;Round of 128;2017-580-t786-mj08;7;12;02:23:00;143;Jo-Wilfried Tsonga;t786;Thiago Monteiro;mj08;3;1;24;13;0;1;20;5;49;103;77;103;21;60;4;8;60;111;63;111;6;49
+2017-580;australian-open;Round of 128;2017-580-i186-k776;7;19;02:23:00;143;John Isner;i186;Konstantin Kravchuk;k776;3;1;24;15;0;1;35;6;79;111;87;111;15;74;20;4;74;112;76;112;12;79
+2017-580;australian-open;Round of 128;2017-580-tc61-sh90;7;60;03:21:00;201;Jordan Thompson;tc61;Joao Sousa;sh90;3;2;28;19;0;1;21;1;96;146;97;146;25;74;4;5;74;132;80;132;26;96
+2017-580;australian-open;Round of 128;2017-580-ke29-me82;7;49;02:45:00;165;Karen Khachanov;ke29;Adrian Mannarino;me82;3;1;22;19;1;0;32;4;76;126;91;126;23;88;7;1;88;141;94;141;10;76
+2017-580;australian-open;Round of 128;2017-580-n552-kb54;7;5;03:34:00;214;Kei Nishikori;n552;Andrey Kuznetsov;kb54;3;2;29;21;0;1;11;0;98;158;101;158;26;78;4;4;78;142;79;142;31;98
+2017-580;australian-open;Round of 128;2017-580-e831-g725;7;41;01:50:00;110;Kyle Edmund;e831;Santiago Giraldo;g725;3;0;19;10;0;0;12;2;43;78;59;78;16;48;6;4;48;85;49;85;4;43
+2017-580;australian-open;Round of 128;2017-580-l797-r772;7;26;03:20:00;200;Lukas Lacko;l797;Albert Ramos-Vinolas;r772;3;2;24;24;0;0;17;4;86;140;94;140;23;86;21;11;86;151;95;151;22;86
+2017-580;australian-open;Round of 128;2017-580-j267-sc47;7;47;02:00:00;120;Malek Jaziri;j267;Go Soeda;sc47;3;0;18;10;0;0;7;4;35;77;53;77;17;53;5;2;53;99;52;99;5;35
+2017-580;australian-open;Round of 128;2017-580-b837-y061;7;33;01:05:00;65;Marcos Baghdatis;b837;Mikhail Youzhny;y061;2;0;9;3;0;0;5;1;18;36;26;36;13;31;1;2;31;49;25;49;2;18
+2017-580;australian-open;Round of 128;2017-580-c977-j397;7;7;03:05:00;185;Marin Cilic;c977;Jerzy Janowicz;j397;3;2;26;19;0;0;27;8;75;127;93;127;33;92;17;7;92;136;86;136;13;75
+2017-580;australian-open;Round of 128;2017-580-r975-ba65;7;3;01:33:00;93;Milos Raonic;r975;Dustin Brown;ba65;3;0;18;9;0;0;18;5;50;79;59;79;21;55;3;7;55;93;54;93;9;50
+2017-580;australian-open;Round of 128;2017-580-z168-g476;7;64;02:22:00;142;Mischa Zverev;z168;Guillermo Garcia-Lopez;g476;3;0;19;13;1;0;8;2;69;100;64;100;18;54;3;4;54;99;56;99;20;69
+2017-580;australian-open;Round of 128;2017-580-ke17-e698;7;14;01:25:00;85;Nick Kyrgios;ke17;Gastao Elias;e698;3;0;18;5;0;0;9;3;36;64;51;64;14;34;4;3;34;67;33;67;7;36
+2017-580;australian-open;Round of 128;2017-580-rc96-f811;7;55;03:08:00;188;Noah Rubin;rc96;Bjorn Fratangelo;f811;3;2;28;22;0;1;15;6;94;160;101;160;34;112;9;8;112;174;99;174;24;94
+2017-580;australian-open;Round of 128;2017-580-d643-v306;7;2;02:20:00;140;Novak Djokovic;d643;Fernando Verdasco;v306;3;0;19;9;1;0;2;2;60;94;62;94;22;55;5;5;55;106;53;106;16;60
+2017-580;australian-open;Round of 128;2017-580-cd85-pb22;7;30;02:23:00;143;Pablo Carreno Busta;cd85;Peter Polansky;pb22;3;2;21;14;0;0;21;8;59;101;68;101;32;73;10;5;73;123;63;123;10;59
+2017-580;australian-open;Round of 128;2017-580-l503-d994;7;51;03:16:00;196;Paolo Lorenzi;l503;James Duckworth;d994;3;1;25;21;1;1;10;5;82;141;94;141;15;70;8;7;70;142;91;142;18;82
+2017-580;australian-open;Round of 128;2017-580-k435-bg23;7;32;02:32:00;152;Philipp Kohlschreiber;k435;Nikoloz Basilashvili;bg23;3;1;22;20;1;0;12;4;66;114;79;114;31;94;3;2;94;137;85;137;15;66
+2017-580;australian-open;Round of 128;2017-580-s694-t315;7;59;01:59:00;119;Radek Stepanek;s694;Dmitry Tursunov;t315;3;0;19;11;1;0;15;4;65;99;72;99;19;58;5;5;58;87;52;87;13;65
+2017-580;australian-open;Round of 128;2017-580-n409-mb02;7;9;02:04:00;124;Rafael Nadal;n409;Florian Mayer;mb02;3;0;18;11;0;0;6;0;53;76;60;76;25;66;7;1;66;102;63;102;12;53
+2017-580;australian-open;Round of 128;2017-580-g628-mm79;7;18;01:53:00;113;Richard Gasquet;g628;Blake Mott;mm79;3;0;18;10;0;0;2;1;52;82;58;82;18;49;7;3;49;78;46;78;14;52
+2017-580;australian-open;Round of 128;2017-580-bd06-pc11;7;13;01:24:00;84;Roberto Bautista Agut;bd06;Guido Pella;pc11;3;0;18;5;0;0;7;1;38;60;49;60;17;40;5;5;40;67;31;67;1;38
+2017-580;australian-open;Round of 128;2017-580-f324-m762;7;17;02:05:00;125;Roger Federer;f324;Jurgen Melzer;m762;3;1;22;15;0;0;19;1;66;103;71;103;36;83;4;1;83;111;62;111;15;66
+2017-580;australian-open;Round of 128;2017-580-sc73-dc58;7;40;03:05:00;185;Rogerio Dutra Silva;sc73;Jared Donaldson;dc58;3;2;21;21;0;0;13;3;77;130;80;130;26;78;9;5;78;132;81;132;23;77
+2017-580;australian-open;Round of 128;2017-580-h940-m873;7;45;02:03:00;123;Ryan Harrison;h940;Nicolas Mahut;m873;3;0;18;9;0;0;8;3;50;77;52;77;23;57;1;5;57;95;49;95;12;50
+2017-580;australian-open;Round of 128;2017-580-q927-hb64;7;31;02:46:00;166;Sam Querrey;q927;Quentin Halys;hb64;3;1;25;20;1;1;31;10;81;133;95;133;23;88;24;9;88;151;99;151;9;81
+2017-580;australian-open;Round of 128;2017-580-w367-k966;7;4;03:24:00;204;Stan Wawrinka;w367;Martin Klizan;k966;3;2;27;25;0;0;21;6;102;160;105;160;43;120;7;2;120;157;101;157;24;102
+2017-580;australian-open;Round of 128;2017-580-d632-g940;7;37;02:11:00;131;Steve Darcis;d632;Sam Groth;g940;3;1;21;13;0;0;3;0;58;91;66;91;19;63;19;8;63;115;68;115;10;58
+2017-580;australian-open;Round of 128;2017-580-j386-d874;7;48;02:00:00;120;Steve Johnson;j386;Federico Delbonis;d874;3;0;18;11;0;0;17;1;43;79;63;79;12;49;2;5;49;86;52;86;3;43
+2017-580;australian-open;Round of 128;2017-580-ba47-v495;7;10;00:40:00;40;Tomas Berdych;ba47;Luca Vanni;v495;1;0;6;1;0;0;2;2;10;22;17;22;10;18;1;3;18;28;12;28;2;10
+2017-580;australian-open;Round of 128;2017-580-e224-bh09;7;43;03:10:00;190;Victor Estrella Burgos;e224;Aljaz Bedene;bh09;3;1;20;20;1;0;4;6;99;143;83;143;22;73;10;8;73;135;82;135;36;99
+2017-580;australian-open;Round of 128;2017-580-t840-d923;7;29;02:47:00;167;Viktor Troicki;t840;Damir Dzumhur;d923;3;2;22;23;0;0;14;2;80;123;82;123;23;80;1;8;80;143;88;143;22;80
+2017-580;australian-open;Round of 128;2017-580-n732-bi81;7;53;02:30:00;150;Yoshihito Nishioka;n732;Alex Bolt;bi81;3;1;19;16;0;0;1;4;67;115;72;115;22;70;19;5;70;118;70;118;21;67
+2017-580;australian-open;3rd Round Qualifying;2017-580-bi81-b747;8;9;01:18:00;78;Alex Bolt;bi81;Julien Benneteau;b747;2;0;13;8;0;0;13;1;43;71;49;71;6;30;0;1;30;53;37;53;8;43
+2017-580;australian-open;3rd Round Qualifying;2017-580-bk92-le01;8;12;02:18:00;138;Alexander Bublik;bk92;Duckhee Lee;le01;2;1;16;14;0;0;13;6;59;93;53;93;29;78;2;5;78;136;72;136;20;59
+2017-580;australian-open;3rd Round Qualifying;2017-580-re44-pb22;8;8;02:10:00;130;Andrey Rublev;re44;Peter Polansky;pb22;2;1;16;13;0;0;5;4;54;86;56;86;23;61;9;1;61;103;60;103;16;54
+2017-580;australian-open;3rd Round Qualifying;2017-580-f811-mi01;8;3;02:06:00;126;Bjorn Fratangelo;f811;Hiroki Moriya;mi01;2;1;16;14;0;0;5;0;75;111;71;111;19;65;1;1;65;90;61;90;26;75
+2017-580;australian-open;3rd Round Qualifying;2017-580-mm79-mg47;8;14;02:33:00;153;Blake Mott;mm79;James McGee;mg47;2;1;16;15;1;0;1;4;70;113;67;113;23;62;1;5;62;100;57;100;28;70
+2017-580;australian-open;3rd Round Qualifying;2017-580-e873-bf55;8;7;02:05:00;125;Ernesto Escobedo;e873;Yuki Bhambri;bf55;2;1;18;13;0;1;7;2;51;95;62;95;19;62;5;8;62;96;57;96;16;51
+2017-580;australian-open;3rd Round Qualifying;2017-580-td51-sf62;8;2;01:44:00;104;Frances Tiafoe;td51;Tim Smyczek;sf62;2;1;16;11;0;0;6;0;47;74;50;74;16;48;4;3;48;88;51;88;13;47
+2017-580;australian-open;3rd Round Qualifying;2017-580-sc47-ta29;8;10;02:11:00;131;Go Soeda;sc47;Marco Trungelliti;ta29;2;1;15;12;0;0;4;1;63;94;53;94;23;55;8;2;55;109;58;109;23;63
+2017-580;australian-open;3rd Round Qualifying;2017-580-d646-w571;8;13;01:21:00;81;Ivan Dodig;d646;Di Wu;w571;2;0;13;6;0;0;6;3;33;48;31;48;17;41;1;6;41;75;36;75;7;33
+2017-580;australian-open;3rd Round Qualifying;2017-580-m762-r548;8;6;01:32:00;92;Jurgen Melzer;m762;Rajeev Ram;r548;2;1;15;11;0;0;4;1;61;81;54;81;21;57;6;2;57;84;50;84;18;61
+2017-580;australian-open;3rd Round Qualifying;2017-580-v495-sk67;8;16;02:26:00;146;Luca Vanni;v495;Jan Satral;sk67;2;1;16;14;0;0;11;3;54;89;62;89;21;65;4;7;65;122;75;122;15;54
+2017-580;australian-open;3rd Round Qualifying;2017-580-l797-kb09;8;4;01:11:00;71;Lukas Lacko;l797;Denis Kudla;kb09;2;0;12;4;0;0;6;2;39;59;39;59;16;36;4;1;36;50;26;50;11;39
+2017-580;australian-open;3rd Round Qualifying;2017-580-rc96-d864;8;5;01:02:00;62;Noah Rubin;rc96;Evgeny Donskoy;d864;2;0;12;6;0;0;3;0;26;46;36;46;14;37;2;1;37;64;35;64;4;26
+2017-580;australian-open;3rd Round Qualifying;2017-580-s694-sj55;8;1;01:19:00;79;Radek Stepanek;s694;John-Patrick Smith;sj55;2;0;12;6;0;0;3;4;48;71;44;71;14;35;10;0;35;49;28;49;17;48
+2017-580;australian-open;3rd Round Qualifying;2017-580-o522-rh16;8;15;01:13:00;73;Reilly Opelka;o522;Casper Ruud;rh16;2;0;13;9;1;0;16;0;33;55;48;55;12;48;2;1;48;70;46;70;4;33
+2017-580;australian-open;3rd Round Qualifying;2017-580-f586-g602;8;11;01:47:00;107;Thomas Fabbiano;f586;Andre Ghem;g602;2;0;13;10;1;0;3;6;41;72;45;72;18;48;6;2;48;81;46;81;10;41
+2017-580;australian-open;2nd Round Qualifying;2017-580-bi81-bc65;9;20;01:29:00;89;Alex Bolt;bi81;Matthias Bachinger;bc65;2;0;13;10;1;0;10;0;45;72;49;72;24;59;5;3;59;91;53;91;13;45
+2017-580;australian-open;2nd Round Qualifying;2017-580-bk92-cg33;9;21;01:47:00;107;Alexander Bublik;bk92;Kimmer Coppejans;cg33;2;1;18;13;0;1;20;5;70;106;67;106;15;55;7;6;55;91;56;91;21;70
+2017-580;australian-open;2nd Round Qualifying;2017-580-g602-ka46;9;23;01:31:00;91;Andre Ghem;g602;Yuya Kibi;ka46;2;1;14;10;0;0;1;3;46;73;47;73;17;40;0;1;40;69;38;69;14;46
+2017-580;australian-open;2nd Round Qualifying;2017-580-re44-se73;9;3;01:31:00;91;Andrey Rublev;re44;Yuichi Sugita;se73;2;0;13;10;1;0;10;5;42;71;45;71;27;60;4;1;60;83;47;83;8;42
+2017-580;australian-open;2nd Round Qualifying;2017-580-f811-te51;9;4;01:41:00;101;Bjorn Fratangelo;f811;Stefanos Tsitsipas;te51;2;1;16;10;0;0;2;1;40;66;49;66;13;46;5;2;46;87;49;87;9;40
+2017-580;australian-open;2nd Round Qualifying;2017-580-mm79-k839;9;8;01:15:00;75;Blake Mott;mm79;Tobias Kamke;k839;2;0;12;6;0;0;6;2;39;57;36;57;19;37;0;2;37;65;32;65;10;39
+2017-580;australian-open;2nd Round Qualifying;2017-580-rh16-e678;9;27;01:45:00;105;Casper Ruud;rh16;Jonathan Eysseric;e678;2;1;15;12;0;0;3;0;56;82;57;82;8;40;4;3;40;74;51;74;17;56
+2017-580;australian-open;2nd Round Qualifying;2017-580-kb09-kc86;9;9;02:06:00;126;Denis Kudla;kb09;Darian King;kc86;2;1;16;14;0;0;7;0;63;98;60;98;25;71;4;2;71;103;60;103;21;63
+2017-580;australian-open;2nd Round Qualifying;2017-580-w571-z246;9;32;01:00:00;60;Di Wu;w571;Miljan Zekic;z246;2;0;12;6;0;0;1;3;23;47;34;47;11;29;4;4;29;51;27;51;4;23
+2017-580;australian-open;2nd Round Qualifying;2017-580-le01-mn44;9;24;02:07:00;127;Duckhee Lee;le01;Bradley Mousley;mn44;2;1;18;9;0;1;7;4;50;96;64;96;20;54;3;4;54;94;51;94;10;50
+2017-580;australian-open;2nd Round Qualifying;2017-580-e873-i230;9;11;00:59:00;59;Ernesto Escobedo;e873;Tatsuma Ito;i230;2;0;12;4;0;0;2;0;28;44;31;44;14;30;4;1;30;45;22;45;8;28
+2017-580;australian-open;2nd Round Qualifying;2017-580-d864-e690;9;6;01:57:00;117;Evgeny Donskoy;d864;Matthew Ebden;e690;2;1;17;14;1;0;4;1;67;103;72;103;7;51;11;9;51;89;62;89;17;67
+2017-580;australian-open;2nd Round Qualifying;2017-580-td51-ra82;9;2;01:10:00;70;Frances Tiafoe;td51;Yannik Reuter;ra82;2;0;12;4;0;0;4;1;33;55;35;55;15;25;1;2;25;51;22;51;8;33
+2017-580;australian-open;2nd Round Qualifying;2017-580-sc47-mb53;9;15;02:18:00;138;Go Soeda;sc47;Adrian Menendez-Maceiras;mb53;2;1;16;15;0;0;2;1;58;106;67;106;18;59;4;2;59;90;60;90;18;58
+2017-580;australian-open;2nd Round Qualifying;2017-580-mi01-i236;9;25;01:59:00;119;Hiroki Moriya;mi01;Uladzimir Ignatik;i236;2;1;16;11;0;0;1;4;56;101;63;101;14;45;7;3;45;82;49;82;18;56
+2017-580;australian-open;2nd Round Qualifying;2017-580-d646-db63;9;22;01:50:00;110;Ivan Dodig;d646;Laslo Djere;db63;2;1;13;11;0;0;7;5;33;71;43;71;16;48;5;5;48;75;42;75;9;33
+2017-580;australian-open;2nd Round Qualifying;2017-580-mg47-me31;9;16;01:26:00;86;James McGee;mg47;Vincent Millot;me31;2;0;12;6;0;0;5;4;34;57;34;57;17;30;1;2;30;64;31;64;11;34
+2017-580;australian-open;2nd Round Qualifying;2017-580-sk67-u134;9;28;02:32:00;152;Jan Satral;sk67;Yasutaka Uchiyama;u134;2;1;17;19;1;0;7;3;71;121;76;121;12;69;10;3;69;111;76;111;18;71
+2017-580;australian-open;2nd Round Qualifying;2017-580-sj55-d750;9;29;01:02:00;62;John-Patrick Smith;sj55;Kenny De Schepper;d750;2;0;12;7;0;0;2;0;44;58;41;58;9;36;7;3;36;52;35;52;10;44
+2017-580;australian-open;2nd Round Qualifying;2017-580-b747-cc32;9;14;01:06:00;66;Julien Benneteau;b747;Guilherme Clezar;cc32;2;0;13;5;0;0;9;2;28;52;36;52;11;21;2;4;21;51;24;51;3;28
+2017-580;australian-open;2nd Round Qualifying;2017-580-m762-da81;9;7;01:08:00;68;Jurgen Melzer;m762;Taro Daniel;da81;2;0;12;5;0;0;1;0;32;48;31;48;15;36;3;3;36;57;28;57;8;32
+2017-580;australian-open;2nd Round Qualifying;2017-580-v495-sl07;9;31;01:58:00;118;Luca Vanni;v495;Alexander Sarkissian;sl07;2;1;15;11;0;0;12;3;50;77;51;77;24;57;7;1;57;97;56;97;13;50
+2017-580;australian-open;2nd Round Qualifying;2017-580-l797-g585;9;5;01:52:00;112;Lukas Lacko;l797;Maximo Gonzalez;g585;2;1;16;10;0;0;4;3;48;79;52;79;24;51;2;2;51;79;42;79;13;48
+2017-580;australian-open;2nd Round Qualifying;2017-580-ta29-g967;9;30;00:27:00;27;Marco Trungelliti;ta29;Peter Gojowczyk;g967;1;0;5;0;0;0;1;0;19;27;17;27;4;6;0;2;6;16;5;16;7;19
+2017-580;australian-open;2nd Round Qualifying;2017-580-rc96-cf59;9;18;01:52:00;112;Noah Rubin;rc96;Roberto Carballes Baena;cf59;2;1;15;12;0;0;5;5;51;95;46;95;14;37;2;5;37;78;36;78;19;51
+2017-580;australian-open;2nd Round Qualifying;2017-580-pb22-be67;9;12;01:04:00;64;Peter Polansky;pb22;Mirza Basic;be67;2;0;12;7;0;0;6;0;27;46;35;46;9;34;5;1;34;61;35;61;7;27
+2017-580;australian-open;2nd Round Qualifying;2017-580-s694-k834;9;1;02:41:00;161;Radek Stepanek;s694;Blaz Kavcic;k834;2;1;20;16;0;1;8;13;63;114;71;114;23;71;2;10;71;104;61;104;20;63
+2017-580;australian-open;2nd Round Qualifying;2017-580-r548-a853;9;10;02:07:00;127;Rajeev Ram;r548;Marcelo Arevalo;a853;2;1;18;13;0;0;10;0;53;77;57;77;25;68;6;5;68;110;65;110;7;53
+2017-580;australian-open;2nd Round Qualifying;2017-580-o522-kc12;9;26;01:27:00;87;Reilly Opelka;o522;Mitchell Krueger;kc12;2;0;13;9;1;0;21;3;51;80;55;80;11;47;7;1;47;65;42;65;13;51
+2017-580;australian-open;2nd Round Qualifying;2017-580-f586-sq80;9;17;01:53:00;113;Thomas Fabbiano;f586;Akira Santillan;sq80;2;1;16;12;0;0;3;7;54;96;59;96;16;46;9;2;46;78;47;78;13;54
+2017-580;australian-open;2nd Round Qualifying;2017-580-sf62-sk47;9;13;01:03:00;63;Tim Smyczek;sf62;Mohamed Safwat;sk47;2;0;12;7;0;0;5;2;41;54;39;54;5;26;6;2;26;55;34;55;10;41
+2017-580;australian-open;2nd Round Qualifying;2017-580-bf55-kd70;9;19;01:08:00;68;Yuki Bhambri;bf55;Pedja Krstin;kd70;2;0;12;7;0;0;8;1;38;58;43;58;6;29;4;4;29;50;32;50;10;38
+2017-580;australian-open;1st Round Qualifying;2017-580-mb53-bc72;10;50;01:57:00;117;Adrian Menendez-Maceiras;mb53;Daniel Brands;bc72;2;1;16;16;1;0;8;2;50;86;64;86;19;68;22;3;68;105;71;105;11;50
+2017-580;australian-open;1st Round Qualifying;2017-580-sq80-y218;10;59;01:31:00;91;Akira Santillan;sq80;Elias Ymer;y218;2;0;13;9;1;0;4;4;36;78;48;78;11;36;1;3;36;64;36;64;10;36
+2017-580;australian-open;1st Round Qualifying;2017-580-bi81-ca99;10;15;02:13:00;133;Alex Bolt;bi81;Marius Copil;ca99;2;1;18;15;0;1;10;4;61;99;72;99;12;56;15;10;56;117;75;117;12;61
+2017-580;australian-open;1st Round Qualifying;2017-580-bk92-d981;10;17;01:58:00;118;Alexander Bublik;bk92;Arthur De Greef;d981;2;1;19;16;0;0;10;6;61;105;69;105;24;68;2;5;68;117;69;117;16;61
+2017-580;australian-open;1st Round Qualifying;2017-580-sl07-l949;10;23;01:02:00;62;Alexander Sarkissian;sl07;Henri Laaksonen;l949;2;0;12;5;0;0;8;0;30;50;36;50;11;31;3;4;31;53;30;53;5;30
+2017-580;australian-open;1st Round Qualifying;2017-580-g602-sg64;10;9;02:17:00;137;Andre Ghem;g602;Joao Souza;sg64;2;1;19;15;0;0;7;2;71;99;69;99;18;62;8;2;62;102;66;102;18;71
+2017-580;australian-open;1st Round Qualifying;2017-580-re44-ph71;10;57;02:01:00;121;Andrey Rublev;re44;Max Purcell;ph71;2;1;18;12;0;1;8;3;67;102;70;102;19;60;2;2;60;107;64;107;17;67
+2017-580;australian-open;1st Round Qualifying;2017-580-f811-z189;10;6;01:24:00;84;Bjorn Fratangelo;f811;Grega Zemlja;z189;2;0;13;10;1;0;8;3;47;72;54;72;9;43;10;3;43;71;46;71;11;47
+2017-580;australian-open;1st Round Qualifying;2017-580-mm79-k596;10;52;00:48:00;48;Blake Mott;mm79;Alexander Kudryavtsev;k596;2;0;12;3;0;0;5;2;25;45;35;45;9;20;0;0;20;41;21;41;4;25
+2017-580;australian-open;1st Round Qualifying;2017-580-k834-da67;10;44;00:47:00;47;Blaz Kavcic;k834;Matteo Donati;da67;1;0;6;2;0;0;2;1;23;33;28;33;7;24;4;5;24;44;24;44;4;23
+2017-580;australian-open;1st Round Qualifying;2017-580-mn44-f724;10;53;01:44:00;104;Bradley Mousley;mn44;Marton Fucsovics;f724;2;1;15;10;0;0;7;4;66;90;54;90;14;42;4;7;42;79;42;79;23;66
+2017-580;australian-open;1st Round Qualifying;2017-580-rh16-g681;10;28;01:18:00;78;Casper Ruud;rh16;Teymuraz Gabashvili;g681;2;0;12;8;0;0;5;1;43;64;37;64;12;36;3;5;36;59;30;59;16;43
+2017-580;australian-open;1st Round Qualifying;2017-580-kc86-h896;10;46;00:52:00;52;Darian King;kc86;Jose Hernandez-Fernandez;h896;2;0;12;4;0;0;2;0;24;40;32;40;10;28;1;4;28;50;25;50;4;24
+2017-580;australian-open;1st Round Qualifying;2017-580-kb09-sm09;10;18;01:31:00;91;Denis Kudla;kb09;Luke Saville;sm09;2;0;13;9;0;0;3;1;43;70;47;70;19;43;7;4;43;72;40;72;11;43
+2017-580;australian-open;1st Round Qualifying;2017-580-w571-bh87;10;64;00:54:00;54;Di Wu;w571;Maverick Banes;bh87;2;0;12;2;0;0;4;2;23;43;31;43;15;31;1;2;31;50;24;50;4;23
+2017-580;australian-open;1st Round Qualifying;2017-580-le01-kc29;10;5;02:41:00;161;Duckhee Lee;le01;Nicolas Kicker;kc29;2;1;18;13;0;0;9;4;67;114;66;114;25;62;7;7;62;111;60;111;23;67
+2017-580;australian-open;1st Round Qualifying;2017-580-e873-mn13;10;21;01:33:00;93;Ernesto Escobedo;e873;Maximilian Marterer;mn13;2;0;14;11;1;0;4;0;47;69;52;69;23;74;7;2;74;101;64;101;11;47
+2017-580;australian-open;1st Round Qualifying;2017-580-d864-pg20;10;11;02:07:00;127;Evgeny Donskoy;d864;Dmitry Popko;pg20;2;1;18;14;0;0;9;5;65;101;68;101;21;71;10;1;71;113;68;113;9;65
+2017-580;australian-open;1st Round Qualifying;2017-580-td51-cf01;10;2;02:15:00;135;Frances Tiafoe;td51;Marco Cecchinato;cf01;2;1;18;15;0;0;5;5;57;103;66;103;20;63;5;2;63;92;61;92;14;57
+2017-580;australian-open;1st Round Qualifying;2017-580-sc47-be54;10;29;01:26:00;86;Go Soeda;sc47;Ruben Bemelmans;be54;2;0;13;9;1;0;2;2;42;66;43;66;12;46;7;2;46;76;46;76;15;42
+2017-580;australian-open;1st Round Qualifying;2017-580-cc32-mf90;10;36;01:00:00;60;Guilherme Clezar;cc32;Kristijan Mesaros;mf90;2;0;12;3;0;0;3;3;30;48;34;48;18;38;5;4;38;53;26;53;9;30
+2017-580;australian-open;1st Round Qualifying;2017-580-mi01-bj05;10;51;00:58:00;58;Hiroki Moriya;mi01;Harry Bourchier;bj05;2;0;12;5;0;0;1;1;21;43;34;43;21;47;1;2;47;68;36;68;3;21
+2017-580;australian-open;1st Round Qualifying;2017-580-d646-w471;10;38;01:05:00;65;Ivan Dodig;d646;Amir Weintraub;w471;2;0;12;4;0;0;5;3;23;42;34;42;14;33;3;2;33;58;28;58;4;23
+2017-580;australian-open;1st Round Qualifying;2017-580-mg47-ph42;10;48;01:48:00;108;James McGee;mg47;Matija Pecotic;ph42;2;0;14;11;1;0;11;6;51;81;45;81;23;47;2;7;47;76;36;76;16;51
+2017-580;australian-open;1st Round Qualifying;2017-580-sk67-g983;10;12;01:48:00;108;Jan Satral;sk67;Alessandro Giannessi;g983;2;0;14;12;2;0;7;4;40;79;48;79;14;51;6;5;51;82;46;82;11;40
+2017-580;australian-open;1st Round Qualifying;2017-580-sj55-v620;10;60;01:19:00;79;John-Patrick Smith;sj55;Agustin Velotti;v620;2;0;13;9;1;0;9;0;40;56;40;56;13;40;2;2;40;74;43;74;10;40
+2017-580;australian-open;1st Round Qualifying;2017-580-e678-bk19;10;40;01:30:00;90;Jonathan Eysseric;e678;Mathias Bourgue;bk19;2;1;13;11;0;0;4;4;45;74;46;74;14;36;2;2;36;66;44;66;12;45
+2017-580;australian-open;1st Round Qualifying;2017-580-b747-mm66;10;26;01:11:00;71;Julien Benneteau;b747;Nikola Milojevic;mm66;2;0;12;6;0;0;5;1;23;44;32;44;11;31;4;5;31;61;32;61;6;23
+2017-580;australian-open;1st Round Qualifying;2017-580-m762-da86;10;49;01:38:00;98;Jurgen Melzer;m762;Joris De Loore;da86;2;1;15;11;0;0;10;0;52;75;48;75;25;66;11;5;66;90;49;90;17;52
+2017-580;australian-open;1st Round Qualifying;2017-580-d750-gb93;10;27;02:26:00;146;Kenny De Schepper;d750;Norbert Gombos;gb93;2;1;20;18;0;0;16;3;78;116;75;116;24;69;6;7;69;109;68;109;23;78
+2017-580;australian-open;1st Round Qualifying;2017-580-cg33-sl08;10;37;01:10:00;70;Kimmer Coppejans;cg33;Tennys Sandgren;sl08;2;0;13;7;1;0;5;2;42;61;48;61;12;36;7;2;36;56;36;56;9;42
+2017-580;australian-open;1st Round Qualifying;2017-580-db63-mf35;10;24;00:55:00;55;Laslo Djere;db63;Andrej Martin;mf35;2;0;12;2;0;0;2;0;27;44;31;44;10;22;0;0;22;45;21;45;6;27
+2017-580;australian-open;1st Round Qualifying;2017-580-v495-gb53;10;63;02:08:00;128;Luca Vanni;v495;Federico Gaio;gb53;2;1;17;12;0;0;7;4;46;90;56;90;20;52;1;4;52;100;54;100;15;46
+2017-580;australian-open;1st Round Qualifying;2017-580-l797-j400;10;10;01:06:00;66;Lukas Lacko;l797;Jeremy Jahn;j400;2;0;12;5;0;0;6;0;29;46;31;46;19;43;1;4;43;71;36;71;8;29
+2017-580;australian-open;1st Round Qualifying;2017-580-a853-j0a6;10;33;00:56:00;56;Marcelo Arevalo;a853;Scott Jones;j0a6;2;0;12;4;0;0;2;0;18;34;32;34;15;32;1;2;32;58;28;58;2;18
+2017-580;australian-open;1st Round Qualifying;2017-580-ta29-kc04;10;3;01:06:00;66;Marco Trungelliti;ta29;Jozef Kovalik;kc04;2;0;12;6;0;0;3;1;40;57;39;57;18;37;2;1;37;51;27;51;7;40
+2017-580;australian-open;1st Round Qualifying;2017-580-e690-g806;10;39;00:45:00;45;Matthew Ebden;e690;Andrey Golubev;g806;2;0;12;3;0;0;3;1;30;38;33;38;16;30;2;4;30;48;23;48;1;30
+2017-580;australian-open;1st Round Qualifying;2017-580-bc65-sf76;10;34;01:15:00;75;Matthias Bachinger;bc65;Franko Skugor;sf76;2;0;13;9;1;0;2;2;35;57;42;57;9;39;6;4;39;70;43;70;8;35
+2017-580;australian-open;1st Round Qualifying;2017-580-g585-la93;10;42;01:36:00;96;Maximo Gonzalez;g585;Enrique Lopez-Perez;la93;2;0;14;12;2;0;7;3;54;76;58;76;12;53;9;2;53;80;56;80;9;54
+2017-580;australian-open;1st Round Qualifying;2017-580-z246-b896;10;8;02:50:00;170;Miljan Zekic;z246;Benjamin Becker;b896;2;1;21;19;0;0;12;3;85;128;72;128;25;76;5;9;76;131;72;131;34;85
+2017-580;australian-open;1st Round Qualifying;2017-580-be67-ga79;10;35;01:55:00;115;Mirza Basic;be67;Lorenzo Giustino;ga79;2;1;15;11;0;0;14;1;45;76;52;76;18;49;3;5;49;95;53;95;12;45
+2017-580;australian-open;1st Round Qualifying;2017-580-kc12-c582;10;16;01:55:00;115;Mitchell Krueger;kc12;Marco Chiudinelli;c582;2;1;13;13;0;0;11;1;54;76;48;76;17;50;4;2;50;87;53;87;18;54
+2017-580;australian-open;1st Round Qualifying;2017-580-sk47-s483;10;58;01:30:00;90;Mohamed Safwat;sk47;Pedro Sousa;s483;2;0;13;10;1;0;4;4;37;70;43;70;17;48;1;6;48;76;43;76;15;37
+2017-580;australian-open;1st Round Qualifying;2017-580-rc96-sk94;10;56;02:07:00;127;Noah Rubin;rc96;Cedrik-Marcel Stebe;sk94;2;1;17;15;0;0;2;0;56;85;58;85;23;69;2;10;69;114;65;114;15;56
+2017-580;australian-open;1st Round Qualifying;2017-580-kd70-kh56;10;47;01:50:00;110;Pedja Krstin;kd70;Zdenek Kolar;kh56;2;1;16;12;0;0;8;3;50;80;52;80;14;46;9;4;46;96;52;96;12;50
+2017-580;australian-open;1st Round Qualifying;2017-580-g967-me64;10;41;00:41:00;41;Peter Gojowczyk;g967;Saketh Myneni;me64;2;0;12;2;0;0;8;1;26;41;32;41;9;22;1;3;22;40;16;40;3;26
+2017-580;australian-open;1st Round Qualifying;2017-580-pb22-lc11;10;22;01:06:00;66;Peter Polansky;pb22;Tristan Lamasine;lc11;2;0;12;6;0;0;4;0;28;45;35;45;16;37;2;1;37;63;35;63;6;28
+2017-580;australian-open;1st Round Qualifying;2017-580-s694-bh02;10;1;02:20:00;140;Radek Stepanek;s694;Sekou Bangoura;bh02;2;1;18;12;0;1;2;6;60;98;59;98;28;63;1;3;63;90;49;90;19;60
+2017-580;australian-open;1st Round Qualifying;2017-580-r548-i305;10;20;01:26:00;86;Rajeev Ram;r548;Ilya Ivashka;i305;2;0;12;8;0;0;1;2;45;76;48;76;13;38;8;2;38;62;37;62;13;45
+2017-580;australian-open;1st Round Qualifying;2017-580-o522-n679;10;54;01:09:00;69;Reilly Opelka;o522;Stefano Napolitano;n679;2;0;13;8;0;0;25;5;40;66;47;66;9;36;4;2;36;56;37;56;5;40
+2017-580;australian-open;1st Round Qualifying;2017-580-cf59-me05;10;32;01:23:00;83;Roberto Carballes Baena;cf59;Marinko Matosevic;me05;2;0;12;6;0;0;6;3;45;63;43;63;10;37;7;5;37;64;35;64;13;45
+2017-580;australian-open;1st Round Qualifying;2017-580-te51-v784;10;61;00:48:00;48;Stefanos Tsitsipas;te51;Gavin Van Peperzeel;v784;2;0;12;3;0;0;9;3;25;40;30;40;16;32;2;4;32;50;21;50;3;25
+2017-580;australian-open;1st Round Qualifying;2017-580-da81-sf41;10;13;01:40:00;100;Taro Daniel;da81;Aldin Setkic;sf41;2;0;13;9;0;0;4;2;49;76;44;76;18;37;2;2;37;64;33;64;20;49
+2017-580;australian-open;1st Round Qualifying;2017-580-i230-mn20;10;43;01:37:00;97;Tatsuma Ito;i230;Daniel Masur;mn20;2;0;13;10;1;0;3;2;52;78;47;78;16;48;5;4;48;64;37;64;20;52
+2017-580;australian-open;1st Round Qualifying;2017-580-f586-ka98;10;31;02:10:00;130;Thomas Fabbiano;f586;Bradley Klahn;ka98;2;1;18;14;0;1;4;5;54;95;66;95;13;56;13;3;56;102;63;102;10;54
+2017-580;australian-open;1st Round Qualifying;2017-580-sf62-sh91;10;25;01:11:00;71;Tim Smyczek;sf62;Jordi Samper-Montana;sh91;2;0;12;6;0;0;8;1;33;50;36;50;10;28;2;2;28;57;30;57;10;33
+2017-580;australian-open;1st Round Qualifying;2017-580-k839-n674;10;14;01:31:00;91;Tobias Kamke;k839;Dennis Novikov;n674;2;0;13;10;1;0;6;5;43;75;53;75;12;47;7;3;47;84;52;84;6;43
+2017-580;australian-open;1st Round Qualifying;2017-580-i236-pd07;10;19;01:51:00;111;Uladzimir Ignatik;i236;Vasek Pospisil;pd07;2;1;15;13;0;0;11;2;65;98;61;98;8;47;13;4;47;79;52;79;18;65
+2017-580;australian-open;1st Round Qualifying;2017-580-me31-bh76;10;30;01:03:00;63;Vincent Millot;me31;Riccardo Bellotti;bh76;2;0;12;4;0;0;1;5;27;51;32;51;22;35;1;3;35;58;26;58;6;27
+2017-580;australian-open;1st Round Qualifying;2017-580-ra82-d916;10;55;02:02:00;122;Yannik Reuter;ra82;Steven Diez;d916;2;1;14;13;0;0;4;1;67;95;53;95;21;54;7;3;54;90;49;90;23;67
+2017-580;australian-open;1st Round Qualifying;2017-580-u134-tc11;10;62;01:38:00;98;Yasutaka Uchiyama;u134;Marko Tepavac;tc11;2;0;13;10;1;0;6;3;54;73;46;73;16;46;6;6;46;85;45;85;18;54
+2017-580;australian-open;1st Round Qualifying;2017-580-se73-pg94;10;4;00:57:00;57;Yuichi Sugita;se73;Marc Polmans;pg94;2;0;12;2;0;0;6;1;24;43;31;43;19;37;0;2;37;52;23;52;4;24
+2017-580;australian-open;1st Round Qualifying;2017-580-bf55-ke64;10;7;01:11:00;71;Yuki Bhambri;bf55;Stefan Kozlov;ke64;2;0;12;5;0;0;0;3;33;52;32;52;23;47;1;3;47;64;29;64;9;33
+2017-580;australian-open;1st Round Qualifying;2017-580-ka46-ba23;10;45;01:27:00;87;Yuya Kibi;ka46;Brian Baker;ba23;2;0;13;9;1;0;2;3;60;81;53;81;14;37;3;2;37;65;40;65;18;60
+2017-747;beijing;Finals;2017-747-n409-ke17;1;1;01:32:00;92;Rafael Nadal;n409;Nick Kyrgios;ke17;2;0;12;3;0;0;2;1;37;56;37;56;10;31;8;5;31;64;31;64;11;37
+2017-747;beijing;Semi-Finals;2017-747-ke17-z355;2;2;01:18:00;78;Nick Kyrgios;ke17;Alexander Zverev;z355;2;0;13;8;0;0;11;0;39;56;46;56;7;30;0;2;30;57;37;57;5;39
+2017-747;beijing;Semi-Finals;2017-747-n409-d875;2;1;02:16:00;136;Rafael Nadal;n409;Grigor Dimitrov;d875;2;1;16;10;0;0;1;1;61;90;59;90;18;54;10;6;54;84;49;84;20;61
+2017-747;beijing;Quarter-Finals;2017-747-z355-re44;3;2;01:10:00;70;Alexander Zverev;z355;Andrey Rublev;re44;2;0;12;5;0;0;9;4;42;67;43;67;13;26;0;4;26;46;23;46;12;42
+2017-747;beijing;Quarter-Finals;2017-747-d875-bd06;3;3;02:29:00;149;Grigor Dimitrov;d875;Roberto Bautista Agut;bd06;2;1;17;14;1;0;12;4;56;94;63;94;15;51;4;4;51;99;61;99;14;56
+2017-747;beijing;Quarter-Finals;2017-747-ke17-d632;3;4;00:30:00;30;Nick Kyrgios;ke17;Steve Darcis;d632;2;0;9;0;0;0;12;2;17;28;21;28;10;13;0;3;13;21;5;21;1;17
+2017-747;beijing;Quarter-Finals;2017-747-n409-i186;3;1;01:44:00;104;Rafael Nadal;n409;John Isner;i186;2;0;13;10;1;0;5;0;40;68;52;68;18;58;22;2;58;73;46;73;11;40
+2017-747;beijing;Round of 16;2017-747-z355-f510;4;2;01:12:00;72;Alexander Zverev;z355;Fabio Fognini;f510;2;0;12;6;0;0;4;4;40;62;40;62;9;28;2;8;28;56;31;56;10;40
+2017-747;beijing;Round of 16;2017-747-re44-ba47;4;6;01:48:00;108;Andrey Rublev;re44;Tomas Berdych;ba47;2;1;13;11;0;0;6;10;41;88;49;88;11;41;7;5;41;81;42;81;14;41
+2017-747;beijing;Round of 16;2017-747-d875-d683;4;3;02:00:00;120;Grigor Dimitrov;d875;Juan Martin del Potro;d683;2;0;14;11;1;0;4;4;57;87;56;87;11;41;6;4;41;75;46;75;15;57
+2017-747;beijing;Round of 16;2017-747-i186-md56;4;5;00:59:00;59;John Isner;i186;Leonardo Mayer;md56;2;0;12;3;0;0;8;1;31;46;34;46;11;24;1;2;24;44;23;44;5;31
+2017-747;beijing;Round of 16;2017-747-ke17-z168;4;7;01:22:00;82;Nick Kyrgios;ke17;Mischa Zverev;z168;2;1;15;10;0;0;11;1;38;61;47;61;15;45;2;1;45;71;45;71;6;38
+2017-747;beijing;Round of 16;2017-747-n409-ke29;4;1;01:29:00;89;Rafael Nadal;n409;Karen Khachanov;ke29;2;0;12;6;0;0;3;0;37;59;41;59;14;41;7;7;41;68;37;68;11;37
+2017-747;beijing;Round of 16;2017-747-bd06-bh09;4;4;00:51:00;51;Roberto Bautista Agut;bd06;Aljaz Bedene;bh09;2;0;10;0;0;0;2;0;22;30;22;30;9;14;2;2;14;33;10;33;4;22
+2017-747;beijing;Round of 16;2017-747-d632-l987;4;8;01:13:00;73;Steve Darcis;d632;Dusan Lajovic;l987;2;0;12;7;0;0;1;0;41;66;47;66;11;34;5;1;34;51;32;51;9;41
+2017-747;beijing;Round of 32;2017-747-z355-e831;5;2;01:32:00;92;Alexander Zverev;z355;Kyle Edmund;e831;2;0;13;9;1;0;7;3;36;65;46;65;12;40;3;7;40;82;48;82;8;36
+2017-747;beijing;Round of 32;2017-747-bh09-g710;5;9;01:13:00;73;Aljaz Bedene;bh09;Marcel Granollers;g710;2;0;12;6;0;0;6;2;26;44;36;44;15;42;1;1;42;59;33;59;3;26
+2017-747;beijing;Round of 32;2017-747-re44-sm25;5;15;01:29:00;89;Andrey Rublev;re44;Jack Sock;sm25;2;1;15;9;0;0;6;8;42;81;53;81;14;38;6;7;38;73;42;73;9;42
+2017-747;beijing;Round of 32;2017-747-l987-v306;5;13;01:26:00;86;Dusan Lajovic;l987;Fernando Verdasco;v306;2;1;15;10;0;0;1;1;65;81;54;81;11;43;3;2;43;67;43;67;22;65
+2017-747;beijing;Round of 32;2017-747-f510-h756;5;11;01:33:00;93;Fabio Fognini;f510;Robin Haase;h756;2;0;13;8;1;0;2;5;49;82;48;82;15;36;4;6;36;67;36;67;11;49
+2017-747;beijing;Round of 32;2017-747-d875-d923;5;3;01:54:00;114;Grigor Dimitrov;d875;Damir Dzumhur;d923;2;1;15;10;0;0;9;9;57;95;62;95;20;49;2;0;49;74;44;74;13;57
+2017-747;beijing;Round of 32;2017-747-i186-j267;5;6;00:53:00;53;John Isner;i186;Malek Jaziri;j267;2;0;12;5;0;0;11;0;30;43;36;43;8;25;5;1;25;43;25;43;2;30
+2017-747;beijing;Round of 32;2017-747-d683-c882;5;10;01:39:00;99;Juan Martin del Potro;d683;Pablo Cuevas;c882;2;0;13;10;1;0;11;1;48;75;55;75;7;42;9;1;42;68;48;68;9;48
+2017-747;beijing;Round of 32;2017-747-ke29-w571;5;12;01:10:00;70;Karen Khachanov;ke29;Di Wu;w571;2;0;12;6;0;0;3;4;21;45;32;45;19;42;0;2;42;67;35;67;5;21
+2017-747;beijing;Round of 32;2017-747-md56-l503;5;14;02:58:00;178;Leonardo Mayer;md56;Paolo Lorenzi;l503;2;1;18;17;1;0;12;5;56;114;72;114;22;71;3;5;71;119;74;119;15;56
+2017-747;beijing;Round of 32;2017-747-z168-sl28;5;16;02:06:00;126;Mischa Zverev;z168;Jan-Lennard Struff;sl28;2;1;17;15;0;0;9;2;64;96;64;96;9;43;5;9;43;102;65;102;15;64
+2017-747;beijing;Round of 32;2017-747-ke17-bg23;5;8;00:56:00;56;Nick Kyrgios;ke17;Nikoloz Basilashvili;bg23;2;0;12;3;0;0;12;3;22;43;33;43;15;32;1;7;32;49;23;49;3;22
+2017-747;beijing;Round of 32;2017-747-n409-pf39;5;1;02:31:00;151;Rafael Nadal;n409;Lucas Pouille;pf39;2;1;18;17;1;0;4;7;73;102;74;102;15;65;9;5;65;110;71;110;14;73
+2017-747;beijing;Round of 32;2017-747-bd06-z272;5;5;01:00:00;60;Roberto Bautista Agut;bd06;Ze Zhang;z272;2;0;12;4;0;0;4;2;22;46;34;46;10;33;4;5;33;47;25;47;4;22
+2017-747;beijing;Round of 32;2017-747-d632-cd85;5;4;01:20:00;80;Steve Darcis;d632;Pablo Carreno Busta;cd85;2;0;12;4;0;0;1;1;31;46;32;46;22;47;1;2;47;70;34;70;7;31
+2017-747;beijing;Round of 32;2017-747-ba47-dc58;5;7;01:30:00;90;Tomas Berdych;ba47;Jared Donaldson;dc58;2;1;12;11;0;0;5;3;38;69;42;69;11;44;9;2;44;67;43;67;8;38
+2017-747;beijing;2nd Round Qualifying;2017-747-l987-sc73;6;2;01:40:00;100;Dusan Lajovic;l987;Rogerio Dutra Silva;sc73;2;1;17;13;0;0;3;0;59;79;55;79;18;49;4;4;49;86;49;86;18;59
+2017-747;beijing;2nd Round Qualifying;2017-747-j267-sc77;6;4;02:07:00;127;Malek Jaziri;j267;Sergiy Stakhovsky;sc77;2;0;13;10;1;0;2;3;45;94;59;94;9;44;7;6;44;77;50;77;7;45
+2017-747;beijing;2nd Round Qualifying;2017-747-g710-cg80;6;1;01:27:00;87;Marcel Granollers;g710;Borna Coric;cg80;2;0;12;7;0;0;1;2;38;65;46;65;12;31;4;5;31;52;33;52;9;38
+2017-747;beijing;2nd Round Qualifying;2017-747-d632-pb22;6;3;02:41:00;161;Steve Darcis;d632;Peter Polansky;pb22;2;1;18;17;1;0;2;2;68;119;70;119;11;46;5;6;46;102;64;102;20;68
+2017-747;beijing;1st Round Qualifying;2017-747-cg80-gc88;7;1;01:21:00;81;Borna Coric;cg80;Marcos Giron;gc88;2;0;12;7;0;0;1;5;30;54;35;54;11;31;2;6;31;58;27;58;6;30
+2017-747;beijing;1st Round Qualifying;2017-747-l987-g983;7;5;01:43:00;103;Dusan Lajovic;l987;Alessandro Giannessi;g983;2;1;15;12;0;0;3;4;66;91;54;91;20;49;1;4;49;79;44;79;24;66
+2017-747;beijing;1st Round Qualifying;2017-747-j267-z371;7;4;01:21:00;81;Malek Jaziri;j267;Zhizhen Zhang;z371;2;0;12;5;0;0;4;1;30;49;34;49;10;31;3;4;31;69;35;69;5;30
+2017-747;beijing;1st Round Qualifying;2017-747-g710-ca12;7;6;01:19:00;79;Marcel Granollers;g710;Jeremy Chardy;ca12;2;0;12;5;0;0;0;5;22;55;35;55;11;27;1;8;27;51;23;51;7;22
+2017-747;beijing;1st Round Qualifying;2017-747-pb22-d646;7;8;01:26:00;86;Peter Polansky;pb22;Ivan Dodig;d646;1;1;11;11;0;0;4;2;31;60;41;60;12;41;8;5;41;72;45;72;10;31
+2017-747;beijing;1st Round Qualifying;2017-747-sc73-tg30;7;2;01:01:00;61;Rogerio Dutra Silva;sc73;Rigele Te;tg30;2;0;12;4;0;0;2;0;25;44;29;44;9;26;2;4;26;54;24;54;6;25
+2017-747;beijing;1st Round Qualifying;2017-747-sc77-mj08;7;7;02:35:00;155;Sergiy Stakhovsky;sc77;Thiago Monteiro;mj08;2;1;19;15;0;1;11;5;73;118;76;118;19;66;1;4;66;105;67;105;15;73
+2017-747;beijing;1st Round Qualifying;2017-747-d632-sx90;7;3;01:19:00;79;Steve Darcis;d632;Fajing Sun;sx90;2;0;12;6;0;0;2;2;32;47;28;47;19;41;3;4;41;71;34;71;11;32
+2017-339;brisbane;Finals;2017-339-d875-n552;1;1;01:49:00;109;Grigor Dimitrov;d875;Kei Nishikori;n552;2;1;14;11;0;0;7;2;52;77;53;77;13;49;4;0;49;69;45;69;11;52
+2017-339;brisbane;Semi-Finals;2017-339-d875-r975;2;1;01:28:00;88;Grigor Dimitrov;d875;Milos Raonic;r975;2;0;13;8;1;0;4;1;36;58;45;58;4;28;4;3;28;61;40;61;9;36
+2017-339;brisbane;Semi-Finals;2017-339-n552-w367;2;2;01:42:00;102;Kei Nishikori;n552;Stan Wawrinka;w367;2;0;13;9;1;0;1;1;56;77;51;77;10;37;9;2;37;61;37;61;19;56
+2017-339;brisbane;Quarter-Finals;2017-339-d875-tb69;3;4;02:05:00;125;Grigor Dimitrov;d875;Dominic Thiem;tb69;2;1;16;12;0;0;3;3;52;94;65;94;8;37;6;5;37;82;53;82;10;52
+2017-339;brisbane;Quarter-Finals;2017-339-n552-tc61;3;3;01:02:00;62;Kei Nishikori;n552;Jordan Thompson;tc61;2;0;12;2;0;0;3;0;19;34;28;34;13;28;1;2;28;47;20;47;1;19
+2017-339;brisbane;Quarter-Finals;2017-339-r975-n409;3;1;02:21:00;141;Milos Raonic;r975;Rafael Nadal;n409;2;1;16;13;0;0;23;3;62;97;66;97;22;61;4;0;61;84;53;84;12;62
+2017-339;brisbane;Quarter-Finals;2017-339-w367-e831;3;2;02:36:00;156;Stan Wawrinka;w367;Kyle Edmund;e831;2;1;18;15;0;1;11;3;67;119;75;119;13;65;2;2;65;97;63;97;20;67
+2017-339;brisbane;Round of 16;2017-339-tb69-g940;4;4;01:29:00;89;Dominic Thiem;tb69;Sam Groth;g940;2;0;13;9;1;0;11;1;44;65;51;65;1;35;11;1;35;58;43;58;8;44
+2017-339;brisbane;Round of 16;2017-339-d875-m873;4;7;01:05:00;65;Grigor Dimitrov;d875;Nicolas Mahut;m873;2;0;12;6;0;0;8;0;27;46;37;46;10;37;4;3;37;52;31;52;2;27
+2017-339;brisbane;Round of 16;2017-339-tc61-f401;4;8;02:39:00;159;Jordan Thompson;tc61;David Ferrer;f401;2;1;18;16;0;0;5;2;65;103;67;103;22;64;2;4;64;103;65;103;16;65
+2017-339;brisbane;Round of 16;2017-339-n552-dc58;4;3;02:23:00;143;Kei Nishikori;n552;Jared Donaldson;dc58;2;1;16;13;0;0;3;3;66;107;65;107;22;54;6;4;54;95;52;95;19;66
+2017-339;brisbane;Round of 16;2017-339-e831-pf39;4;6;00:59:00;59;Kyle Edmund;e831;Lucas Pouille;pf39;2;0;9;4;0;0;6;1;27;44;33;44;3;18;3;2;18;34;21;34;5;27
+2017-339;brisbane;Round of 16;2017-339-r975-sm37;4;1;01:09:00;69;Milos Raonic;r975;Diego Schwartzman;sm37;2;0;12;5;0;0;12;1;40;53;37;53;12;29;0;1;29;44;23;44;10;40
+2017-339;brisbane;Round of 16;2017-339-n409-z168;4;5;00:55:00;55;Rafael Nadal;n409;Mischa Zverev;z168;2;0;12;2;0;0;1;2;18;38;30;38;12;25;2;2;25;38;16;38;3;18
+2017-339;brisbane;Round of 16;2017-339-w367-t840;4;2;01:30:00;90;Stan Wawrinka;w367;Viktor Troicki;t840;2;0;13;10;1;0;7;2;41;64;48;64;7;46;5;7;46;71;47;71;8;41
+2017-339;brisbane;Round of 32;2017-339-f401-ta46;5;4;01:24:00;84;David Ferrer;f401;Bernard Tomic;ta46;2;0;13;8;0;0;3;5;30;52;37;52;15;44;5;8;44;74;41;74;5;30
+2017-339;brisbane;Round of 32;2017-339-sm37-q927;5;9;00:58:00;58;Diego Schwartzman;sm37;Sam Querrey;q927;2;0;12;6;0;0;2;0;29;47;32;47;10;25;3;7;25;50;24;50;8;29
+2017-339;brisbane;Round of 32;2017-339-d875-j386;5;3;01:15:00;75;Grigor Dimitrov;d875;Steve Johnson;j386;2;0;12;5;0;0;3;0;25;48;35;48;15;36;2;3;36;57;28;57;2;25
+2017-339;brisbane;Round of 32;2017-339-dc58-ma30;5;5;01:15:00;75;Jared Donaldson;dc58;Gilles Muller;ma30;2;0;12;8;0;0;12;2;33;55;40;55;10;37;10;2;37;58;34;58;6;33
+2017-339;brisbane;Round of 32;2017-339-tc61-y218;5;10;01:31:00;91;Jordan Thompson;tc61;Elias Ymer;y218;2;0;12;5;0;0;1;0;28;46;32;46;20;43;1;6;43;74;36;74;2;28
+2017-339;brisbane;Round of 32;2017-339-e831-e873;5;6;02:10:00;130;Kyle Edmund;e831;Ernesto Escobedo;e873;2;0;14;12;2;0;11;2;48;83;56;83;28;67;11;3;67;113;66;113;11;48
+2017-339;brisbane;Round of 32;2017-339-pf39-sd32;5;2;02:06:00;126;Lucas Pouille;pf39;Gilles Simon;sd32;2;0;14;12;2;0;7;2;52;102;61;102;13;42;1;4;42;76;45;76;15;52
+2017-339;brisbane;Round of 32;2017-339-z168-dh58;5;12;01:08:00;68;Mischa Zverev;z168;Alex de Minaur;dh58;2;0;12;6;0;0;3;3;42;57;39;57;12;26;2;4;26;46;26;46;12;42
+2017-339;brisbane;Round of 32;2017-339-m873-r612;5;8;02:00:00;120;Nicolas Mahut;m873;Stephane Robert;r612;2;1;16;13;0;0;13;3;55;86;59;86;17;46;9;8;46;94;59;94;13;55
+2017-339;brisbane;Round of 32;2017-339-n409-d801;5;1;01:15:00;75;Rafael Nadal;n409;Alexandr Dolgopolov;d801;2;0;12;6;0;0;2;1;36;52;36;52;8;28;2;2;28;53;27;53;10;36
+2017-339;brisbane;Round of 32;2017-339-g940-h996;5;7;02:10:00;130;Sam Groth;g940;Pierre-Hugues Herbert;h996;2;1;18;15;0;0;20;5;59;106;73;106;15;48;9;5;48;87;57;87;14;59
+2017-339;brisbane;Round of 32;2017-339-t840-n732;5;11;01:32:00;92;Viktor Troicki;t840;Yoshihito Nishioka;n732;2;0;13;9;0;0;11;5;45;64;41;64;20;53;0;1;53;82;46;82;10;45
+2017-339;brisbane;2nd Round Qualifying;2017-339-dh58-td51;6;3;02:19:00;139;Alex de Minaur;dh58;Frances Tiafoe;td51;2;1;18;15;0;1;5;6;67;105;71;105;22;65;13;2;65;110;68;110;19;67
+2017-339;brisbane;2nd Round Qualifying;2017-339-e873-d646;6;4;02:00:00;120;Ernesto Escobedo;e873;Ivan Dodig;d646;2;1;18;13;0;1;12;3;47;96;65;96;14;53;16;5;53;83;55;83;8;47
+2017-339;brisbane;2nd Round Qualifying;2017-339-dc58-sj55;6;2;02:14:00;134;Jared Donaldson;dc58;John-Patrick Smith;sj55;2;1;17;14;1;0;6;5;54;99;63;99;19;66;5;3;66;109;63;109;10;54
+2017-339;brisbane;2nd Round Qualifying;2017-339-n732-sf62;6;1;01:29:00;89;Yoshihito Nishioka;n732;Tim Smyczek;sf62;2;0;13;9;0;0;0;1;47;87;54;87;8;25;2;2;25;54;36;54;17;47
+2017-339;brisbane;1st Round Qualifying;2017-339-dh58-k926;7;1;01:39:00;99;Alex de Minaur;dh58;Mikhail Kukushkin;k926;2;0;13;10;1;0;8;1;31;63;44;63;13;32;0;2;32;68;42;68;6;31
+2017-339;brisbane;1st Round Qualifying;2017-339-e873-k839;7;8;01:17:00;77;Ernesto Escobedo;e873;Tobias Kamke;k839;2;0;12;7;0;0;5;1;36;61;42;61;12;36;0;3;36;61;35;61;8;36
+2017-339;brisbane;1st Round Qualifying;2017-339-td51-w630;7;5;01:27:00;87;Frances Tiafoe;td51;Andrew Whittington;w630;2;0;13;9;1;0;2;5;42;75;50;75;12;38;5;2;38;55;35;55;8;42
+2017-339;brisbane;1st Round Qualifying;2017-339-d646-h940;7;2;04:12:00;252;Ivan Dodig;d646;Ryan Harrison;h940;2;1;16;14;0;0;12;5;48;89;60;89;16;57;7;2;57;91;58;91;13;48
+2017-339;brisbane;1st Round Qualifying;2017-339-dc58-r548;7;4;00:59:00;59;Jared Donaldson;dc58;Rajeev Ram;r548;2;0;12;6;0;0;9;3;24;46;37;46;12;33;2;0;33;50;29;50;2;24
+2017-339;brisbane;1st Round Qualifying;2017-339-sj55-ke64;7;7;01:17:00;77;John-Patrick Smith;sj55;Stefan Kozlov;ke64;2;0;12;5;0;0;4;2;44;65;46;65;10;26;0;1;26;48;27;48;14;44
+2017-339;brisbane;1st Round Qualifying;2017-339-sf62-f811;7;6;01:33:00;93;Tim Smyczek;sf62;Bjorn Fratangelo;f811;2;1;16;11;0;0;16;3;49;80;57;80;10;40;6;5;40;74;45;74;8;49
+2017-339;brisbane;1st Round Qualifying;2017-339-n732-sc47;7;3;01:46:00;106;Yoshihito Nishioka;n732;Go Soeda;sc47;2;1;12;12;0;0;2;2;55;93;54;93;11;37;2;0;37;64;42;64;19;55
+2017-520;roland-garros;Finals;2017-520-n409-w367;1;1;02:05:00;125;Rafael Nadal;n409;Stan Wawrinka;w367;3;0;18;6;0;0;4;0;42;65;50;65;24;50;1;0;50;86;42;86;7;42
+2017-520;roland-garros;Semi-Finals;2017-520-n409-tb69;2;2;02:07:00;127;Rafael Nadal;n409;Dominic Thiem;tb69;3;0;18;7;0;0;2;2;49;74;54;74;16;43;3;3;43;81;41;81;14;49
+2017-520;roland-garros;Semi-Finals;2017-520-w367-mc10;2;1;04:34:00;274;Stan Wawrinka;w367;Andy Murray;mc10;3;2;30;24;1;1;6;3;99;166;106;166;34;100;1;5;100;173;100;173;34;99
+2017-520;roland-garros;Quarter-Finals;2017-520-mc10-n552;3;1;02:39:00;159;Andy Murray;mc10;Kei Nishikori;n552;3;1;21;14;1;0;3;6;69;111;69;111;19;50;1;2;50;89;49;89;18;69
+2017-520;roland-garros;Quarter-Finals;2017-520-tb69-d643;3;2;02:15:00;135;Dominic Thiem;tb69;Novak Djokovic;d643;3;0;19;9;1;0;2;3;50;82;54;82;29;67;2;3;67;104;53;104;13;50
+2017-520;roland-garros;Quarter-Finals;2017-520-n409-cd85;3;4;00:51:00;51;Rafael Nadal;n409;Pablo Carreno Busta;cd85;2;0;8;2;0;0;0;0;17;26;14;26;14;22;0;2;22;28;8;28;9;17
+2017-520;roland-garros;Quarter-Finals;2017-520-w367-c977;3;3;01:40:00;100;Stan Wawrinka;w367;Marin Cilic;c977;3;0;18;7;0;0;3;2;48;77;54;77;14;33;5;6;33;68;34;68;17;48
+2017-520;roland-garros;Round of 16;2017-520-mc10-ke29;4;1;02:04:00;124;Andy Murray;mc10;Karen Khachanov;ke29;3;0;18;11;0;0;5;1;53;81;58;81;16;46;1;6;46;79;47;79;16;53
+2017-520;roland-garros;Round of 16;2017-520-tb69-z184;4;6;01:40:00;100;Dominic Thiem;tb69;Horacio Zeballos;z184;3;0;18;5;0;0;4;5;38;66;48;66;24;49;1;1;49;73;33;73;3;38
+2017-520;roland-garros;Round of 16;2017-520-n552-v306;4;8;02:34:00;154;Kei Nishikori;n552;Fernando Verdasco;v306;3;1;18;14;0;0;4;2;59;112;62;112;29;77;3;6;77;109;60;109;22;59
+2017-520;roland-garros;Round of 16;2017-520-c977-a678;4;7;00:48:00;48;Marin Cilic;c977;Kevin Anderson;a678;2;0;9;3;0;0;4;2;17;32;21;32;9;16;0;1;16;33;14;33;3;17
+2017-520;roland-garros;Round of 16;2017-520-d643-r772;4;2;02:27:00;147;Novak Djokovic;d643;Albert Ramos-Vinolas;r772;3;0;19;10;1;0;3;0;61;99;62;99;30;64;3;2;64;99;50;99;17;61
+2017-520;roland-garros;Round of 16;2017-520-cd85-r975;4;5;04:17:00;257;Pablo Carreno Busta;cd85;Milos Raonic;r975;3;2;31;29;1;1;10;0;153;206;128;206;34;124;25;7;124;176;111;176;52;153
+2017-520;roland-garros;Round of 16;2017-520-n409-bd06;4;4;01:51:00;111;Rafael Nadal;n409;Roberto Bautista Agut;bd06;3;0;18;5;0;0;4;2;42;68;48;68;28;58;0;1;58;76;36;76;13;42
+2017-520;roland-garros;Round of 16;2017-520-w367-mc65;4;3;02:43:00;163;Stan Wawrinka;w367;Gael Monfils;mc65;3;0;20;13;1;0;3;1;79;127;82;127;14;58;4;3;58;90;56;90;24;79
+2017-520;roland-garros;Round of 32;2017-520-r772-pf39;5;12;03:42:00;222;Albert Ramos-Vinolas;r772;Lucas Pouille;pf39;3;2;26;18;0;0;2;6;94;151;93;151;27;89;6;9;89;156;89;156;35;94
+2017-520;roland-garros;Round of 32;2017-520-mc10-d683;5;1;02:53:00;173;Andy Murray;mc10;Juan Martin del Potro;d683;3;0;20;11;1;0;5;3;58;102;67;102;23;66;6;4;66;108;57;108;18;58
+2017-520;roland-garros;Round of 32;2017-520-tb69-j386;5;6;02:03:00;123;Dominic Thiem;tb69;Steve Johnson;j386;3;0;19;10;1;0;10;4;54;80;64;80;25;72;5;1;72;118;64;118;7;54
+2017-520;roland-garros;Round of 32;2017-520-v306-c882;5;15;01:33:00;93;Fernando Verdasco;v306;Pablo Cuevas;c882;3;0;18;6;0;0;2;5;48;72;49;72;20;38;0;7;38;75;30;75;12;48
+2017-520;roland-garros;Round of 32;2017-520-mc65-g628;5;11;02:24:00;144;Gael Monfils;mc65;Richard Gasquet;g628;2;1;16;16;1;0;4;3;65;92;65;92;25;72;2;3;72;114;72;114;15;65
+2017-520;roland-garros;Round of 32;2017-520-z184-gb88;5;9;00:57:00;57;Horacio Zeballos;z184;David Goffin;gb88;0;1;4;5;0;0;0;1;21;36;22;36;1;15;2;1;15;32;22;32;6;21
+2017-520;roland-garros;Round of 32;2017-520-ke29-i186;5;14;03:00:00;180;Karen Khachanov;ke29;John Isner;i186;3;1;26;22;2;1;8;8;71;147;111;147;20;91;14;2;91;138;98;138;7;71
+2017-520;roland-garros;Round of 32;2017-520-n552-ch27;5;8;03:51:00;231;Kei Nishikori;n552;Hyeon Chung;ch27;3;2;25;26;0;1;7;3;94;161;102;161;22;89;7;4;89;163;101;163;27;94
+2017-520;roland-garros;Round of 32;2017-520-a678-e831;5;16;03:59:00;239;Kevin Anderson;a678;Kyle Edmund;e831;3;2;30;25;1;1;24;2;105;161;117;161;23;92;4;6;92;167;110;167;23;105
+2017-520;roland-garros;Round of 32;2017-520-c977-l397;5;7;01:47:00;107;Marin Cilic;c977;Feliciano Lopez;l397;3;0;18;7;0;0;8;5;38;82;53;82;19;43;1;2;43;70;31;70;12;38
+2017-520;roland-garros;Round of 32;2017-520-r975-g476;5;5;00:28:00;28;Milos Raonic;r975;Guillermo Garcia-Lopez;g476;2;0;7;1;0;0;5;1;14;19;16;19;7;14;1;6;14;29;12;29;1;14
+2017-520;roland-garros;Round of 32;2017-520-d643-sm37;5;2;03:19:00;199;Novak Djokovic;d643;Diego Schwartzman;sm37;3;2;26;18;0;0;7;1;80;114;81;114;35;92;4;5;92;153;81;153;18;80
+2017-520;roland-garros;Round of 32;2017-520-cd85-d875;5;10;02:18:00;138;Pablo Carreno Busta;cd85;Grigor Dimitrov;d875;3;0;19;12;0;0;0;3;62;97;64;97;17;55;14;5;55;103;59;103;19;62
+2017-520;roland-garros;Round of 32;2017-520-n409-bg23;5;4;01:30:00;90;Rafael Nadal;n409;Nikoloz Basilashvili;bg23;3;0;18;1;0;0;3;0;29;53;41;53;29;48;1;2;48;65;24;65;7;29
+2017-520;roland-garros;Round of 32;2017-520-bd06-v708;5;13;02:03:00;123;Roberto Bautista Agut;bd06;Jiri Vesely;v708;3;0;18;10;0;0;4;4;54;89;57;89;16;43;5;6;43;80;43;80;19;54
+2017-520;roland-garros;Round of 32;2017-520-w367-f510;5;3;01:52:00;112;Stan Wawrinka;w367;Fabio Fognini;f510;3;0;19;8;1;0;6;2;49;79;54;79;21;46;0;7;46;86;44;86;13;49
+2017-520;roland-garros;Round of 64;2017-520-r772-bm95;6;16;01:24:00;84;Albert Ramos-Vinolas;r772;Benjamin Bonzi;bm95;3;0;18;4;0;0;8;1;38;57;44;57;19;38;2;2;38;68;30;68;8;38
+2017-520;roland-garros;Round of 64;2017-520-mc10-k966;6;1;03:35:00;215;Andy Murray;mc10;Martin Klizan;k966;3;1;25;17;1;1;9;4;62;125;88;125;28;76;5;7;76;137;81;137;13;62
+2017-520;roland-garros;Round of 64;2017-520-gb88-sc77;6;9;02:34:00;154;David Goffin;gb88;Sergiy Stakhovsky;sc77;3;1;21;15;0;0;6;1;61;97;74;97;29;83;11;2;83;134;77;134;11;61
+2017-520;roland-garros;Round of 64;2017-520-sm37-n679;6;30;02:08:00;128;Diego Schwartzman;sm37;Stefano Napolitano;n679;3;0;19;10;0;0;2;4;69;109;69;109;19;51;3;1;51;86;46;86;18;69
+2017-520;roland-garros;Round of 64;2017-520-tb69-ba98;6;6;02:23:00;143;Dominic Thiem;tb69;Simone Bolelli;ba98;3;0;19;9;0;0;8;7;40;86;60;86;44;102;0;1;102;128;67;128;7;40
+2017-520;roland-garros;Round of 64;2017-520-f510-sa93;6;23;02:20:00;140;Fabio Fognini;f510;Andreas Seppi;sa93;3;0;19;12;0;0;5;7;57;102;62;102;19;46;4;4;46;103;55;103;17;57
+2017-520;roland-garros;Round of 64;2017-520-l397-f401;6;25;03:52:00;232;Feliciano Lopez;l397;David Ferrer;f401;3;2;27;26;0;0;11;6;102;171;104;171;31;103;5;14;103;174;105;174;27;102
+2017-520;roland-garros;Round of 64;2017-520-v306-h996;6;31;03:29:00;209;Fernando Verdasco;v306;Pierre-Hugues Herbert;h996;3;2;25;21;0;0;5;3;105;145;99;145;30;90;11;3;90;155;96;155;30;105
+2017-520;roland-garros;Round of 64;2017-520-mc65-mj08;6;12;01:31:00;91;Gael Monfils;mc65;Thiago Monteiro;mj08;3;0;18;6;0;0;6;0;53;67;44;67;22;40;2;3;40;63;25;63;16;53
+2017-520;roland-garros;Round of 64;2017-520-d875-r419;6;10;02:13:00;133;Grigor Dimitrov;d875;Tommy Robredo;r419;3;0;19;12;0;0;4;4;65;95;70;95;22;61;1;2;61;90;57;90;9;65
+2017-520;roland-garros;Round of 64;2017-520-g476-ta29;6;29;02:27:00;147;Guillermo Garcia-Lopez;g476;Marco Trungelliti;ta29;3;0;20;14;0;0;7;8;40;94;57;94;29;75;4;6;75;132;67;132;11;40
+2017-520;roland-garros;Round of 64;2017-520-z184-k336;6;20;02:13:00;133;Horacio Zeballos;z184;Ivo Karlovic;k336;3;0;20;15;2;0;8;2;69;96;81;96;10;64;29;6;64;102;74;102;5;69
+2017-520;roland-garros;Round of 64;2017-520-ch27-i165;6;27;01:51:00;111;Hyeon Chung;ch27;Denis Istomin;i165;3;0;19;7;0;0;3;2;43;73;54;73;24;51;4;4;51;82;41;82;7;43
+2017-520;roland-garros;Round of 64;2017-520-v708-bh09;6;32;02:52:00;172;Jiri Vesely;v708;Aljaz Bedene;bh09;3;1;22;15;0;0;13;8;75;132;89;132;14;54;12;3;54;109;69;109;16;75
+2017-520;roland-garros;Round of 64;2017-520-i186-l503;6;18;02:10:00;130;John Isner;i186;Paolo Lorenzi;l503;3;0;20;15;2;0;21;1;73;103;82;103;11;53;7;1;53;90;68;90;11;73
+2017-520;roland-garros;Round of 64;2017-520-d683-a479;6;24;01:30:00;90;Juan Martin del Potro;d683;Nicolas Almagro;a479;1;1;9;9;0;0;6;2;38;59;40;59;8;35;7;1;35;51;37;51;8;38
+2017-520;roland-garros;Round of 64;2017-520-ke29-ba47;6;11;02:13:00;133;Karen Khachanov;ke29;Tomas Berdych;ba47;3;0;19;13;0;0;12;2;43;92;67;92;18;57;7;1;57;100;65;100;5;43
+2017-520;roland-garros;Round of 64;2017-520-n552-ca12;6;8;01:57:00;117;Kei Nishikori;n552;Jeremy Chardy;ca12;3;0;19;9;1;0;5;5;50;85;57;85;25;55;6;5;55;84;44;84;8;50
+2017-520;roland-garros;Round of 64;2017-520-a678-ke17;6;15;02:36:00;156;Kevin Anderson;a678;Nick Kyrgios;ke17;3;1;23;14;0;0;21;8;65;112;76;112;29;85;16;9;85;122;72;122;9;65
+2017-520;roland-garros;Round of 64;2017-520-e831-o376;6;28;02:02:00;122;Kyle Edmund;e831;Renzo Olivo;o376;3;0;19;9;0;0;1;3;49;80;55;80;21;57;2;4;57;92;49;92;11;49
+2017-520;roland-garros;Round of 64;2017-520-pf39-bd20;6;13;02:08:00;128;Lucas Pouille;pf39;Thomaz Bellucci;bd20;3;0;19;9;1;0;5;7;67;102;64;102;18;48;3;8;48;86;45;86;19;67
+2017-520;roland-garros;Round of 64;2017-520-c977-k776;6;7;01:38:00;98;Marin Cilic;c977;Konstantin Kravchuk;k776;3;0;18;7;0;0;11;5;44;72;56;72;20;57;5;2;57;83;45;83;2;44
+2017-520;roland-garros;Round of 64;2017-520-r975-sc73;6;5;02:23:00;143;Milos Raonic;r975;Rogerio Dutra Silva;sc73;3;1;22;15;0;0;25;5;76;105;76;105;27;78;1;7;78;126;75;126;18;76
+2017-520;roland-garros;Round of 64;2017-520-bg23-t840;6;26;02:38:00;158;Nikoloz Basilashvili;bg23;Viktor Troicki;t840;3;0;21;18;3;0;2;0;91;123;83;123;17;70;14;7;70;135;82;135;24;91
+2017-520;roland-garros;Round of 64;2017-520-d643-sh90;6;2;02:07:00;127;Novak Djokovic;d643;Joao Sousa;sh90;3;0;18;8;0;0;2;1;51;88;59;88;18;46;2;2;46;83;43;83;10;51
+2017-520;roland-garros;Round of 64;2017-520-cd85-da81;6;17;02:41:00;161;Pablo Carreno Busta;cd85;Taro Daniel;da81;3;1;23;15;0;0;15;2;80;125;80;125;28;81;5;3;81;126;70;126;27;80
+2017-520;roland-garros;Round of 64;2017-520-c882-kc29;6;19;02:00:00;120;Pablo Cuevas;c882;Nicolas Kicker;kc29;3;0;18;12;0;0;2;3;54;92;57;92;18;52;3;4;52;80;48;80;17;54
+2017-520;roland-garros;Round of 64;2017-520-n409-h756;6;4;01:49:00;109;Rafael Nadal;n409;Robin Haase;h756;3;0;18;8;0;0;4;1;46;66;52;66;19;51;6;4;51;80;46;80;11;46
+2017-520;roland-garros;Round of 64;2017-520-g628-e224;6;21;01:44:00;104;Richard Gasquet;g628;Victor Estrella Burgos;e224;3;0;18;5;0;0;5;2;40;71;52;71;24;55;0;2;55;82;39;82;5;40
+2017-520;roland-garros;Round of 64;2017-520-bd06-k926;6;14;02:55:00;175;Roberto Bautista Agut;bd06;Mikhail Kukushkin;k926;3;1;22;18;1;0;3;1;75;126;80;126;39;99;2;1;99;130;76;130;21;75
+2017-520;roland-garros;Round of 64;2017-520-w367-d801;6;3;02:34:00;154;Stan Wawrinka;w367;Alexandr Dolgopolov;d801;3;0;20;15;1;0;16;5;70;116;80;116;20;71;6;1;71;110;70;110;18;70
+2017-520;roland-garros;Round of 64;2017-520-j386-cg80;6;22;03:53:00;233;Steve Johnson;j386;Borna Coric;cg80;3;1;23;20;2;0;12;6;75;137;93;137;28;90;10;4;90;160;103;160;14;75
+2017-520;roland-garros;Round of 128;2017-520-r772-ca99;7;19;03:06:00;186;Albert Ramos-Vinolas;r772;Marius Copil;ca99;3;1;24;14;0;1;4;2;66;109;76;109;20;68;8;5;68;134;73;134;17;66
+2017-520;roland-garros;Round of 128;2017-520-d801-b884;7;42;02:10:00;130;Alexandr Dolgopolov;d801;Carlos Berlocq;b884;3;0;19;12;0;0;4;2;57;98;70;98;17;50;2;2;50;83;58;83;9;57
+2017-520;roland-garros;Round of 128;2017-520-bh09-h940;7;35;01:59:00;119;Aljaz Bedene;bh09;Ryan Harrison;h940;3;1;21;11;0;0;12;0;36;81;61;81;16;45;8;6;45;91;50;91;6;36
+2017-520;roland-garros;Round of 128;2017-520-sa93-g725;7;59;02:11:00;131;Andreas Seppi;sa93;Santiago Giraldo;g725;3;1;22;11;0;0;11;3;57;95;63;95;20;58;3;4;58;107;51;107;13;57
+2017-520;roland-garros;Round of 128;2017-520-mc10-kb54;7;1;02:32:00;152;Andy Murray;mc10;Andrey Kuznetsov;kb54;3;1;22;12;0;0;2;2;57;98;63;98;23;52;6;4;52;102;47;102;16;57
+2017-520;roland-garros;Round of 128;2017-520-bm95-mm58;7;38;02:27:00;147;Benjamin Bonzi;bm95;Daniil Medvedev;mm58;3;1;20;13;0;0;4;4;67;120;74;120;18;61;6;8;61;116;67;116;18;67
+2017-520;roland-garros;Round of 128;2017-520-cg80-bk19;7;40;02:27:00;147;Borna Coric;cg80;Mathias Bourgue;bk19;3;0;19;11;1;0;4;1;58;98;72;98;16;52;8;1;52;91;57;91;13;58
+2017-520;roland-garros;Round of 128;2017-520-f401-y124;7;30;04:27:00;267;David Ferrer;f401;Donald Young;y124;2;2;21;19;0;0;13;8;108;178;126;178;46;130;5;5;130;218;130;218;22;108
+2017-520;roland-garros;Round of 128;2017-520-gb88-m850;7;10;01:50:00;110;David Goffin;gb88;Paul-Henri Mathieu;m850;3;0;18;6;0;0;12;2;42;73;56;73;22;51;1;3;51;85;43;85;7;42
+2017-520;roland-garros;Round of 128;2017-520-i165-e873;7;48;01:58:00;118;Denis Istomin;i165;Ernesto Escobedo;e873;3;0;19;13;1;0;11;1;56;94;72;94;13;48;6;2;48;92;61;92;11;56
+2017-520;roland-garros;Round of 128;2017-520-sm37-re44;7;58;03:30:00;210;Diego Schwartzman;sm37;Andrey Rublev;re44;3;2;27;26;0;1;3;4;102;149;90;149;29;84;4;7;84;163;99;163;35;102
+2017-520;roland-garros;Round of 128;2017-520-tb69-ta46;7;6;01:20:00;80;Dominic Thiem;tb69;Bernard Tomic;ta46;3;0;18;6;0;0;11;1;33;60;48;60;19;49;3;2;49;80;40;80;4;33
+2017-520;roland-garros;Round of 128;2017-520-f510-td51;7;28;02:45:00;165;Fabio Fognini;f510;Frances Tiafoe;td51;3;2;22;19;0;0;3;14;82;130;77;130;20;68;12;4;68;120;72;120;21;82
+2017-520;roland-garros;Round of 128;2017-520-l397-f811;7;54;02:01:00;121;Feliciano Lopez;l397;Bjorn Fratangelo;f811;3;0;19;13;1;0;14;2;55;92;70;92;18;54;3;4;54;92;60;92;9;55
+2017-520;roland-garros;Round of 128;2017-520-v306-z355;7;9;02:53:00;173;Fernando Verdasco;v306;Alexander Zverev;z355;3;1;21;16;0;0;0;5;89;128;73;128;34;84;8;5;84;127;68;127;36;89
+2017-520;roland-garros;Round of 128;2017-520-mc65-ba65;7;15;01:30:00;90;Gael Monfils;mc65;Dustin Brown;ba65;3;0;19;9;0;0;2;3;62;86;59;86;16;40;5;9;40;90;47;90;16;62
+2017-520;roland-garros;Round of 128;2017-520-d875-r612;7;11;01:49:00;109;Grigor Dimitrov;d875;Stephane Robert;r612;3;0;18;9;0;0;8;4;45;84;57;84;14;37;1;2;37;73;37;73;8;45
+2017-520;roland-garros;Round of 128;2017-520-g476-ma30;7;26;03:27:00;207;Guillermo Garcia-Lopez;g476;Gilles Muller;ma30;3;1;25;17;1;1;17;4;65;119;92;119;22;83;22;13;83;148;91;148;8;65
+2017-520;roland-garros;Round of 128;2017-520-z184-me82;7;64;02:12:00;132;Horacio Zeballos;z184;Adrian Mannarino;me82;3;0;19;12;0;0;4;1;56;91;57;91;25;54;6;3;54;83;43;83;17;56
+2017-520;roland-garros;Round of 128;2017-520-ch27-q927;7;27;02:15:00;135;Hyeon Chung;ch27;Sam Querrey;q927;3;1;21;16;0;0;6;6;60;104;72;104;11;58;19;6;58;120;70;120;13;60
+2017-520;roland-garros;Round of 128;2017-520-k336-te51;7;23;02:14:00;134;Ivo Karlovic;k336;Stefanos Tsitsipas;te51;3;0;20;15;1;0;10;3;63;93;72;93;12;59;8;6;59;116;74;116;10;63
+2017-520;roland-garros;Round of 128;2017-520-ca12-a829;7;39;02:09:00;129;Jeremy Chardy;ca12;Radu Albot;a829;3;0;19;12;1;0;11;2;59;96;69;96;22;61;1;3;61;96;60;96;11;59
+2017-520;roland-garros;Round of 128;2017-520-v708-sm25;7;14;02:41:00;161;Jiri Vesely;v708;Jack Sock;sm25;3;0;20;13;0;0;7;2;58;103;68;103;23;74;8;4;74;118;66;118;18;58
+2017-520;roland-garros;Round of 128;2017-520-sh90-t742;7;60;03:08:00;188;Joao Sousa;sh90;Janko Tipsarevic;t742;3;1;23;16;1;0;6;5;79;137;81;137;27;70;6;0;70;134;73;134;25;79
+2017-520;roland-garros;Round of 128;2017-520-i186-tc61;7;21;02:37:00;157;John Isner;i186;Jordan Thompson;tc61;3;1;23;18;1;0;31;3;86;129;90;129;23;78;9;2;78;117;78;117;18;86
+2017-520;roland-garros;Round of 128;2017-520-d683-pc11;7;29;01:49:00;109;Juan Martin del Potro;d683;Guido Pella;pc11;3;0;18;7;0;0;13;2;48;67;52;67;23;55;3;1;55;88;48;88;9;48
+2017-520;roland-garros;Round of 128;2017-520-ke29-j551;7;49;02:45:00;165;Karen Khachanov;ke29;Nicolas Jarry;j551;3;1;22;17;1;0;9;3;65;122;79;122;34;95;8;4;95;146;86;146;17;65
+2017-520;roland-garros;Round of 128;2017-520-n552-kd46;7;8;03:02:00;182;Kei Nishikori;n552;Thanasi Kokkinakis;kd46;3;1;22;15;0;0;3;6;70;120;79;120;25;75;11;12;75;137;78;137;16;70
+2017-520;roland-garros;Round of 128;2017-520-a678-j267;7;34;02:35:00;155;Kevin Anderson;a678;Malek Jaziri;j267;3;0;20;15;2;0;13;4;66;98;71;98;22;71;2;4;71;128;78;128;13;66
+2017-520;roland-garros;Round of 128;2017-520-k776-d874;7;52;02:25:00;145;Konstantin Kravchuk;k776;Federico Delbonis;d874;3;0;19;13;1;0;7;4;74;115;80;115;15;54;5;3;54;97;68;97;14;74
+2017-520;roland-garros;Round of 128;2017-520-e831-e698;7;44;01:46:00;106;Kyle Edmund;e831;Gastao Elias;e698;3;0;19;10;0;0;3;3;48;81;57;81;11;42;5;1;42;75;42;75;9;48
+2017-520;roland-garros;Round of 128;2017-520-pf39-b747;7;16;03:21:00;201;Lucas Pouille;pf39;Julien Benneteau;b747;3;2;26;25;1;0;17;7;67;151;108;151;20;91;14;9;91;146;104;146;10;67
+2017-520;roland-garros;Round of 128;2017-520-ta29-hb64;7;63;03:54:00;234;Marco Trungelliti;ta29;Quentin Halys;hb64;3;2;28;27;1;1;3;10;102;175;110;175;19;92;16;17;92;183;110;183;33;102
+2017-520;roland-garros;Round of 128;2017-520-c977-g858;7;7;01:41:00;101;Marin Cilic;c977;Ernests Gulbis;g858;3;0;18;9;0;0;8;5;39;75;58;75;15;46;5;3;46;81;49;81;3;39
+2017-520;roland-garros;Round of 128;2017-520-k966-lc12;7;51;03:39:00;219;Martin Klizan;k966;Laurent Lokoli;lc12;3;2;23;25;1;0;4;11;87;165;95;165;15;69;19;7;69;138;86;138;29;87
+2017-520;roland-garros;Round of 128;2017-520-k926-sl08;7;53;01:47:00;107;Mikhail Kukushkin;k926;Tennys Sandgren;sl08;3;0;18;7;0;0;2;0;73;86;62;86;11;40;2;0;40;70;39;70;20;73
+2017-520;roland-garros;Round of 128;2017-520-r975-d632;7;5;01:32:00;92;Milos Raonic;r975;Steve Darcis;d632;3;0;18;9;0;0;15;5;43;70;57;70;18;51;3;2;51;71;42;71;5;43
+2017-520;roland-garros;Round of 128;2017-520-ke17-k435;7;18;01:51:00;111;Nick Kyrgios;ke17;Philipp Kohlschreiber;k435;3;0;19;12;1;0;20;4;68;97;71;97;9;48;6;4;48;85;58;85;13;68
+2017-520;roland-garros;Round of 128;2017-520-a479-b837;7;33;03:15:00;195;Nicolas Almagro;a479;Marcos Baghdatis;b837;3;1;25;20;1;1;16;6;72;133;94;133;31;92;6;2;92;156;95;156;13;72
+2017-520;roland-garros;Round of 128;2017-520-kc29-d923;7;50;02:13:00;133;Nicolas Kicker;kc29;Damir Dzumhur;d923;3;1;20;16;0;0;0;1;71;104;67;104;22;63;7;2;63;111;67;111;23;71
+2017-520;roland-garros;Round of 128;2017-520-bg23-sd32;7;31;02:25:00;145;Nikoloz Basilashvili;bg23;Gilles Simon;sd32;3;1;19;13;0;0;0;4;77;104;57;104;19;45;0;3;45;105;51;105;32;77
+2017-520;roland-garros;Round of 128;2017-520-d643-g710;7;2;02:27:00;147;Novak Djokovic;d643;Marcel Granollers;g710;3;0;18;9;0;0;5;1;58;87;54;87;23;56;5;0;56;102;49;102;22;58
+2017-520;roland-garros;Round of 128;2017-520-cd85-mb02;7;20;01:36:00;96;Pablo Carreno Busta;cd85;Florian Mayer;mb02;3;0;18;8;0;0;9;3;42;75;53;75;21;55;3;2;55;99;51;99;8;42
+2017-520;roland-garros;Round of 128;2017-520-c882-hb35;7;22;02:03:00;123;Pablo Cuevas;c882;Maxime Hamou;hb35;3;0;18;9;0;0;7;4;57;96;67;96;22;65;5;5;65;103;59;103;12;57
+2017-520;roland-garros;Round of 128;2017-520-l503-be90;7;55;01:47:00;107;Paolo Lorenzi;l503;Ricardas Berankis;be90;3;0;18;6;0;0;8;2;49;79;56;79;28;54;2;2;54;87;43;87;12;49
+2017-520;roland-garros;Round of 128;2017-520-h996-dc58;7;47;02:11:00;131;Pierre-Hugues Herbert;h996;Jared Donaldson;dc58;3;0;19;14;1;0;9;8;54;99;70;99;6;43;7;4;43;97;64;97;10;54
+2017-520;roland-garros;Round of 128;2017-520-n409-pd31;7;4;01:52:00;112;Rafael Nadal;n409;Benoit Paire;pd31;3;0;18;6;0;0;1;2;42;66;45;66;20;40;0;2;40;82;36;82;14;42
+2017-520;roland-garros;Round of 128;2017-520-o376-t786;7;12;03:31:00;211;Renzo Olivo;o376;Jo-Wilfried Tsonga;t786;3;1;25;20;0;1;0;3;110;162;99;162;35;107;4;5;107;164;99;164;37;110
+2017-520;roland-garros;Round of 128;2017-520-g628-d981;7;24;02:10:00;130;Richard Gasquet;g628;Arthur De Greef;d981;3;1;21;12;0;0;7;2;50;97;63;97;18;53;4;4;53;98;51;98;12;50
+2017-520;roland-garros;Round of 128;2017-520-bd06-mh30;7;17;02:14:00;134;Roberto Bautista Agut;bd06;John Millman;mh30;3;1;18;11;0;0;3;3;52;91;56;91;24;47;6;1;47;91;45;91;23;52
+2017-520;roland-garros;Round of 128;2017-520-h756-dh58;7;46;01:36:00;96;Robin Haase;h756;Alex de Minaur;dh58;3;0;18;6;0;0;7;2;43;76;53;76;19;48;4;4;48;76;40;76;9;43
+2017-520;roland-garros;Round of 128;2017-520-sc73-y061;7;43;04:11:00;251;Rogerio Dutra Silva;sc73;Mikhail Youzhny;y061;3;2;26;26;2;0;11;7;80;151;92;151;42;116;13;5;116;203;117;203;25;80
+2017-520;roland-garros;Round of 128;2017-520-sc77-l575;7;61;02:07:00;127;Sergiy Stakhovsky;sc77;Yen-Hsun Lu;l575;3;0;19;13;1;0;16;3;53;92;70;92;17;60;4;5;60;99;66;99;6;53
+2017-520;roland-garros;Round of 128;2017-520-ba98-m873;7;37;01:47:00;107;Simone Bolelli;ba98;Nicolas Mahut;m873;3;0;18;8;0;0;4;0;58;74;55;74;16;48;6;2;48;85;46;85;16;58
+2017-520;roland-garros;Round of 128;2017-520-w367-kc04;7;3;01:57:00;117;Stan Wawrinka;w367;Jozef Kovalik;kc04;3;0;19;11;1;0;2;1;50;98;68;98;14;42;6;2;42;92;54;92;15;50
+2017-520;roland-garros;Round of 128;2017-520-n679-z168;7;32;02:42:00;162;Stefano Napolitano;n679;Mischa Zverev;z168;3;1;23;15;0;0;6;5;65;110;72;110;31;86;8;3;86;124;68;124;19;65
+2017-520;roland-garros;Round of 128;2017-520-j386-se73;7;25;03:34:00;214;Steve Johnson;j386;Yuichi Sugita;se73;3;2;30;23;0;2;13;9;82;155;100;155;36;104;5;6;104;169;101;169;21;82
+2017-520;roland-garros;Round of 128;2017-520-da81-j397;7;41;02:24:00;144;Taro Daniel;da81;Jerzy Janowicz;j397;3;0;18;12;0;0;8;0;64;91;65;91;21;68;13;6;68;102;59;102;16;64
+2017-520;roland-garros;Round of 128;2017-520-mj08-mp20;7;56;03:43:00;223;Thiago Monteiro;mj08;Alexandre Muller;mp20;3;2;26;24;2;0;5;8;93;155;98;155;30;94;4;5;94;162;95;162;26;93
+2017-520;roland-garros;Round of 128;2017-520-bd20-l987;7;36;02:58:00;178;Thomaz Bellucci;bd20;Dusan Lajovic;l987;3;1;23;19;0;0;9;10;86;129;83;129;35;92;7;1;92;145;83;145;21;86
+2017-520;roland-garros;Round of 128;2017-520-ba47-sl28;7;13;02:32:00;152;Tomas Berdych;ba47;Jan-Lennard Struff;sl28;3;1;22;12;0;0;5;3;62;104;68;104;17;55;8;8;55;127;67;127;15;62
+2017-520;roland-garros;Round of 128;2017-520-r419-e687;7;57;02:27:00;147;Tommy Robredo;r419;Daniel Evans;e687;3;1;23;15;0;0;6;2;65;100;66;100;21;65;2;10;65;112;58;112;21;65
+2017-520;roland-garros;Round of 128;2017-520-e224-g681;7;45;04:20:00;260;Victor Estrella Burgos;e224;Teymuraz Gabashvili;g681;3;2;27;24;1;1;9;7;142;192;121;192;31;99;13;5;99;168;107;168;49;142
+2017-520;roland-garros;Round of 128;2017-520-t840-d864;7;62;02:17:00;137;Viktor Troicki;t840;Evgeny Donskoy;d864;3;0;19;10;1;0;6;4;72;129;83;129;11;39;4;2;39;81;48;81;16;72
+2017-520;roland-garros;3rd Round Qualifying;2017-520-d981-mn20;8;10;01:26:00;86;Arthur De Greef;d981;Daniel Masur;mn20;2;0;12;7;0;0;5;0;27;52;34;52;24;55;2;5;55;80;40;80;6;27
+2017-520;roland-garros;3rd Round Qualifying;2017-520-f811-mi43;8;7;02:38:00;158;Bjorn Fratangelo;f811;Gerald Melzer;mi43;2;1;19;19;2;0;9;3;86;128;81;128;23;62;6;4;62;108;70;108;28;86
+2017-520;roland-garros;3rd Round Qualifying;2017-520-pc11-j620;8;6;02:26:00;146;Guido Pella;pc11;Maxime Janvier;j620;2;1;18;11;0;1;0;1;70;88;60;88;31;74;0;1;74;111;62;111;23;70
+2017-520;roland-garros;3rd Round Qualifying;2017-520-kc04-gb93;8;3;01:49:00;109;Jozef Kovalik;kc04;Norbert Gombos;gb93;2;1;13;13;0;0;2;4;50;86;48;86;14;42;5;7;42;85;48;85;21;50
+2017-520;roland-garros;3rd Round Qualifying;2017-520-ta29-da67;8;15;01:51:00;111;Marco Trungelliti;ta29;Matteo Donati;da67;2;0;14;11;1;0;3;5;54;91;56;91;22;66;2;1;66;93;54;93;19;54
+2017-520;roland-garros;3rd Round Qualifying;2017-520-ca99-g967;8;1;02:35:00;155;Marius Copil;ca99;Peter Gojowczyk;g967;2;1;19;17;1;1;4;3;75;123;80;123;15;61;5;7;61;113;71;113;21;75
+2017-520;roland-garros;3rd Round Qualifying;2017-520-hb35-q941;8;12;01:06:00;66;Maxime Hamou;hb35;Roberto Quiroz;q941;2;0;13;5;0;0;0;1;46;65;39;65;17;28;2;2;28;44;18;44;17;46
+2017-520;roland-garros;3rd Round Qualifying;2017-520-j551-o522;8;13;01:49:00;109;Nicolas Jarry;j551;Reilly Opelka;o522;2;1;16;15;1;0;13;4;67;92;67;92;10;55;14;3;55;98;70;98;12;67
+2017-520;roland-garros;3rd Round Qualifying;2017-520-m850-kb09;8;8;01:35:00;95;Paul-Henri Mathieu;m850;Denis Kudla;kb09;2;0;12;7;0;0;2;2;42;70;47;70;12;34;8;3;34;71;41;71;12;42
+2017-520;roland-garros;3rd Round Qualifying;2017-520-g725-a887;8;5;01:16:00;76;Santiago Giraldo;g725;Guido Andreozzi;a887;2;0;12;5;0;0;3;1;22;52;37;52;7;23;1;0;23;40;24;40;5;22
+2017-520;roland-garros;3rd Round Qualifying;2017-520-sc77-sk67;8;9;02:18:00;138;Sergiy Stakhovsky;sc77;Jan Satral;sk67;2;1;16;14;1;0;4;1;54;97;60;97;16;51;5;3;51;99;56;99;17;54
+2017-520;roland-garros;3rd Round Qualifying;2017-520-ba98-cf01;8;4;01:19:00;79;Simone Bolelli;ba98;Marco Cecchinato;cf01;2;0;12;8;0;0;2;0;44;53;41;53;18;50;1;3;50;69;42;69;9;44
+2017-520;roland-garros;3rd Round Qualifying;2017-520-n679-bk92;8;14;02:14:00;134;Stefano Napolitano;n679;Alexander Bublik;bk92;2;1;18;13;0;1;2;4;63;112;64;112;19;59;12;11;59;109;57;109;25;63
+2017-520;roland-garros;3rd Round Qualifying;2017-520-te51-o449;8;16;01:11:00;71;Stefanos Tsitsipas;te51;Oscar Otte;o449;2;0;12;5;0;0;0;2;35;66;41;66;14;29;1;2;29;48;21;48;9;35
+2017-520;roland-garros;3rd Round Qualifying;2017-520-da81-re44;8;2;02:58:00;178;Taro Daniel;da81;Andrey Rublev;re44;2;1;20;18;1;1;0;4;69;116;65;116;20;69;4;3;69;118;67;118;31;69
+2017-520;roland-garros;3rd Round Qualifying;2017-520-g681-s483;8;11;02:11:00;131;Teymuraz Gabashvili;g681;Pedro Sousa;s483;2;1;17;14;1;0;6;6;55;96;60;96;28;79;2;6;79;105;57;105;16;55
+2017-520;roland-garros;2nd Round Qualifying;2017-520-bk92-pb22;9;17;01:50:00;110;Alexander Bublik;bk92;Peter Polansky;pb22;2;1;15;16;1;0;12;10;58;95;60;95;12;59;1;2;59;100;62;100;16;58
+2017-520;roland-garros;2nd Round Qualifying;2017-520-re44-be67;9;11;01:59:00;119;Andrey Rublev;re44;Mirza Basic;be67;2;1;17;13;0;0;6;3;44;88;59;88;17;50;1;2;50;99;57;99;14;44
+2017-520;roland-garros;2nd Round Qualifying;2017-520-d981-g585;9;19;02:07:00;127;Arthur De Greef;d981;Maximo Gonzalez;g585;2;1;16;12;1;0;5;5;47;92;57;92;20;61;4;0;61;90;52;90;12;47
+2017-520;roland-garros;2nd Round Qualifying;2017-520-f811-ka98;9;21;01:29:00;89;Bjorn Fratangelo;f811;Bradley Klahn;ka98;2;0;13;10;1;0;1;0;41;73;54;73;6;31;3;3;31;74;50;74;9;41
+2017-520;roland-garros;2nd Round Qualifying;2017-520-mn20-kb05;9;25;01:04:00;64;Daniel Masur;mn20;Filip Krajinovic;kb05;2;0;12;6;0;0;1;2;40;48;33;48;18;42;1;1;42;53;29;53;9;40
+2017-520;roland-garros;2nd Round Qualifying;2017-520-kb09-o408;9;24;01:16:00;76;Denis Kudla;kb09;Ricardo Ojeda Lara;o408;2;0;12;7;0;0;0;2;37;58;34;58;13;33;1;1;33;64;31;64;11;37
+2017-520;roland-garros;2nd Round Qualifying;2017-520-mi43-me31;9;8;01:03:00;63;Gerald Melzer;mi43;Vincent Millot;me31;2;0;12;3;0;0;4;1;31;50;34;50;13;27;0;1;27;43;18;43;10;31
+2017-520;roland-garros;2nd Round Qualifying;2017-520-a887-sf62;9;15;01:26:00;86;Guido Andreozzi;a887;Tim Smyczek;sf62;2;1;13;10;0;0;4;1;48;70;43;70;8;34;7;1;34;62;38;62;13;48
+2017-520;roland-garros;2nd Round Qualifying;2017-520-pc11-pg94;9;7;02:29:00;149;Guido Pella;pc11;Marc Polmans;pg94;2;1;18;14;0;1;5;1;73;106;62;106;31;81;0;4;81;105;55;105;29;73
+2017-520;roland-garros;2nd Round Qualifying;2017-520-sk67-y218;9;29;02:06:00;126;Jan Satral;sk67;Elias Ymer;y218;2;1;15;14;0;0;2;3;37;79;47;79;17;51;2;3;51;95;51;95;10;37
+2017-520;roland-garros;2nd Round Qualifying;2017-520-kc04-v495;9;13;01:15:00;75;Jozef Kovalik;kc04;Luca Vanni;v495;2;0;12;8;0;0;3;0;37;51;35;51;8;30;7;7;30;57;32;57;12;37
+2017-520;roland-garros;2nd Round Qualifying;2017-520-cf01-ce25;9;4;01:10:00;70;Marco Cecchinato;cf01;Salvatore Caruso;ce25;2;0;12;3;0;0;1;1;40;55;38;55;16;28;1;0;28;43;19;43;14;40
+2017-520;roland-garros;2nd Round Qualifying;2017-520-ta29-k839;9;31;01:18:00;78;Marco Trungelliti;ta29;Tobias Kamke;k839;2;0;12;7;0;0;6;1;38;58;44;58;11;36;0;3;36;66;40;66;8;38
+2017-520;roland-garros;2nd Round Qualifying;2017-520-ca99-i305;9;1;01:13:00;73;Marius Copil;ca99;Ilya Ivashka;i305;2;0;12;4;0;0;6;1;38;55;38;55;10;28;2;4;28;49;26;49;9;38
+2017-520;roland-garros;2nd Round Qualifying;2017-520-da67-g983;9;6;02:24:00;144;Matteo Donati;da67;Alessandro Giannessi;g983;2;1;16;15;1;0;4;3;73;107;71;107;21;63;5;2;63;92;61;92;21;73
+2017-520;roland-garros;2nd Round Qualifying;2017-520-hb35-k834;9;10;02:06:00;126;Maxime Hamou;hb35;Blaz Kavcic;k834;2;0;14;11;1;0;4;6;54;99;61;99;22;63;6;4;63;82;49;82;15;54
+2017-520;roland-garros;2nd Round Qualifying;2017-520-j620-rh16;9;12;01:43:00;103;Maxime Janvier;j620;Casper Ruud;rh16;2;0;13;10;1;0;2;5;48;74;51;74;20;46;2;0;46;72;45;72;10;48
+2017-520;roland-garros;2nd Round Qualifying;2017-520-j551-pg20;9;23;01:13:00;73;Nicolas Jarry;j551;Dmitry Popko;pg20;2;0;12;7;0;0;5;1;35;56;42;56;14;40;3;0;40;61;39;61;7;35
+2017-520;roland-garros;2nd Round Qualifying;2017-520-gb93-u134;9;3;01:26:00;86;Norbert Gombos;gb93;Yasutaka Uchiyama;u134;2;0;13;9;1;0;8;0;45;61;50;61;14;46;5;5;46;82;50;82;7;45
+2017-520;roland-garros;2nd Round Qualifying;2017-520-o449-db63;9;18;02:46:00;166;Oscar Otte;o449;Laslo Djere;db63;2;1;16;17;1;0;4;1;85;135;72;135;25;61;1;10;61;117;61;117;32;85
+2017-520;roland-garros;2nd Round Qualifying;2017-520-m850-g892;9;9;01:27:00;87;Paul-Henri Mathieu;m850;Alejandro Gonzalez;g892;2;0;13;6;0;0;4;2;39;59;38;59;22;43;2;1;43;54;25;54;12;39
+2017-520;roland-garros;2nd Round Qualifying;2017-520-s483-d916;9;30;01:24:00;84;Pedro Sousa;s483;Steven Diez;d916;2;0;13;8;0;0;3;3;60;71;44;71;24;48;0;2;48;76;38;76;21;60
+2017-520;roland-garros;2nd Round Qualifying;2017-520-g967-da86;9;20;01:21:00;81;Peter Gojowczyk;g967;Joris De Loore;da86;2;0;13;9;1;0;10;1;39;66;50;66;10;44;6;1;44;64;41;64;6;39
+2017-520;roland-garros;2nd Round Qualifying;2017-520-o522-md56;9;27;02:07:00;127;Reilly Opelka;o522;Leonardo Mayer;md56;2;1;18;16;1;0;13;5;67;103;69;103;17;61;13;2;61;91;63;91;18;67
+2017-520;roland-garros;2nd Round Qualifying;2017-520-q941-n674;9;28;01:20:00;80;Roberto Quiroz;q941;Dennis Novikov;n674;2;0;13;9;1;0;8;2;35;59;48;59;18;52;1;5;52;71;44;71;6;35
+2017-520;roland-garros;2nd Round Qualifying;2017-520-g725-i236;9;5;01:03:00;63;Santiago Giraldo;g725;Uladzimir Ignatik;i236;2;0;12;6;0;0;2;1;27;47;37;47;7;27;8;0;27;52;31;52;3;27
+2017-520;roland-garros;2nd Round Qualifying;2017-520-sc77-ke64;9;14;02:18:00;138;Sergiy Stakhovsky;sc77;Stefan Kozlov;ke64;2;1;18;15;0;1;9;4;68;100;63;100;19;52;1;6;52;100;57;100;16;68
+2017-520;roland-garros;2nd Round Qualifying;2017-520-ba98-mn13;9;16;01:41:00;101;Simone Bolelli;ba98;Maximilian Marterer;mn13;2;1;13;13;0;0;0;0;50;70;43;70;19;51;4;3;51;74;44;74;16;50
+2017-520;roland-garros;2nd Round Qualifying;2017-520-n679-f724;9;26;02:17:00;137;Stefano Napolitano;n679;Marton Fucsovics;f724;2;1;19;14;1;1;4;2;70;110;71;110;22;57;5;5;57;95;56;95;17;70
+2017-520;roland-garros;2nd Round Qualifying;2017-520-te51-sj22;9;32;01:11:00;71;Stefanos Tsitsipas;te51;Gleb Sakharov;sj22;2;0;12;6;0;0;3;1;28;54;39;54;18;41;0;0;41;54;31;54;6;28
+2017-520;roland-garros;2nd Round Qualifying;2017-520-da81-ph42;9;2;01:17:00;77;Taro Daniel;da81;Matija Pecotic;ph42;2;0;12;5;0;0;5;3;27;50;28;50;21;40;1;1;40;61;24;61;9;27
+2017-520;roland-garros;2nd Round Qualifying;2017-520-g681-mk66;9;22;02:03:00;123;Teymuraz Gabashvili;g681;Mackenzie McDonald;mk66;2;1;17;13;0;0;1;4;60;91;56;91;20;53;5;2;53;84;47;84;22;60
+2017-520;roland-garros;1st Round Qualifying;2017-520-g892-mf90;10;40;03:03:00;183;Alejandro Gonzalez;g892;Kristijan Mesaros;mf90;2;1;18;18;2;0;7;2;92;145;83;145;20;66;2;3;66;109;68;109;29;92
+2017-520;roland-garros;1st Round Qualifying;2017-520-g983-hb48;10;10;01:46:00;106;Alessandro Giannessi;g983;Calvin Hemery ;hb48;2;0;13;8;0;0;1;1;42;52;36;52;25;68;6;7;68;97;50;97;12;42
+2017-520;roland-garros;1st Round Qualifying;2017-520-bk92-sk47;10;35;01:55:00;115;Alexander Bublik;bk92;Mohamed Safwat;sk47;2;1;18;11;0;1;12;6;66;94;63;94;23;59;4;2;59;102;57;102;12;66
+2017-520;roland-garros;1st Round Qualifying;2017-520-re44-v620;10;18;01:00:00;60;Andrey Rublev;re44;Agustin Velotti;v620;2;0;12;4;0;0;4;0;21;44;34;44;6;27;3;3;27;55;29;55;4;21
+2017-520;roland-garros;1st Round Qualifying;2017-520-d981-la93;10;29;01:18:00;78;Arthur De Greef;d981;Enrique Lopez-Perez;la93;2;0;13;6;1;0;6;0;36;54;38;54;9;36;7;3;36;66;33;66;11;36
+2017-520;roland-garros;1st Round Qualifying;2017-520-f811-e690;10;32;01:03:00;63;Bjorn Fratangelo;f811;Matthew Ebden;e690;2;0;12;4;0;0;2;1;30;44;34;44;22;51;5;5;51;77;38;77;5;30
+2017-520;roland-garros;1st Round Qualifying;2017-520-k834-lc11;10;17;02:49:00;169;Blaz Kavcic;k834;Tristan Lamasine;lc11;2;1;19;16;0;1;5;5;91;125;77;125;29;79;4;3;79;116;67;116;27;91
+2017-520;roland-garros;1st Round Qualifying;2017-520-ka98-sj55;10;46;01:08:00;68;Bradley Klahn;ka98;John-Patrick Smith;sj55;2;0;12;5;0;0;2;2;28;49;38;49;21;50;3;0;50;58;33;58;5;28
+2017-520;roland-garros;1st Round Qualifying;2017-520-rh16-ra82;10;19;01:06:00;66;Casper Ruud;rh16;Yannik Reuter;ra82;2;0;12;5;0;0;2;5;34;57;38;57;16;34;0;2;34;50;24;50;7;34
+2017-520;roland-garros;1st Round Qualifying;2017-520-mn20-pg32;10;2;01:47:00;107;Daniel Masur;mn20;Adam Pavlasek;pg32;2;1;14;13;0;0;1;3;62;97;57;97;13;40;5;4;40;79;48;79;18;62
+2017-520;roland-garros;1st Round Qualifying;2017-520-kb09-sn77;10;50;00:56:00;56;Denis Kudla;kb09;Vaclav Safranek;sn77;2;0;12;5;0;0;1;1;23;42;34;42;10;29;1;0;29;54;29;54;2;23
+2017-520;roland-garros;1st Round Qualifying;2017-520-n674-l949;10;7;00:59:00;59;Dennis Novikov;n674;Henri Laaksonen;l949;2;0;12;5;0;0;5;3;26;54;39;54;10;26;2;4;26;54;32;54;2;26
+2017-520;roland-garros;1st Round Qualifying;2017-520-pg20-r383;10;58;01:10:00;70;Dmitry Popko;pg20;Ruben Ramirez Hidalgo;r383;2;0;12;6;0;0;1;2;23;49;32;49;16;33;1;2;33;54;24;54;6;23
+2017-520;roland-garros;1st Round Qualifying;2017-520-y218-mf35;10;12;02:02:00;122;Elias Ymer;y218;Andrej Martin;mf35;2;1;15;13;0;0;0;4;51;82;49;82;17;50;1;1;50;89;52;89;18;51
+2017-520;roland-garros;1st Round Qualifying;2017-520-kb05-g940;10;49;02:02:00;122;Filip Krajinovic;kb05;Sam Groth;g940;2;1;16;14;1;0;3;1;53;84;56;84;15;53;14;9;53;104;61;104;16;53
+2017-520;roland-garros;1st Round Qualifying;2017-520-mi43-lb66;10;15;01:06:00;66;Gerald Melzer;mi43;Constant Lestienne;lb66;2;0;12;4;0;0;1;2;22;50;32;50;13;30;2;9;30;56;24;56;7;22
+2017-520;roland-garros;1st Round Qualifying;2017-520-sj22-gb53;10;60;02:51:00;171;Gleb Sakharov;sj22;Federico Gaio;gb53;2;1;19;17;1;1;8;1;68;114;79;114;17;64;9;5;64;119;76;119;20;68
+2017-520;roland-garros;1st Round Qualifying;2017-520-a887-bc72;10;22;01:28:00;88;Guido Andreozzi;a887;Daniel Brands;bc72;2;0;12;5;0;0;3;2;38;70;44;70;14;35;6;2;35;55;27;55;8;38
+2017-520;roland-garros;1st Round Qualifying;2017-520-pc11-rb56;10;13;01:06:00;66;Guido Pella;pc11;Ramkumar Ramanathan;rb56;2;0;12;3;0;0;1;1;26;41;32;41;15;31;2;1;31;49;23;49;3;26
+2017-520;roland-garros;1st Round Qualifying;2017-520-i305-cg33;10;43;01:04:00;64;Ilya Ivashka;i305;Kimmer Coppejans;cg33;2;0;12;4;0;0;1;4;26;46;29;46;12;22;2;4;22;42;16;42;6;26
+2017-520;roland-garros;1st Round Qualifying;2017-520-sk67-r685;10;61;01:55:00;115;Jan Satral;sk67;Lukas Rosol;r685;2;1;16;14;1;0;10;2;46;92;63;92;17;61;8;1;61;93;62;93;13;46
+2017-520;roland-garros;1st Round Qualifying;2017-520-da86-c813;10;37;01:49:00;109;Joris De Loore;da86;Ti Chen;c813;2;0;14;11;1;0;10;1;49;69;49;69;13;51;3;0;51;83;50;83;12;49
+2017-520;roland-garros;1st Round Qualifying;2017-520-kc04-sf36;10;47;00:41:00;41;Jozef Kovalik;kc04;Igor Sijsling;sf36;1;0;6;4;0;0;1;0;16;27;18;27;3;13;2;0;13;32;18;32;6;16
+2017-520;roland-garros;1st Round Qualifying;2017-520-db63-b896;10;28;01:42:00;102;Laslo Djere;db63;Benjamin Becker;b896;2;1;14;11;0;0;4;4;51;83;53;83;11;36;0;6;36;75;42;75;15;51
+2017-520;roland-garros;1st Round Qualifying;2017-520-md56-sg64;10;30;01:04:00;64;Leonardo Mayer;md56;Joao Souza;sg64;2;0;12;3;0;0;5;3;29;47;31;47;17;34;0;2;34;49;22;49;8;29
+2017-520;roland-garros;1st Round Qualifying;2017-520-v495-c582;10;20;01:17:00;77;Luca Vanni;v495;Marco Chiudinelli;c582;2;0;12;4;0;0;9;7;24;56;36;56;14;31;1;0;31;58;27;58;4;24
+2017-520;roland-garros;1st Round Qualifying;2017-520-mk66-sq80;10;51;01:11:00;71;Mackenzie McDonald;mk66;Akira Santillan;sq80;2;0;12;5;0;0;0;2;47;63;37;63;12;26;4;5;26;55;24;55;20;47
+2017-520;roland-garros;1st Round Qualifying;2017-520-pg94-mp01;10;57;02:06:00;126;Marc Polmans;pg94;Michael Mmoh;mp01;2;1;15;13;1;0;2;0;54;83;52;83;13;49;9;3;49;86;48;86;21;54
+2017-520;roland-garros;1st Round Qualifying;2017-520-cf01-bh76;10;8;01:24:00;84;Marco Cecchinato;cf01;Riccardo Bellotti;bh76;2;0;12;8;0;0;1;3;42;61;34;61;21;47;0;4;47;69;34;69;18;42
+2017-520;roland-garros;1st Round Qualifying;2017-520-ta29-be54;10;23;02:05:00;125;Marco Trungelliti;ta29;Ruben Bemelmans;be54;2;1;18;12;0;1;4;5;55;96;63;96;13;44;2;4;44;87;49;87;12;55
+2017-520;roland-garros;1st Round Qualifying;2017-520-ca99-su55;10;1;01:23:00;83;Marius Copil;ca99;Denis Shapovalov;su55;2;1;16;8;0;0;2;1;37;61;43;61;16;34;1;6;34;69;36;69;7;37
+2017-520;roland-garros;1st Round Qualifying;2017-520-f724-kc86;10;14;01:00:00;60;Marton Fucsovics;f724;Darian King;kc86;2;0;12;6;0;0;2;1;32;47;38;47;14;32;1;1;32;52;31;52;5;32
+2017-520;roland-garros;1st Round Qualifying;2017-520-ph42-bk24;10;56;02:24:00;144;Matija Pecotic;ph42;Gregoire Barrere;bk24;2;1;18;15;0;0;5;6;66;122;76;122;17;56;4;6;56;101;64;101;19;66
+2017-520;roland-garros;1st Round Qualifying;2017-520-da67-e678;10;38;01:23:00;83;Matteo Donati;da67;Jonathan Eysseric;e678;2;0;12;7;0;0;1;1;49;69;44;69;10;32;6;3;32;62;34;62;18;49
+2017-520;roland-garros;1st Round Qualifying;2017-520-hb35-mb53;10;41;01:23:00;83;Maxime Hamou;hb35;Adrian Menendez-Maceiras;mb53;2;0;13;7;0;0;3;1;30;53;35;53;15;37;1;4;37;64;31;64;7;30
+2017-520;roland-garros;1st Round Qualifying;2017-520-j620-bu54;10;44;01:44:00;104;Maxime Janvier;j620;Geoffrey Blancaneaux;bu54;2;0;12;7;0;0;5;2;50;82;48;82;8;31;1;4;31;60;32;60;15;50
+2017-520;roland-garros;1st Round Qualifying;2017-520-mn13-k964;10;24;01:09:00;69;Maximilian Marterer;mn13;Brydan Klein;k964;2;0;12;4;0;0;2;1;28;54;37;54;9;28;5;3;28;49;26;49;6;28
+2017-520;roland-garros;1st Round Qualifying;2017-520-g585-a853;10;39;01:15:00;75;Maximo Gonzalez;g585;Marcelo Arevalo;a853;2;0;13;6;0;0;1;0;33;47;34;47;19;39;3;2;39;61;32;61;7;33
+2017-520;roland-garros;1st Round Qualifying;2017-520-be67-ra51;10;33;01:21:00;81;Mirza Basic;be67;Blaz Rola;ra51;2;0;13;9;1;0;3;2;42;71;49;71;10;37;7;2;37;63;37;63;12;42
+2017-520;roland-garros;1st Round Qualifying;2017-520-j551-bf23;10;3;00:23:00;23;Nicolas Jarry;j551;Facundo Bagnis;bf23;1;0;5;2;0;0;8;0;13;20;16;20;2;7;1;1;7;17;10;17;1;13
+2017-520;roland-garros;1st Round Qualifying;2017-520-gb93-j380;10;5;01:10:00;70;Norbert Gombos;gb93;Jason Jung;j380;2;0;12;8;0;0;7;0;45;63;45;63;7;34;4;3;34;54;36;54;10;45
+2017-520;roland-garros;1st Round Qualifying;2017-520-o449-kc12;10;55;01:02:00;62;Oscar Otte;o449;Mitchell Krueger;kc12;2;0;12;3;0;0;4;3;30;46;34;46;12;20;0;1;20;40;18;40;6;30
+2017-520;roland-garros;1st Round Qualifying;2017-520-m850-i230;10;16;02:14:00;134;Paul-Henri Mathieu;m850;Tatsuma Ito;i230;2;1;18;11;0;1;5;6;53;83;57;83;14;55;9;5;55;105;58;105;8;53
+2017-520;roland-garros;1st Round Qualifying;2017-520-s483-w630;10;63;00:57:00;57;Pedro Sousa;s483;Andrew Whittington;w630;2;0;12;5;0;0;1;1;37;51;36;51;13;31;3;2;31;48;26;48;12;37
+2017-520;roland-garros;1st Round Qualifying;2017-520-g967-ta12;10;31;02:23:00;143;Peter Gojowczyk;g967;Stefano Travaglia;ta12;2;1;18;15;0;1;12;10;60;131;80;131;19;56;6;3;56;113;68;113;15;60
+2017-520;roland-garros;1st Round Qualifying;2017-520-pb22-bf55;10;25;01:53:00;113;Peter Polansky;pb22;Yuki Bhambri;bf55;2;0;14;12;2;0;6;1;57;96;61;96;18;52;5;3;52;78;50;78;17;57
+2017-520;roland-garros;1st Round Qualifying;2017-520-o522-m915;10;54;02:09:00;129;Reilly Opelka;o522;Daniel Munoz de la Nava;m915;2;1;17;16;1;0;14;3;55;97;67;97;15;63;6;1;63;95;68;95;11;55
+2017-520;roland-garros;1st Round Qualifying;2017-520-o408-le01;10;26;01:22:00;82;Ricardo Ojeda Lara;o408;Duckhee Lee;le01;2;0;12;5;0;0;1;0;36;52;30;52;22;40;0;0;40;68;29;68;14;36
+2017-520;roland-garros;1st Round Qualifying;2017-520-q941-sf41;10;59;02:14:00;134;Roberto Quiroz;q941;Aldin Setkic;sf41;2;1;16;14;0;0;10;2;68;107;68;107;17;64;2;8;64;97;62;97;22;68
+2017-520;roland-garros;1st Round Qualifying;2017-520-ce25-ca33;10;36;01:31:00;91;Salvatore Caruso;ce25;Inigo Cervantes;ca33;2;0;13;9;0;0;0;2;39;64;41;64;10;32;6;4;32;70;39;70;10;39
+2017-520;roland-garros;1st Round Qualifying;2017-520-g725-z189;10;9;01:00:00;60;Santiago Giraldo;g725;Grega Zemlja;z189;2;0;12;5;0;0;4;1;25;48;37;48;9;25;3;4;25;58;32;58;4;25
+2017-520;roland-garros;1st Round Qualifying;2017-520-sc77-d750;10;21;02:05:00;125;Sergiy Stakhovsky;sc77;Kenny De Schepper;d750;2;1;16;16;1;0;6;2;53;88;56;88;26;72;5;1;72;98;62;98;15;53
+2017-520;roland-garros;1st Round Qualifying;2017-520-ba98-gd64;10;34;02:25:00;145;Simone Bolelli;ba98;Christian Garin;gd64;2;1;18;18;2;0;4;2;73;107;74;107;16;61;7;0;61;103;71;103;17;73
+2017-520;roland-garros;1st Round Qualifying;2017-520-ke64-mw02;10;48;02:27:00;147;Stefan Kozlov;ke64;Corentin Moutet;mw02;2;1;15;15;0;0;1;3;51;86;45;86;32;70;1;5;70;101;51;101;24;51
+2017-520;roland-garros;1st Round Qualifying;2017-520-n679-ga79;10;53;01:24:00;84;Stefano Napolitano;n679;Lorenzo Giustino;ga79;2;0;12;8;0;0;5;0;39;65;43;65;11;33;2;3;33;59;33;59;13;39
+2017-520;roland-garros;1st Round Qualifying;2017-520-te51-f586;10;6;01:52:00;112;Stefanos Tsitsipas;te51;Thomas Fabbiano;f586;2;1;15;10;0;0;5;2;39;73;42;73;22;49;1;4;49;86;40;86;13;39
+2017-520;roland-garros;1st Round Qualifying;2017-520-d916-l797;10;11;01:15:00;75;Steven Diez;d916;Lukas Lacko;l797;2;0;12;6;0;0;0;1;36;53;39;53;16;40;7;2;40;63;35;63;8;36
+2017-520;roland-garros;1st Round Qualifying;2017-520-da81-mi01;10;4;01:25:00;85;Taro Daniel;da81;Hiroki Moriya;mi01;2;0;13;6;1;0;0;4;30;57;35;57;16;29;1;3;29;64;26;64;11;30
+2017-520;roland-garros;1st Round Qualifying;2017-520-g681-cf59;10;27;02:26:00;146;Teymuraz Gabashvili;g681;Roberto Carballes Baena;cf59;2;1;15;13;0;0;5;2;44;86;53;86;27;60;3;5;60;91;52;91;11;44
+2017-520;roland-garros;1st Round Qualifying;2017-520-sf62-mg47;10;62;00:52:00;52;Tim Smyczek;sf62;James McGee;mg47;2;0;12;2;0;0;5;2;21;40;29;40;12;26;0;0;26;45;19;45;3;21
+2017-520;roland-garros;1st Round Qualifying;2017-520-k839-r548;10;45;01:41:00;101;Tobias Kamke;k839;Rajeev Ram;r548;2;1;15;14;0;0;0;2;64;91;59;91;10;46;3;1;46;72;51;72;20;64
+2017-520;roland-garros;1st Round Qualifying;2017-520-i236-w571;10;42;01:02:00;62;Uladzimir Ignatik;i236;Di Wu;w571;2;0;12;3;0;0;8;0;29;38;25;38;17;29;1;0;29;52;21;52;10;29
+2017-520;roland-garros;1st Round Qualifying;2017-520-me31-z246;10;52;01:36:00;96;Vincent Millot;me31;Miljan Zekic;z246;2;0;12;7;0;0;2;3;31;56;36;56;12;29;1;4;29;69;37;69;8;31
+2017-520;roland-garros;1st Round Qualifying;2017-520-u134-g676;10;64;01:31:00;91;Yasutaka Uchiyama;u134;Daniel Gimeno-Traver;g676;2;0;13;10;1;0;4;1;47;66;39;66;26;55;0;5;55;82;41;82;16;47
+2017-560;us-open;Finals;2017-560-n409-a678;1;1;02:27:00;147;Rafael Nadal;n409;Kevin Anderson;a678;3;0;18;10;0;0;1;1;45;72;57;72;17;64;10;4;64;108;63;108;7;45
+2017-560;us-open;Semi-Finals;2017-560-a678-cd85;2;2;02:55:00;175;Kevin Anderson;a678;Pablo Carreno Busta;cd85;3;1;23;18;0;0;22;1;71;103;80;103;37;102;1;2;102;144;87;144;12;71
+2017-560;us-open;Semi-Finals;2017-560-n409-d683;2;1;02:31:00;151;Rafael Nadal;n409;Juan Martin del Potro;d683;3;1;22;11;0;0;5;2;65;90;68;90;18;63;7;4;63;95;54;95;15;65
+2017-560;us-open;Quarter-Finals;2017-560-d683-f324;3;2;02:51:00;171;Juan Martin del Potro;d683;Roger Federer;f324;3;1;23;21;1;0;12;3;80;119;85;119;23;84;17;5;84;137;91;137;15;80
+2017-560;us-open;Quarter-Finals;2017-560-a678-q927;3;4;03:27:00;207;Kevin Anderson;a678;Sam Querrey;q927;3;1;26;22;2;1;22;3;99;147;110;147;16;84;20;7;84;153;106;153;18;99
+2017-560;us-open;Quarter-Finals;2017-560-cd85-sm37;3;3;01:59:00;119;Pablo Carreno Busta;cd85;Diego Schwartzman;sm37;3;0;18;10;0;0;7;3;62;97;62;97;17;45;4;3;45;72;37;72;22;62
+2017-560;us-open;Quarter-Finals;2017-560-n409-re44;3;1;01:36:00;96;Rafael Nadal;n409;Andrey Rublev;re44;3;0;18;5;0;0;4;3;43;63;47;63;23;51;1;7;51;82;37;82;7;43
+2017-560;us-open;Round of 16;2017-560-re44-gb88;4;4;02:05:00;125;Andrey Rublev;re44;David Goffin;gb88;3;0;20;14;1;0;12;4;56;98;66;98;21;66;8;8;66;120;70;120;10;56
+2017-560;us-open;Round of 16;2017-560-sm37-pf39;4;6;02:35:00;155;Diego Schwartzman;sm37;Lucas Pouille;pf39;3;1;22;19;1;0;9;4;85;136;81;136;22;70;15;8;70;111;65;111;31;85
+2017-560;us-open;Round of 16;2017-560-d683-tb69;4;3;03:35:00;215;Juan Martin del Potro;d683;Dominic Thiem;tb69;3;2;22;23;1;0;9;4;78;136;83;136;34;91;5;5;91;144;88;144;28;78
+2017-560;us-open;Round of 16;2017-560-a678-l503;4;8;02:57:00;177;Kevin Anderson;a678;Paolo Lorenzi;l503;3;1;24;18;0;1;18;3;70;107;82;107;17;65;6;9;65;126;80;126;11;70
+2017-560;us-open;Round of 16;2017-560-cd85-su55;4;5;02:54:00;174;Pablo Carreno Busta;cd85;Denis Shapovalov;su55;3;0;21;18;3;0;1;4;83;133;87;133;13;71;8;4;71;119;78;119;26;83
+2017-560;us-open;Round of 16;2017-560-n409-d801;4;1;01:41:00;101;Rafael Nadal;n409;Alexandr Dolgopolov;d801;3;0;18;7;0;0;4;2;44;63;51;63;18;51;7;2;51;86;48;86;8;44
+2017-560;us-open;Round of 16;2017-560-f324-k435;4;2;01:49:00;109;Roger Federer;f324;Philipp Kohlschreiber;k435;3;0;19;11;0;0;11;2;49;75;62;75;18;55;4;2;55;96;57;96;6;49
+2017-560;us-open;Round of 16;2017-560-q927-z168;4;7;01:17:00;77;Sam Querrey;q927;Mischa Zverev;z168;3;0;18;5;0;0;18;3;38;62;48;62;22;51;6;4;51;80;40;80;3;38
+2017-560;us-open;Round of 32;2017-560-d801-t840;5;13;01:22:00;82;Alexandr Dolgopolov;d801;Viktor Troicki;t840;3;0;18;5;0;0;3;4;37;75;51;75;15;30;3;4;30;62;28;62;7;37
+2017-560;us-open;Round of 32;2017-560-re44-d923;5;15;02:46:00;166;Andrey Rublev;re44;Damir Dzumhur;d923;3;1;23;19;0;0;7;4;91;148;83;148;33;83;5;4;83;126;68;126;36;91
+2017-560;us-open;Round of 32;2017-560-gb88-mc65;5;5;01:15:00;75;David Goffin;gb88;Gael Monfils;mc65;2;0;12;6;0;0;0;0;32;53;38;53;9;27;1;4;27;61;35;61;6;32
+2017-560;us-open;Round of 32;2017-560-su55-e831;5;16;02:04:00;124;Denis Shapovalov;su55;Kyle Edmund;e831;3;1;16;12;0;0;8;5;50;79;55;79;24;66;2;1;66;103;60;103;10;50
+2017-560;us-open;Round of 32;2017-560-sm37-c977;5;3;03:24:00;204;Diego Schwartzman;sm37;Marin Cilic;c977;3;1;24;20;0;0;6;4;101;145;84;145;21;77;14;9;77;139;76;139;39;101
+2017-560;us-open;Round of 32;2017-560-tb69-me82;5;4;02:13:00;133;Dominic Thiem;tb69;Adrian Mannarino;me82;3;0;19;12;0;0;5;1;70;104;71;104;21;55;0;2;55;89;53;89;16;70
+2017-560;us-open;Round of 32;2017-560-d683-bd06;5;7;02:10:00;130;Juan Martin del Potro;d683;Roberto Bautista Agut;bd06;3;0;18;10;0;0;14;4;49;77;55;77;20;57;0;1;57;92;53;92;11;49
+2017-560;us-open;Round of 32;2017-560-a678-cg80;5;11;01:50:00;110;Kevin Anderson;a678;Borna Coric;cg80;3;0;18;9;0;0;12;3;55;85;61;85;19;48;2;3;48;74;45;74;12;55
+2017-560;us-open;Round of 32;2017-560-pf39-k926;5;9;02:21:00;141;Lucas Pouille;pf39;Mikhail Kukushkin;k926;3;1;20;17;0;0;9;5;60;112;76;112;20;69;9;2;69;112;71;112;17;60
+2017-560;us-open;Round of 32;2017-560-z168-i186;5;6;02:07:00;127;Mischa Zverev;z168;John Isner;i186;3;0;19;13;1;0;4;1;59;94;70;94;16;67;11;7;67;101;64;101;13;59
+2017-560;us-open;Round of 32;2017-560-cd85-m873;5;8;01:48:00;108;Pablo Carreno Busta;cd85;Nicolas Mahut;m873;3;0;18;10;0;0;4;1;58;74;53;74;22;54;5;4;54;91;49;91;14;58
+2017-560;us-open;Round of 32;2017-560-l503-f586;5;14;02:12:00;132;Paolo Lorenzi;l503;Thomas Fabbiano;f586;3;0;18;10;0;0;7;2;52;86;51;86;25;52;1;2;52;87;43;87;18;52
+2017-560;us-open;Round of 32;2017-560-k435-mh30;5;12;02:20:00;140;Philipp Kohlschreiber;k435;John Millman;mh30;3;0;19;11;0;0;5;4;54;97;66;97;25;68;2;1;68;111;63;111;9;54
+2017-560;us-open;Round of 32;2017-560-n409-md56;5;1;03:15:00;195;Rafael Nadal;n409;Leonardo Mayer;md56;3;1;24;15;0;1;4;3;74;109;78;109;38;95;12;5;95;151;89;151;20;74
+2017-560;us-open;Round of 32;2017-560-f324-l397;5;2;01:46:00;106;Roger Federer;f324;Feliciano Lopez;l397;3;0;19;11;0;0;13;1;46;84;61;84;11;49;9;3;49;91;54;91;7;46
+2017-560;us-open;Round of 32;2017-560-q927-a829;5;10;02:08:00;128;Sam Querrey;q927;Radu Albot;a829;3;1;22;16;0;0;19;3;59;103;76;103;24;78;5;4;78;106;69;106;12;59
+2017-560;us-open;Round of 64;2017-560-me82-f811;6;22;02:17:00;137;Adrian Mannarino;me82;Bjorn Fratangelo;f811;3;1;24;13;0;1;12;3;71;114;79;114;20;57;6;3;57;99;54;99;16;71
+2017-560;us-open;Round of 64;2017-560-d801-ba47;6;12;02:37:00;157;Alexandr Dolgopolov;d801;Tomas Berdych;ba47;3;1;22;15;1;0;7;4;55;103;73;103;14;59;9;12;59;131;75;131;11;55
+2017-560;us-open;Round of 64;2017-560-re44-d875;6;6;02:27:00;147;Andrey Rublev;re44;Grigor Dimitrov;d875;3;0;20;14;1;0;7;3;76;125;82;125;16;62;10;11;62;105;63;105;23;76
+2017-560;us-open;Round of 64;2017-560-cg80-z355;6;3;03:26:00;206;Borna Coric;cg80;Alexander Zverev;z355;3;1;24;23;2;0;5;3;102;150;105;150;24;100;22;7;100;149;103;149;24;102
+2017-560;us-open;Round of 64;2017-560-d923-sk94;6;26;02:11:00;131;Damir Dzumhur;d923;Cedrik-Marcel Stebe;sk94;3;1;22;11;0;0;3;6;51;86;56;86;26;56;0;9;56;109;48;109;11;51
+2017-560;us-open;Round of 64;2017-560-gb88-pc11;6;8;04:20:00;260;David Goffin;gb88;Guido Pella;pc11;3;2;29;28;2;1;14;6;100;177;118;177;30;110;16;5;110;182;126;182;23;100
+2017-560;us-open;Round of 64;2017-560-su55-t786;6;7;02:12:00;132;Denis Shapovalov;su55;Jo-Wilfried Tsonga;t786;3;0;19;14;1;0;2;3;65;97;68;97;13;49;4;5;49;96;61;96;15;65
+2017-560;us-open;Round of 64;2017-560-sm37-t742;6;21;02:20:00;140;Diego Schwartzman;sm37;Janko Tipsarevic;t742;3;0;19;11;0;0;0;4;53;103;65;103;18;46;4;2;46;98;49;98;16;53
+2017-560;us-open;Round of 64;2017-560-tb69-fb98;6;5;02:50:00;170;Dominic Thiem;tb69;Taylor Fritz;fb98;3;1;23;19;0;0;5;6;89;145;95;145;22;80;7;3;80;133;87;133;28;89
+2017-560;us-open;Round of 64;2017-560-l397-v306;6;23;02:11:00;131;Feliciano Lopez;l397;Fernando Verdasco;v306;3;1;21;12;0;0;11;2;64;108;69;108;18;56;8;3;56;93;54;93;15;64
+2017-560;us-open;Round of 64;2017-560-mc65-y124;6;15;03:17:00;197;Gael Monfils;mc65;Donald Young;y124;3;2;27;25;0;1;19;13;83;154;99;154;34;96;7;6;96;154;96;154;21;83
+2017-560;us-open;Round of 64;2017-560-i186-ch27;6;9;01:46:00;106;John Isner;i186;Hyeon Chung;ch27;3;0;19;12;0;0;30;2;56;77;64;77;18;51;4;5;51;93;59;93;7;56
+2017-560;us-open;Round of 64;2017-560-mh30-j267;6;31;02:00:00;120;John Millman;mh30;Malek Jaziri;j267;3;0;19;8;1;0;5;1;61;96;62;96;21;51;1;4;51;88;41;88;18;61
+2017-560;us-open;Round of 64;2017-560-d683-mb53;6;19;02:10:00;130;Juan Martin del Potro;d683;Adrian Menendez-Maceiras;mb53;3;0;19;11;1;0;17;4;54;85;65;85;18;57;8;2;57;97;59;97;6;54
+2017-560;us-open;Round of 64;2017-560-a678-g858;6;20;02:17:00;137;Kevin Anderson;a678;Ernests Gulbis;g858;3;0;19;12;0;0;18;7;64;101;71;101;12;58;12;10;58;96;61;96;10;64
+2017-560;us-open;Round of 64;2017-560-e831-j386;6;27;02:17:00;137;Kyle Edmund;e831;Steve Johnson;j386;3;0;20;13;1;0;2;2;65;104;70;104;18;66;9;8;66;102;59;102;18;65
+2017-560;us-open;Round of 64;2017-560-md56-se73;6;30;02:59:00;179;Leonardo Mayer;md56;Yuichi Sugita;se73;3;1;24;18;0;1;20;3;77;125;79;125;27;78;5;4;78;133;75;133;24;77
+2017-560;us-open;Round of 64;2017-560-pf39-dc58;6;13;03:30:00;210;Lucas Pouille;pf39;Jared Donaldson;dc58;3;2;26;25;0;0;16;9;86;157;96;157;20;77;11;10;77;160;97;160;22;86
+2017-560;us-open;Round of 64;2017-560-c977-mb02;6;4;01:40:00;100;Marin Cilic;c977;Florian Mayer;mb02;3;0;18;9;0;0;18;6;40;83;59;83;16;42;2;3;42;70;37;70;5;40
+2017-560;us-open;Round of 64;2017-560-k926-d864;6;29;02:28:00;148;Mikhail Kukushkin;k926;Evgeny Donskoy;d864;3;0;19;13;0;0;1;3;56;91;64;91;18;59;8;5;59;116;68;116;10;56
+2017-560;us-open;Round of 64;2017-560-z168-pd31;6;18;02:49:00;169;Mischa Zverev;z168;Benoit Paire;pd31;3;2;28;23;0;1;8;4;108;158;106;158;22;87;12;14;87;155;98;155;29;108
+2017-560;us-open;Round of 64;2017-560-m873-r772;6;17;03:27:00;207;Nicolas Mahut;m873;Albert Ramos-Vinolas;r772;3;2;26;19;0;0;14;7;95;141;94;141;40;102;5;7;102;158;89;158;24;95
+2017-560;us-open;Round of 64;2017-560-cd85-n771;6;11;01:43:00;103;Pablo Carreno Busta;cd85;Cameron Norrie;n771;3;0;18;9;0;0;3;0;66;88;59;88;16;44;4;9;44;88;48;88;19;66
+2017-560;us-open;Round of 64;2017-560-l503-ma30;6;16;03:28:00;208;Paolo Lorenzi;l503;Gilles Muller;ma30;3;1;25;19;1;1;11;10;70;147;99;147;14;68;20;10;68;136;85;136;14;70
+2017-560;us-open;Round of 64;2017-560-k435-g725;6;24;01:27:00;87;Philipp Kohlschreiber;k435;Santiago Giraldo;g725;3;0;15;3;0;0;7;3;35;64;45;64;10;27;3;5;27;60;28;60;7;35
+2017-560;us-open;Round of 64;2017-560-a829-l575;6;25;03:56:00;236;Radu Albot;a829;Yen-Hsun Lu;l575;3;2;25;27;2;0;6;7;107;173;109;173;33;100;9;7;100;169;107;169;33;107
+2017-560;us-open;Round of 64;2017-560-n409-da81;6;1;02:53:00;173;Rafael Nadal;n409;Taro Daniel;da81;3;1;22;13;0;0;6;3;65;106;73;106;29;75;3;6;75;118;65;118;15;65
+2017-560;us-open;Round of 64;2017-560-bd06-ba65;6;10;01:49:00;109;Roberto Bautista Agut;bd06;Dustin Brown;ba65;3;0;19;10;1;0;4;3;44;82;62;82;16;42;10;6;42;98;51;98;9;44
+2017-560;us-open;Round of 64;2017-560-f324-y061;6;2;03:08:00;188;Roger Federer;f324;Mikhail Youzhny;y061;3;2;28;20;0;1;12;2;87;140;95;140;41;109;5;8;109;177;98;177;19;87
+2017-560;us-open;Round of 64;2017-560-q927-sc56;6;14;01:20:00;80;Sam Querrey;q927;Dudi Sela;sc56;3;0;18;9;0;0;19;5;47;72;55;72;11;35;1;2;35;69;40;69;6;47
+2017-560;us-open;Round of 64;2017-560-f586-tc61;6;28;02:57:00;177;Thomas Fabbiano;f586;Jordan Thompson;tc61;3;2;23;20;0;0;3;6;77;117;68;117;35;91;1;15;91;137;73;137;29;77
+2017-560;us-open;Round of 64;2017-560-t840-ta12;6;32;02:05:00;125;Viktor Troicki;t840;Stefano Travaglia;ta12;3;0;20;11;1;0;12;6;48;88;63;88;13;45;9;10;45;102;55;102;10;48
+2017-560;us-open;Round of 128;2017-560-me82-be90;7;29;01:35:00;95;Adrian Mannarino;me82;Ricardas Berankis;be90;3;0;18;8;0;0;5;1;47;77;56;77;13;35;0;3;35;73;41;73;8;47
+2017-560;us-open;Round of 128;2017-560-mb53-k0a3;7;51;02:31:00;151;Adrian Menendez-Maceiras;mb53;Patrick Kypson;k0a3;3;0;19;11;1;0;11;1;58;97;65;97;27;60;4;3;60;101;52;101;12;58
+2017-560;us-open;Round of 128;2017-560-r772-i165;7;19;04:55:00;295;Albert Ramos-Vinolas;r772;Denis Istomin;i165;3;2;31;29;1;1;12;2;120;189;123;189;55;157;23;4;157;229;141;229;37;120
+2017-560;us-open;Round of 128;2017-560-z355-kc86;7;3;02:50:00;170;Alexander Zverev;z355;Darian King;kc86;3;0;20;15;1;0;6;5;71;125;80;125;30;83;2;3;83;137;79;137;22;71
+2017-560;us-open;Round of 128;2017-560-d801-sl28;7;38;02:30:00;150;Alexandr Dolgopolov;d801;Jan-Lennard Struff;sl28;3;2;22;20;0;0;10;6;65;126;82;126;13;64;18;11;64;129;78;129;13;65
+2017-560;us-open;Round of 128;2017-560-re44-bh09;7;55;01:42:00;102;Andrey Rublev;re44;Aljaz Bedene;bh09;3;0;18;9;0;0;5;3;53;88;63;88;12;46;12;5;46;75;47;75;15;53
+2017-560;us-open;Round of 128;2017-560-pd31-l797;7;53;01:35:00;95;Benoit Paire;pd31;Lukas Lacko;l797;3;0;19;11;1;0;14;3;47;88;63;88;26;65;2;1;65;99;58;99;4;47
+2017-560;us-open;Round of 128;2017-560-f811-k336;7;42;03:15:00;195;Bjorn Fratangelo;f811;Ivo Karlovic;k336;3;1;23;22;2;0;7;1;83;143;94;143;16;84;46;11;84;131;88;131;27;83
+2017-560;us-open;Round of 128;2017-560-cg80-v708;7;36;02:28:00;148;Borna Coric;cg80;Jiri Vesely;v708;3;0;20;14;2;0;9;5;68;108;70;108;24;78;11;8;78;113;66;113;19;68
+2017-560;us-open;Round of 128;2017-560-n771-t315;7;52;01:32:00;92;Cameron Norrie;n771;Dmitry Tursunov;t315;2;0;13;7;1;0;5;2;48;74;51;74;16;44;1;4;44;71;41;71;12;48
+2017-560;us-open;Round of 128;2017-560-sk94-kc29;7;58;02:48:00;168;Cedrik-Marcel Stebe;sk94;Nicolas Kicker;kc29;3;1;23;12;0;0;8;6;63;111;77;111;37;87;4;11;87;144;78;144;16;63
+2017-560;us-open;Round of 128;2017-560-d923-c882;7;26;02:03:00;123;Damir Dzumhur;d923;Pablo Cuevas;c882;3;0;20;12;1;0;2;4;73;107;64;107;27;64;6;4;64;105;54;105;26;73
+2017-560;us-open;Round of 128;2017-560-gb88-b747;7;8;02:18:00;138;David Goffin;gb88;Julien Benneteau;b747;3;1;20;16;0;0;12;7;64;109;71;109;21;59;4;5;59;106;60;106;17;64
+2017-560;us-open;Round of 128;2017-560-su55-mm58;7;57;01:36:00;96;Denis Shapovalov;su55;Daniil Medvedev;mm58;3;0;19;8;0;0;6;2;64;88;59;88;22;47;2;8;47;82;37;82;18;64
+2017-560;us-open;Round of 128;2017-560-sm37-b884;7;28;01:41:00;101;Diego Schwartzman;sm37;Carlos Berlocq;b884;3;0;18;6;0;0;0;2;38;71;49;71;25;52;1;1;52;78;35;78;8;38
+2017-560;us-open;Round of 128;2017-560-tb69-dh58;7;5;01:49:00;109;Dominic Thiem;tb69;Alex de Minaur;dh58;3;0;18;6;0;0;3;3;48;69;50;69;23;51;1;4;51;81;41;81;8;48
+2017-560;us-open;Round of 128;2017-560-y124-mn13;7;63;02:23:00;143;Donald Young;y124;Maximilian Marterer;mn13;3;1;19;14;0;0;8;7;58;99;67;99;13;51;8;3;51;87;55;87;12;58
+2017-560;us-open;Round of 128;2017-560-sc56-e865;7;56;01:33:00;93;Dudi Sela;sc56;Christopher Eubanks;e865;3;0;18;8;0;0;2;1;53;64;53;64;28;71;10;4;71;99;56;99;8;53
+2017-560;us-open;Round of 128;2017-560-ba65-bd20;7;34;01:42:00;102;Dustin Brown;ba65;Thomaz Bellucci;bd20;3;0;18;9;0;0;16;9;45;78;53;78;32;67;3;7;67;106;52;106;3;45
+2017-560;us-open;Round of 128;2017-560-g858-g983;7;45;03:40:00;220;Ernests Gulbis;g858;Alessandro Giannessi;g983;3;1;25;18;0;1;20;12;83;160;104;160;29;89;7;6;89;139;84;139;17;83
+2017-560;us-open;Round of 128;2017-560-d864-h804;7;40;01:20:00;80;Evgeny Donskoy;d864;Andreas Haider-Maurer;h804;2;0;12;7;1;0;6;3;30;60;43;60;14;35;2;6;35;65;38;65;5;30
+2017-560;us-open;Round of 128;2017-560-l397-kb54;7;30;02:55:00;175;Feliciano Lopez;l397;Andrey Kuznetsov;kb54;3;1;25;19;1;1;26;5;78;129;95;129;20;88;21;7;88;154;97;154;17;78
+2017-560;us-open;Round of 128;2017-560-v306-pd07;7;62;00:34:00;34;Fernando Verdasco;v306;Vasek Pospisil;pd07;1;0;6;2;0;0;1;1;15;22;13;22;8;12;0;0;12;29;12;29;6;15
+2017-560;us-open;Round of 128;2017-560-mb02-sc73;7;50;02:36:00;156;Florian Mayer;mb02;Rogerio Dutra Silva;sc73;3;1;19;18;0;0;3;3;78;149;85;149;19;67;9;7;67;114;71;114;26;78
+2017-560;us-open;Round of 128;2017-560-mc65-ca12;7;17;02:06:00;126;Gael Monfils;mc65;Jeremy Chardy;ca12;3;0;19;13;1;0;18;5;48;97;67;97;19;60;3;8;60;108;65;108;9;48
+2017-560;us-open;Round of 128;2017-560-ma30-ta46;7;18;02:33:00;153;Gilles Muller;ma30;Bernard Tomic;ta46;3;1;21;17;0;0;27;9;53;109;78;109;21;83;16;7;83;140;83;140;6;53
+2017-560;us-open;Round of 128;2017-560-d875-sn77;7;6;01:49:00;109;Grigor Dimitrov;d875;Vaclav Safranek;sn77;3;0;18;7;0;0;6;3;45;81;59;81;24;58;4;6;58;95;50;95;9;45
+2017-560;us-open;Round of 128;2017-560-pc11-d632;7;54;01:29:00;89;Guido Pella;pc11;Steve Darcis;d632;3;0;18;3;0;0;3;0;49;63;48;63;21;41;1;3;41;69;29;69;11;49
+2017-560;us-open;Round of 128;2017-560-ch27-z184;7;35;03:30:00;210;Hyeon Chung;ch27;Horacio Zeballos;z184;3;1;22;19;1;0;16;10;85;143;93;143;21;83;13;1;83;144;92;144;18;85
+2017-560;us-open;Round of 128;2017-560-t742-kd46;7;60;04:10:00;250;Janko Tipsarevic;t742;Thanasi Kokkinakis;kd46;3;2;28;23;1;1;10;7;91;157;108;157;36;120;18;7;120;195;116;195;19;91
+2017-560;us-open;Round of 128;2017-560-dc58-bg23;7;39;02:47:00;167;Jared Donaldson;dc58;Nikoloz Basilashvili;bg23;3;1;23;15;1;0;9;5;46;109;69;109;40;99;6;7;99;161;83;161;10;46
+2017-560;us-open;Round of 128;2017-560-t786-ca99;7;7;01:51:00;111;Jo-Wilfried Tsonga;t786;Marius Copil;ca99;3;0;18;10;0;0;13;4;52;79;61;79;17;54;6;5;54;104;61;104;3;52
+2017-560;us-open;Round of 128;2017-560-i186-h996;7;9;02:23:00;143;John Isner;i186;Pierre-Hugues Herbert;h996;3;1;22;13;0;0;22;1;71;100;72;100;17;62;11;8;62;109;63;109;14;71
+2017-560;us-open;Round of 128;2017-560-mh30-ke17;7;13;02:15:00;135;John Millman;mh30;Nick Kyrgios;ke17;3;1;19;14;0;0;3;2;73;103;68;103;21;69;17;7;69;116;69;116;21;73
+2017-560;us-open;Round of 128;2017-560-tc61-sm25;7;12;03:56:00;236;Jordan Thompson;tc61;Jack Sock;sm25;3;2;25;25;1;0;8;10;111;173;99;173;34;100;15;6;100;162;96;162;38;111
+2017-560;us-open;Round of 128;2017-560-d683-l949;7;23;02:34:00;154;Juan Martin del Potro;d683;Henri Laaksonen;l949;3;0;20;16;2;0;16;6;66;104;78;104;14;69;9;10;69;124;81;124;11;66
+2017-560;us-open;Round of 128;2017-560-a678-ab71;7;27;01:43:00;103;Kevin Anderson;a678;JC Aragone;ab71;3;0;18;7;0;0;22;1;46;74;53;74;23;53;4;2;53;86;44;86;6;46
+2017-560;us-open;Round of 128;2017-560-e831-h756;7;31;01:54:00;114;Kyle Edmund;e831;Robin Haase;h756;3;0;19;11;0;0;3;1;65;95;64;95;16;60;13;5;60;93;56;93;17;65
+2017-560;us-open;Round of 128;2017-560-md56-g628;7;25;03:00:00;180;Leonardo Mayer;md56;Richard Gasquet;g628;3;1;21;14;0;0;9;8;52;99;67;99;21;66;1;6;66;124;71;124;11;52
+2017-560;us-open;Round of 128;2017-560-pf39-be54;7;15;01:42:00;102;Lucas Pouille;pf39;Ruben Bemelmans;be54;3;0;18;11;0;0;8;3;52;89;66;89;20;57;3;3;57;90;56;90;13;52
+2017-560;us-open;Round of 128;2017-560-j267-mj08;7;46;03:46:00;226;Malek Jaziri;j267;Thiago Monteiro;mj08;3;2;28;26;1;0;15;9;90;167;108;167;31;98;7;5;98;168;107;168;16;90
+2017-560;us-open;Round of 128;2017-560-c977-sl08;7;4;02:48:00;168;Marin Cilic;c977;Tennys Sandgren;sl08;3;1;21;16;0;0;11;2;56;105;71;105;30;75;4;2;75;131;75;131;8;56
+2017-560;us-open;Round of 128;2017-560-k926-f401;7;20;02:43:00;163;Mikhail Kukushkin;k926;David Ferrer;f401;3;1;22;12;0;0;4;2;79;120;76;120;19;61;5;9;61;105;57;105;22;79
+2017-560;us-open;Round of 128;2017-560-y061-k834;7;64;03:06:00;186;Mikhail Youzhny;y061;Blaz Kavcic;k834;3;1;23;17;0;0;11;11;81;149;87;149;23;61;3;8;61;119;65;119;27;81
+2017-560;us-open;Round of 128;2017-560-z168-kd35;7;22;03:28:00;208;Mischa Zverev;z168;Thai-Son Kwiatkowski;kd35;3;2;28;26;1;0;11;7;116;172;113;172;33;106;5;10;106;165;107;165;32;116
+2017-560;us-open;Round of 128;2017-560-m873-f724;7;49;03:22:00;202;Nicolas Mahut;m873;Marton Fucsovics;f724;3;2;23;25;1;0;9;4;89;162;104;162;14;84;16;11;84;159;107;159;25;89
+2017-560;us-open;Round of 128;2017-560-cd85-kb37;7;11;02:04:00;124;Pablo Carreno Busta;cd85;Evan King;kb37;3;0;19;11;1;0;1;1;67;92;65;92;16;45;1;1;45;83;52;83;20;67
+2017-560;us-open;Round of 128;2017-560-l503-sh90;7;48;03:00:00;180;Paolo Lorenzi;l503;Joao Sousa;sh90;3;1;23;17;1;0;9;5;79;129;91;129;16;69;5;3;69;125;81;125;18;79
+2017-560;us-open;Round of 128;2017-560-k435-sf62;7;32;01:44:00;104;Philipp Kohlschreiber;k435;Tim Smyczek;sf62;3;0;18;9;0;0;6;4;36;86;64;86;19;54;2;1;54;74;45;74;6;36
+2017-560;us-open;Round of 128;2017-560-a829-e873;7;33;03:07:00;187;Radu Albot;a829;Ernesto Escobedo;e873;3;1;23;17;0;0;3;5;73;126;82;126;32;81;11;7;81;157;90;157;23;73
+2017-560;us-open;Round of 128;2017-560-n409-l987;7;1;02:16:00;136;Rafael Nadal;n409;Dusan Lajovic;l987;3;0;19;10;1;0;5;5;61;98;63;98;30;65;1;2;65;90;48;90;20;61
+2017-560;us-open;Round of 128;2017-560-bd06-sa93;7;10;02:55:00;175;Roberto Bautista Agut;bd06;Andreas Seppi;sa93;3;1;23;16;1;0;4;1;77;133;85;133;19;69;11;3;69;120;69;120;28;77
+2017-560;us-open;Round of 128;2017-560-f324-td51;7;2;02:37:00;157;Roger Federer;f324;Frances Tiafoe;td51;3;2;23;19;0;0;17;4;63;116;78;116;23;71;5;6;71;138;83;138;14;63
+2017-560;us-open;Round of 128;2017-560-q927-sd32;7;16;01:52:00;112;Sam Querrey;q927;Gilles Simon;sd32;3;0;18;11;0;0;10;3;40;85;53;85;24;49;2;2;49;95;49;95;10;40
+2017-560;us-open;Round of 128;2017-560-g725-me31;7;44;03:28:00;208;Santiago Giraldo;g725;Vincent Millot;me31;3;2;26;17;0;0;10;4;67;128;82;128;34;83;5;7;83;139;74;139;17;67
+2017-560;us-open;Round of 128;2017-560-ta12-f510;7;21;02:27:00;147;Stefano Travaglia;ta12;Fabio Fognini;f510;3;1;22;16;1;0;9;3;58;107;72;107;27;71;5;9;71;131;72;131;13;58
+2017-560;us-open;Round of 128;2017-560-j386-a479;7;47;02:22:00;142;Steve Johnson;j386;Nicolas Almagro;a479;3;0;20;16;2;0;16;1;55;95;75;95;15;58;9;4;58;115;75;115;6;55
+2017-560;us-open;Round of 128;2017-560-da81-pl56;7;37;02:58:00;178;Taro Daniel;da81;Tommy Paul;pl56;3;2;26;17;0;0;1;5;90;147;93;147;24;77;8;9;77;127;76;127;25;90
+2017-560;us-open;Round of 128;2017-560-fb98-b837;7;43;01:59:00;119;Taylor Fritz;fb98;Marcos Baghdatis;b837;3;0;18;11;0;0;7;5;60;104;65;104;9;40;5;10;40;88;50;88;20;60
+2017-560;us-open;Round of 128;2017-560-f586-sj55;7;41;03:04:00;184;Thomas Fabbiano;f586;John-Patrick Smith;sj55;3;1;23;22;2;0;3;6;98;137;85;137;38;108;8;7;108;156;92;156;33;98
+2017-560;us-open;Round of 128;2017-560-ba47-h940;7;14;02:07:00;127;Tomas Berdych;ba47;Ryan Harrison;h940;3;0;19;12;1;0;9;5;62;102;67;102;12;44;9;5;44;90;49;90;17;62
+2017-560;us-open;Round of 128;2017-560-t840-gb93;7;61;02:56:00;176;Viktor Troicki;t840;Norbert Gombos;gb93;3;2;24;22;0;0;11;4;79;135;91;135;22;87;9;10;87;154;95;154;17;79
+2017-560;us-open;Round of 128;2017-560-l575-ke29;7;24;02:14:00;134;Yen-Hsun Lu;l575;Karen Khachanov;ke29;3;1;22;14;0;0;7;4;69;111;79;111;15;59;10;4;59;100;61;100;12;69
+2017-560;us-open;Round of 128;2017-560-se73-bu54;7;59;01:49:00;109;Yuichi Sugita;se73;Geoffrey Blancaneaux;bu54;3;0;18;4;0;0;2;4;38;65;47;65;18;39;3;9;39;72;33;72;8;38
+2017-540;wimbledon;Finals;2017-540-f324-c977;1;1;01:41:00;101;Roger Federer;f324;Marin Cilic;c977;3;0;18;8;0;0;8;2;53;70;55;70;19;54;5;3;54;90;49;90;10;53
+2017-540;wimbledon;Semi-Finals;2017-540-c977-q927;2;2;02:56:00;176;Marin Cilic;c977;Sam Querrey;q927;3;1;26;22;1;1;25;1;78;120;97;120;25;97;13;3;97;151;98;151;9;78
+2017-540;wimbledon;Semi-Finals;2017-540-f324-ba47;2;1;02:18:00;138;Roger Federer;f324;Tomas Berdych;ba47;3;0;20;16;2;0;13;4;70;105;80;105;25;79;9;0;79;128;82;128;11;70
+2017-540;wimbledon;Quarter-Finals;2017-540-c977-ma30;3;4;03:30:00;210;Marin Cilic;c977;Gilles Muller;ma30;3;2;28;25;1;0;33;9;102;157;112;157;19;95;17;7;95;145;102;145;16;102
+2017-540;wimbledon;Quarter-Finals;2017-540-f324-r975;3;3;01:58:00;118;Roger Federer;f324;Milos Raonic;r975;3;0;19;12;1;0;11;2;61;89;70;89;20;70;11;0;70;96;61;96;6;61
+2017-540;wimbledon;Quarter-Finals;2017-540-q927-mc10;3;1;02:42:00;162;Sam Querrey;q927;Andy Murray;mc10;3;2;27;19;0;1;27;2;74;116;85;116;22;82;8;2;82;132;80;132;12;74
+2017-540;wimbledon;Quarter-Finals;2017-540-ba47-d643;3;2;01:03:00;63;Tomas Berdych;ba47;Novak Djokovic;d643;2;0;9;6;1;0;1;1;27;46;35;46;14;39;1;0;39;47;29;47;2;27
+2017-540;wimbledon;Round of 16;2017-540-mc10-pd31;4;1;02:21:00;141;Andy Murray;mc10;Benoit Paire;pd31;3;0;19;14;1;0;4;0;70;99;67;99;23;66;9;10;66;123;68;123;23;70
+2017-540;wimbledon;Round of 16;2017-540-ma30-n409;4;4;04:48:00;288;Gilles Muller;ma30;Rafael Nadal;n409;2;2;19;19;0;0;30;10;133;212;144;212;24;119;23;2;119;177;130;177;27;133
+2017-540;wimbledon;Round of 16;2017-540-c977-bd06;4;6;01:41:00;101;Marin Cilic;c977;Roberto Bautista Agut;bd06;3;0;18;6;0;0;9;0;43;78;54;78;25;52;0;3;52;67;30;67;9;43
+2017-540;wimbledon;Round of 16;2017-540-r975-z355;4;5;03:23:00;203;Milos Raonic;r975;Alexander Zverev;z355;3;2;28;23;0;0;23;6;124;175;118;175;18;90;17;7;90;135;91;135;30;124
+2017-540;wimbledon;Round of 16;2017-540-d643-me82;4;2;02:15:00;135;Novak Djokovic;d643;Adrian Mannarino;me82;3;0;19;12;1;0;4;2;69;93;65;93;28;71;2;1;71;102;59;102;20;69
+2017-540;wimbledon;Round of 16;2017-540-f324-d875;4;3;01:38:00;98;Roger Federer;f324;Grigor Dimitrov;d875;3;0;18;10;0;0;8;0;52;75;56;75;20;57;7;7;57;91;52;91;13;52
+2017-540;wimbledon;Round of 16;2017-540-q927-a678;4;8;03:07:00;187;Sam Querrey;q927;Kevin Anderson;a678;3;2;30;26;1;1;31;1;115;173;129;173;16;106;31;5;106;146;110;146;20;115
+2017-540;wimbledon;Round of 16;2017-540-ba47-tb69;4;7;02:53:00;173;Tomas Berdych;ba47;Dominic Thiem;tb69;3;2;27;22;0;1;15;2;105;141;105;141;14;74;11;6;74;132;94;132;18;105
+2017-540;wimbledon;Round of 32;2017-540-me82-mc65;5;13;03:30:00;210;Adrian Mannarino;me82;Gael Monfils;mc65;3;2;28;24;1;0;7;4;105;167;111;167;38;105;13;7;105;172;106;172;33;105
+2017-540;wimbledon;Round of 32;2017-540-z355-o513;5;9;01:33:00;93;Alexander Zverev;z355;Sebastian Ofner;o513;3;0;18;10;0;0;4;5;47;71;50;71;20;53;1;5;53;92;46;92;9;47
+2017-540;wimbledon;Round of 32;2017-540-mc10-f510;5;1;02:39:00;159;Andy Murray;mc10;Fabio Fognini;f510;3;1;23;14;0;0;15;7;76;118;77;118;21;63;3;7;63;102;58;102;20;76
+2017-540;wimbledon;Round of 32;2017-540-pd31-j397;5;16;01:42:00;102;Benoit Paire;pd31;Jerzy Janowicz;j397;3;0;19;11;1;0;14;5;63;102;75;102;9;42;4;2;42;81;52;81;12;63
+2017-540;wimbledon;Round of 32;2017-540-tb69-dc58;5;7;02:03:00;123;Dominic Thiem;tb69;Jared Donaldson;dc58;3;0;19;11;0;0;4;3;54;96;67;96;11;40;4;3;40;87;53;87;12;54
+2017-540;wimbledon;Round of 32;2017-540-ma30-bh09;5;14;02:27:00;147;Gilles Muller;ma30;Aljaz Bedene;bh09;3;0;20;15;1;0;19;4;61;98;71;98;22;72;15;4;72;123;74;123;11;61
+2017-540;wimbledon;Round of 32;2017-540-d875-sc56;5;12;01:00:00;60;Grigor Dimitrov;d875;Dudi Sela;sc56;2;0;12;2;0;0;5;0;29;36;30;36;13;25;1;2;25;46;20;46;5;29
+2017-540;wimbledon;Round of 32;2017-540-a678-be54;5;15;02:00:00;120;Kevin Anderson;a678;Ruben Bemelmans;be54;3;0;20;16;2;0;27;2;59;86;77;86;22;79;6;2;79;108;78;108;4;59
+2017-540;wimbledon;Round of 32;2017-540-c977-j386;5;6;02:12:00;132;Marin Cilic;c977;Steve Johnson;j386;3;0;19;14;1;0;17;1;52;84;64;84;25;75;8;6;75;114;66;114;10;52
+2017-540;wimbledon;Round of 32;2017-540-r975-r772;5;5;02:22:00;142;Milos Raonic;r975;Albert Ramos-Vinolas;r772;3;0;20;15;1;0;21;2;61;87;72;87;25;77;11;3;77;124;78;124;10;61
+2017-540;wimbledon;Round of 32;2017-540-d643-g858;5;2;02:13:00;133;Novak Djokovic;d643;Ernests Gulbis;g858;3;0;19;11;1;0;6;1;56;89;65;89;19;63;13;7;63;102;59;102;12;56
+2017-540;wimbledon;Round of 32;2017-540-n409-ke29;5;4;02:15:00;135;Rafael Nadal;n409;Karen Khachanov;ke29;3;0;19;11;1;0;7;1;65;94;69;94;22;71;13;6;71;103;60;103;13;65
+2017-540;wimbledon;Round of 32;2017-540-bd06-n552;5;8;03:21:00;201;Roberto Bautista Agut;bd06;Kei Nishikori;n552;3;1;22;19;1;0;3;3;97;146;96;146;26;88;5;7;88;146;92;146;24;97
+2017-540;wimbledon;Round of 32;2017-540-f324-z168;5;3;01:49:00;109;Roger Federer;f324;Mischa Zverev;z168;3;0;19;14;1;0;13;1;53;88;69;88;18;63;6;4;63;102;65;102;9;53
+2017-540;wimbledon;Round of 32;2017-540-q927-t786;5;11;02:58:00;178;Sam Querrey;q927;Jo-Wilfried Tsonga;t786;3;2;24;25;1;0;22;5;78;141;99;141;20;99;12;6;99;157;110;157;9;78
+2017-540;wimbledon;Round of 32;2017-540-ba47-f401;5;10;01:46:00;106;Tomas Berdych;ba47;David Ferrer;f401;3;0;18;10;0;0;3;1;45;75;57;75;20;56;3;2;56;93;54;93;7;45
+2017-540;wimbledon;Round of 64;2017-540-me82-se73;6;31;03:33:00;213;Adrian Mannarino;me82;Yuichi Sugita;se73;3;2;28;22;1;0;9;1;98;150;102;150;41;117;4;5;117;177;103;177;29;98
+2017-540;wimbledon;Round of 64;2017-540-r772-re44;6;20;03:32:00;212;Albert Ramos-Vinolas;r772;Andrey Rublev;re44;3;2;29;25;0;1;16;4;106;164;110;164;34;104;7;4;104;156;98;156;25;106
+2017-540;wimbledon;Round of 64;2017-540-z355-td51;6;9;01:33:00;93;Alexander Zverev;z355;Frances Tiafoe;td51;3;0;18;10;0;0;11;4;55;84;60;84;12;48;11;4;48;76;48;76;12;55
+2017-540;wimbledon;Round of 64;2017-540-bh09-d923;6;28;02:07:00;127;Aljaz Bedene;bh09;Damir Dzumhur;d923;3;1;21;15;0;0;12;2;64;103;66;103;28;64;1;4;64;93;52;93;12;64
+2017-540;wimbledon;Round of 64;2017-540-mc10-ba65;6;1;01:36:00;96;Andy Murray;mc10;Dustin Brown;ba65;3;0;18;7;0;0;9;2;31;66;52;66;16;47;5;4;47;87;47;87;5;31
+2017-540;wimbledon;Round of 64;2017-540-pd31-h996;6;32;01:45:00;105;Benoit Paire;pd31;Pierre-Hugues Herbert;h996;3;0;19;11;1;0;6;6;52;98;68;98;14;50;7;5;50;90;54;90;11;52
+2017-540;wimbledon;Round of 64;2017-540-f401-d632;6;30;00:18:00;18;David Ferrer;f401;Steve Darcis;d632;1;0;3;0;0;0;0;1;6;12;8;12;0;3;0;1;3;10;4;10;1;6
+2017-540;wimbledon;Round of 64;2017-540-tb69-sd32;6;7;02:52:00;172;Dominic Thiem;tb69;Gilles Simon;sd32;3;1;23;17;0;0;17;1;65;112;76;112;31;93;3;2;93;147;89;147;14;65
+2017-540;wimbledon;Round of 64;2017-540-sc56-i186;6;18;03:51:00;231;Dudi Sela;sc56;John Isner;i186;3;2;31;29;2;1;5;2;121;185;137;185;23;126;45;5;126;181;131;181;28;121
+2017-540;wimbledon;Round of 64;2017-540-g858-d683;6;24;02:54:00;174;Ernests Gulbis;g858;Juan Martin del Potro;d683;3;0;19;14;1;0;25;5;60;100;72;100;21;69;7;2;69;112;72;112;11;60
+2017-540;wimbledon;Round of 64;2017-540-f510-v708;6;23;01:57:00;117;Fabio Fognini;f510;Jiri Vesely;v708;3;0;19;12;1;0;11;2;59;87;69;87;27;79;11;2;79;105;65;105;8;59
+2017-540;wimbledon;Round of 64;2017-540-mc65-e831;6;14;02:12:00;132;Gael Monfils;mc65;Kyle Edmund;e831;3;0;19;14;1;0;13;1;73;108;73;108;19;56;5;5;56;94;57;94;18;73
+2017-540;wimbledon;Round of 64;2017-540-ma30-r685;6;15;03:37:00;217;Gilles Muller;ma30;Lukas Rosol;r685;3;2;32;28;0;1;45;13;110;173;126;173;26;119;25;8;119;183;124;183;14;110
+2017-540;wimbledon;Round of 64;2017-540-d875-b837;6;12;01:43:00;103;Grigor Dimitrov;d875;Marcos Baghdatis;b837;3;0;18;6;0;0;9;4;53;83;59;83;11;36;5;4;36;70;35;70;11;53
+2017-540;wimbledon;Round of 64;2017-540-dc58-l503;6;26;03:05:00;185;Jared Donaldson;dc58;Paolo Lorenzi;l503;3;1;25;19;1;1;20;3;80;140;97;140;28;95;7;1;95;136;86;136;12;80
+2017-540;wimbledon;Round of 64;2017-540-j397-pf39;6;13;02:45:00;165;Jerzy Janowicz;j397;Lucas Pouille;pf39;3;1;23;19;2;0;14;2;82;129;94;129;15;76;19;7;76;133;94;133;15;82
+2017-540;wimbledon;Round of 64;2017-540-t786-ba98;6;11;01:55:00;115;Jo-Wilfried Tsonga;t786;Simone Bolelli;ba98;3;0;19;8;0;0;13;2;51;78;59;78;32;66;1;1;66;97;50;97;8;51
+2017-540;wimbledon;Round of 64;2017-540-ke29-mj08;6;25;03:09:00;189;Karen Khachanov;ke29;Thiago Monteiro;mj08;3;1;24;23;2;0;15;5;106;162;109;162;19;83;10;4;83;144;95;144;30;106
+2017-540;wimbledon;Round of 64;2017-540-n552-sc77;6;8;03:15:00;195;Kei Nishikori;n552;Sergiy Stakhovsky;sc77;3;1;25;18;1;1;7;8;93;142;96;142;21;76;8;5;76;138;87;138;24;93
+2017-540;wimbledon;Round of 64;2017-540-a678-sa93;6;27;01:41:00;101;Kevin Anderson;a678;Andreas Seppi;sa93;3;0;19;12;1;0;16;1;53;82;70;82;11;49;10;2;49;79;55;79;6;53
+2017-540;wimbledon;Round of 64;2017-540-c977-mb02;6;6;02:12:00;132;Marin Cilic;c977;Florian Mayer;mb02;3;0;20;15;1;0;31;5;55;93;71;93;25;77;0;4;77;122;70;122;5;55
+2017-540;wimbledon;Round of 64;2017-540-r975-y061;6;5;02:40:00;160;Milos Raonic;r975;Mikhail Youzhny;y061;3;1;23;21;1;0;27;7;73;113;88;113;21;85;2;3;85;134;92;134;8;73
+2017-540;wimbledon;Round of 64;2017-540-z168-k926;6;22;03:05:00;185;Mischa Zverev;z168;Mikhail Kukushkin;k926;3;2;23;19;0;0;14;5;93;120;74;120;42;102;3;1;102;150;84;150;29;93
+2017-540;wimbledon;Round of 64;2017-540-d643-pg32;6;2;01:34:00;94;Novak Djokovic;d643;Adam Pavlasek;pg32;3;0;18;5;0;0;4;1;41;60;47;60;19;45;5;4;45;84;41;84;8;41
+2017-540;wimbledon;Round of 64;2017-540-n409-y124;6;4;02:11:00;131;Rafael Nadal;n409;Donald Young;y124;3;0;19;11;0;0;4;2;55;85;62;85;23;68;8;3;68;104;59;104;11;55
+2017-540;wimbledon;Round of 64;2017-540-bd06-g967;6;17;02:17:00;137;Roberto Bautista Agut;bd06;Peter Gojowczyk;g967;3;1;21;12;0;0;2;3;71;106;69;106;20;58;8;5;58;117;60;117;19;71
+2017-540;wimbledon;Round of 64;2017-540-f324-l987;6;3;01:30:00;90;Roger Federer;f324;Dusan Lajovic;l987;3;0;19;11;1;0;9;2;47;78;63;78;24;56;3;3;56;87;52;87;9;47
+2017-540;wimbledon;Round of 64;2017-540-be54-mm58;6;29;02:50:00;170;Ruben Bemelmans;be54;Daniil Medvedev;mm58;3;2;23;21;0;0;8;3;87;125;85;125;34;99;12;8;99;155;91;155;26;87
+2017-540;wimbledon;Round of 64;2017-540-q927-bg23;6;19;01:51:00;111;Sam Querrey;q927;Nikoloz Basilashvili;bg23;3;1;22;16;0;0;32;0;62;93;73;93;30;73;6;3;73;116;72;116;9;62
+2017-540;wimbledon;Round of 64;2017-540-o513-sm25;6;16;02:44:00;164;Sebastian Ofner;o513;Jack Sock;sm25;3;2;23;21;0;0;15;7;79;132;88;132;22;81;17;8;81;139;93;139;16;79
+2017-540;wimbledon;Round of 64;2017-540-j386-a829;6;21;02:32:00;152;Steve Johnson;j386;Radu Albot;a829;3;1;22;15;0;0;10;2;83;116;84;116;25;77;2;6;77;119;74;119;21;83
+2017-540;wimbledon;Round of 64;2017-540-ba47-h940;6;10;02:37:00;157;Tomas Berdych;ba47;Ryan Harrison;h940;3;1;24;17;0;1;19;1;76;113;86;113;20;79;16;3;79;132;84;132;12;76
+2017-540;wimbledon;Round of 128;2017-540-pg32-e873;7;53;02:05:00;125;Adam Pavlasek;pg32;Ernesto Escobedo;e873;3;1;24;12;0;1;14;5;70;103;76;103;32;73;4;6;73;127;72;127;11;70
+2017-540;wimbledon;Round of 128;2017-540-me82-l397;7;19;02:15:00;135;Adrian Mannarino;me82;Feliciano Lopez;l397;3;1;21;12;0;0;12;2;68;102;67;102;19;49;12;6;49;103;53;103;17;68
+2017-540;wimbledon;Round of 128;2017-540-r772-tc61;7;25;02:25:00;145;Albert Ramos-Vinolas;r772;Jordan Thompson;tc61;3;0;19;14;1;0;3;4;86;115;74;115;16;56;5;1;56;100;61;100;27;86
+2017-540;wimbledon;Round of 128;2017-540-z355-d864;7;10;01:50:00;110;Alexander Zverev;z355;Evgeny Donskoy;d864;3;0;19;13;1;0;15;3;69;101;71;101;15;50;7;1;50;83;54;83;17;69
+2017-540;wimbledon;Round of 128;2017-540-bh09-k336;7;21;04:25:00;265;Aljaz Bedene;bh09;Ivo Karlovic;k336;3;2;34;32;2;2;27;5;130;202;158;202;20;126;44;11;126;197;147;197;22;130
+2017-540;wimbledon;Round of 128;2017-540-sa93-gb93;7;57;01:39:00;99;Andreas Seppi;sa93;Norbert Gombos;gb93;3;1;21;11;0;0;7;2;48;87;61;87;18;51;6;5;51;94;51;94;7;48
+2017-540;wimbledon;Round of 128;2017-540-re44-ta12;7;55;03:28:00;208;Andrey Rublev;re44;Stefano Travaglia;ta12;3;2;27;26;0;1;10;5;107;168;107;168;30;98;20;7;98;172;106;172;31;107
+2017-540;wimbledon;Round of 128;2017-540-mc10-bk92;7;1;01:44:00;104;Andy Murray;mc10;Alexander Bublik;bk92;3;0;18;7;0;0;3;2;43;74;56;74;20;61;15;12;61;95;51;95;10;43
+2017-540;wimbledon;Round of 128;2017-540-pd31-sc73;7;52;02:19:00;139;Benoit Paire;pd31;Rogerio Dutra Silva;sc73;3;1;22;20;1;0;15;6;94;141;87;141;36;92;2;3;92;133;78;133;26;94
+2017-540;wimbledon;Round of 128;2017-540-d923-o376;7;41;01:15:00;75;Damir Dzumhur;d923;Renzo Olivo;o376;3;0;18;3;0;0;1;4;43;68;45;68;20;34;2;3;34;61;22;61;11;43
+2017-540;wimbledon;Round of 128;2017-540-mm58-w367;7;5;02:13:00;133;Daniil Medvedev;mm58;Stan Wawrinka;w367;3;1;21;15;0;0;10;7;71;111;77;111;22;66;1;3;66;108;64;108;11;71
+2017-540;wimbledon;Round of 128;2017-540-f401-g628;7;22;02:54:00;174;David Ferrer;f401;Richard Gasquet;g628;3;1;23;16;0;0;1;5;85;130;89;130;24;71;0;0;71;120;76;120;26;85
+2017-540;wimbledon;Round of 128;2017-540-tb69-pd07;7;8;01:55:00;115;Dominic Thiem;tb69;Vasek Pospisil;pd07;3;0;18;11;0;0;8;2;34;70;56;70;17;62;7;4;62;107;65;107;4;34
+2017-540;wimbledon;Round of 128;2017-540-y124-i165;7;63;02:12:00;132;Donald Young;y124;Denis Istomin;i165;3;1;21;17;0;0;5;5;68;108;77;108;18;69;7;1;69;104;73;104;13;68
+2017-540;wimbledon;Round of 128;2017-540-sc56-g710;7;56;02:33:00;153;Dudi Sela;sc56;Marcel Granollers;g710;3;2;23;18;0;0;0;3;94;141;92;141;16;60;12;4;60;106;68;106;25;94
+2017-540;wimbledon;Round of 128;2017-540-l987-te51;7;48;02:00:00;120;Dusan Lajovic;l987;Stefanos Tsitsipas;te51;3;0;18;12;0;0;4;3;69;100;71;100;10;49;11;2;49;90;57;90;19;69
+2017-540;wimbledon;Round of 128;2017-540-ba65-sh90;7;38;02:00:00;120;Dustin Brown;ba65;Joao Sousa;sh90;3;1;22;20;1;0;15;7;80;112;83;112;16;81;10;2;81;121;86;121;18;80
+2017-540;wimbledon;Round of 128;2017-540-g858-e224;7;44;01:28:00;88;Ernests Gulbis;g858;Victor Estrella Burgos;e224;3;0;18;4;0;0;8;4;44;67;47;67;20;40;0;7;40;68;29;68;6;44
+2017-540;wimbledon;Round of 128;2017-540-f510-t315;7;28;01:33:00;93;Fabio Fognini;f510;Dmitry Tursunov;t315;3;0;18;7;0;0;10;6;42;68;45;68;32;66;0;3;66;89;41;89;10;42
+2017-540;wimbledon;Round of 128;2017-540-mb02-t840;7;49;00:17:00;17;Florian Mayer;mb02;Viktor Troicki;t840;1;0;6;1;0;0;2;0;13;17;16;17;7;11;0;3;11;23;11;23;0;13
+2017-540;wimbledon;Round of 128;2017-540-td51-h756;7;61;02:28:00;148;Frances Tiafoe;td51;Robin Haase;h756;3;1;23;20;1;0;15;4;81;131;86;131;24;88;14;3;88;131;85;131;25;81
+2017-540;wimbledon;Round of 128;2017-540-mc65-bc72;7;15;01:35:00;95;Gael Monfils;mc65;Daniel Brands;bc72;3;0;19;12;0;0;8;1;51;85;68;85;25;73;5;2;73;87;56;87;10;51
+2017-540;wimbledon;Round of 128;2017-540-ma30-f724;7;16;01:56:00;116;Gilles Muller;ma30;Marton Fucsovics;f724;3;0;19;11;0;0;8;2;58;90;64;90;15;50;11;6;50;99;58;99;11;58
+2017-540;wimbledon;Round of 128;2017-540-sd32-j551;7;58;02:14:00;134;Gilles Simon;sd32;Nicolas Jarry;j551;3;0;19;12;1;0;5;4;45;95;67;95;27;75;8;6;75;125;69;125;7;45
+2017-540;wimbledon;Round of 128;2017-540-d875-sm37;7;13;01:50:00;110;Grigor Dimitrov;d875;Diego Schwartzman;sm37;3;0;19;10;1;0;9;10;49;87;60;87;17;48;2;3;48;79;43;79;7;49
+2017-540;wimbledon;Round of 128;2017-540-sm25-gd64;7;17;02:14:00;134;Jack Sock;sm25;Christian Garin;gd64;3;1;23;18;1;0;12;3;61;113;85;113;19;65;6;6;65;115;74;115;11;61
+2017-540;wimbledon;Round of 128;2017-540-dc58-t742;7;40;00:15:00;15;Jared Donaldson;dc58;Janko Tipsarevic;t742;1;0;5;0;0;0;2;0;3;8;8;8;6;10;0;3;10;17;5;17;0;3
+2017-540;wimbledon;Round of 128;2017-540-j397-su55;7;46;02:25:00;145;Jerzy Janowicz;j397;Denis Shapovalov;su55;3;1;22;19;1;0;5;6;75;125;89;125;12;73;20;6;73;113;83;113;9;75
+2017-540;wimbledon;Round of 128;2017-540-v708-me89;7;62;03:24:00;204;Jiri Vesely;v708;Illya Marchenko;me89;3;2;27;19;0;0;5;5;97;148;95;148;22;78;20;6;78;132;81;132;24;97
+2017-540;wimbledon;Round of 128;2017-540-t786-n771;7;12;01:23:00;83;Jo-Wilfried Tsonga;t786;Cameron Norrie;n771;3;0;18;7;0;0;8;1;38;64;49;64;27;56;3;4;56;89;45;89;7;38
+2017-540;wimbledon;Round of 128;2017-540-i186-fb98;7;23;01:31:00;91;John Isner;i186;Taylor Fritz;fb98;3;0;19;13;1;0;25;0;64;83;69;83;12;50;12;1;50;78;57;78;6;64
+2017-540;wimbledon;Round of 128;2017-540-d683-kd46;7;29;03:03:00;183;Juan Martin del Potro;d683;Thanasi Kokkinakis;kd46;3;1;22;19;1;0;17;3;91;125;88;125;14;73;16;5;73;129;84;129;23;91
+2017-540;wimbledon;Round of 128;2017-540-ke29-kb54;7;30;02:34:00;154;Karen Khachanov;ke29;Andrey Kuznetsov;kb54;3;2;22;23;1;0;12;5;81;133;81;133;22;86;11;9;86;134;88;134;24;81
+2017-540;wimbledon;Round of 128;2017-540-n552-cf01;7;9;01:12:00;72;Kei Nishikori;n552;Marco Cecchinato;cf01;3;0;18;4;0;0;8;2;39;59;46;59;23;46;2;5;46;64;27;64;7;39
+2017-540;wimbledon;Round of 128;2017-540-a678-v306;7;31;02:56:00;176;Kevin Anderson;a678;Fernando Verdasco;v306;3;1;22;21;2;0;25;4;97;128;93;128;17;85;6;6;85;139;95;139;19;97
+2017-540;wimbledon;Round of 128;2017-540-e831-w579;7;42;02:03:00;123;Kyle Edmund;e831;Alexander Ward;w579;3;1;22;12;0;0;8;5;48;97;69;97;25;68;3;5;68;103;57;103;6;48
+2017-540;wimbledon;Round of 128;2017-540-pf39-j267;7;14;03:03:00;183;Lucas Pouille;pf39;Malek Jaziri;j267;3;1;25;21;1;1;12;5;73;131;95;131;10;76;9;8;76;157;98;157;12;73
+2017-540;wimbledon;Round of 128;2017-540-r685-l949;7;54;02:02:00;122;Lukas Rosol;r685;Henri Laaksonen;l949;3;1;23;18;0;0;7;8;72;125;88;125;14;70;10;4;70;119;77;119;15;72
+2017-540;wimbledon;Round of 128;2017-540-b837-w503;7;34;01:40:00;100;Marcos Baghdatis;b837;James Ward;w503;3;0;18;11;0;0;17;2;44;78;59;78;16;58;8;3;58;85;58;85;1;44
+2017-540;wimbledon;Round of 128;2017-540-c977-k435;7;7;01:57:00;117;Marin Cilic;c977;Philipp Kohlschreiber;k435;3;0;18;9;0;0;15;1;56;88;62;88;20;59;3;2;59;90;51;90;12;56
+2017-540;wimbledon;Round of 128;2017-540-k926-da81;7;47;02:48:00;168;Mikhail Kukushkin;k926;Taro Daniel;da81;3;1;23;18;1;0;11;0;91;124;87;124;28;82;6;4;82;131;80;131;23;91
+2017-540;wimbledon;Round of 128;2017-540-y061-m873;7;64;02:10:00;130;Mikhail Youzhny;y061;Nicolas Mahut;m873;3;0;19;11;0;0;5;4;75;112;69;112;16;53;4;2;53;90;50;90;24;75
+2017-540;wimbledon;Round of 128;2017-540-r975-sl28;7;6;02:16:00;136;Milos Raonic;r975;Jan-Lennard Struff;sl28;3;0;20;14;2;0;20;4;74;110;80;110;12;56;9;5;56;109;69;109;16;74
+2017-540;wimbledon;Round of 128;2017-540-z168-ta46;7;27;01:24:00;84;Mischa Zverev;z168;Bernard Tomic;ta46;3;0;18;11;0;0;18;3;48;64;56;64;29;78;4;2;78;101;63;101;2;48
+2017-540;wimbledon;Round of 128;2017-540-bg23-b884;7;35;02:18:00;138;Nikoloz Basilashvili;bg23;Carlos Berlocq;b884;3;0;19;11;1;0;2;3;64;100;66;100;21;58;0;3;58;103;59;103;17;64
+2017-540;wimbledon;Round of 128;2017-540-d643-k966;7;2;00:40:00;40;Novak Djokovic;d643;Martin Klizan;k966;2;0;8;3;0;0;7;2;23;33;25;33;9;21;0;2;21;33;17;33;3;23
+2017-540;wimbledon;Round of 128;2017-540-l503-z184;7;32;03:42:00;222;Paolo Lorenzi;l503;Horacio Zeballos;z184;3;1;25;23;2;0;10;4;88;153;100;153;22;82;13;6;82;142;94;142;22;88
+2017-540;wimbledon;Round of 128;2017-540-g967-ca99;7;43;02:17:00;137;Peter Gojowczyk;g967;Marius Copil;ca99;3;1;21;16;1;0;5;4;61;111;76;111;29;82;13;5;82;135;81;135;17;61
+2017-540;wimbledon;Round of 128;2017-540-h996-ke17;7;20;01:05:00;65;Pierre-Hugues Herbert;h996;Nick Kyrgios;ke17;2;0;12;7;0;0;10;1;33;51;40;51;17;38;3;2;38;58;37;58;6;33
+2017-540;wimbledon;Round of 128;2017-540-a829-bf23;7;33;03:32:00;212;Radu Albot;a829;Facundo Bagnis;bf23;3;1;24;22;2;0;4;3;110;154;100;154;38;120;11;6;120;184;111;184;38;110
+2017-540;wimbledon;Round of 128;2017-540-n409-mh30;7;4;01:46:00;106;Rafael Nadal;n409;John Millman;mh30;3;0;18;6;0;0;5;0;47;70;48;70;23;45;5;2;45;79;36;79;11;47
+2017-540;wimbledon;Round of 128;2017-540-bd06-h804;7;18;01:38:00;98;Roberto Bautista Agut;bd06;Andreas Haider-Maurer;h804;3;0;18;6;0;0;6;0;52;72;53;72;18;50;9;6;50;84;43;84;12;52
+2017-540;wimbledon;Round of 128;2017-540-f324-d801;7;3;00:43:00;43;Roger Federer;f324;Alexandr Dolgopolov;d801;2;0;9;3;0;0;10;1;27;36;25;36;10;23;2;4;23;50;25;50;6;27
+2017-540;wimbledon;Round of 128;2017-540-be54-h355;7;36;02:40:00;160;Ruben Bemelmans;be54;Tommy Haas;h355;3;1;22;16;0;0;6;3;92;129;86;129;27;81;8;10;81;143;84;143;30;92
+2017-540;wimbledon;Round of 128;2017-540-h940-cg80;7;45;02:20:00;140;Ryan Harrison;h940;Borna Coric;cg80;3;0;20;16;2;0;16;5;57;110;75;110;19;66;3;5;66;110;72;110;6;57
+2017-540;wimbledon;Round of 128;2017-540-q927-f586;7;24;02:01:00;121;Sam Querrey;q927;Thomas Fabbiano;f586;3;0;20;13;1;0;14;2;60;99;70;99;26;69;3;4;69;116;66;116;14;60
+2017-540;wimbledon;Round of 128;2017-540-o513-bd20;7;51;01:45:00;105;Sebastian Ofner;o513;Thomaz Bellucci;bd20;3;0;18;7;0;0;4;4;52;79;56;79;15;37;3;8;37;89;47;89;13;52
+2017-540;wimbledon;Round of 128;2017-540-sc77-b747;7;59;02:36:00;156;Sergiy Stakhovsky;sc77;Julien Benneteau;b747;3;1;21;17;1;0;17;8;67;129;84;129;18;62;8;6;62;104;67;104;14;67
+2017-540;wimbledon;Round of 128;2017-540-ba98-l575;7;37;02:04:00;124;Simone Bolelli;ba98;Yen-Hsun Lu;l575;3;1;19;16;0;0;5;1;63;93;62;93;23;62;5;5;62;93;56;93;18;63
+2017-540;wimbledon;Round of 128;2017-540-d632-be90;7;39;03:06:00;186;Steve Darcis;d632;Ricardas Berankis;be90;3;2;24;22;0;0;10;1;88;145;89;145;38;98;3;6;98;148;89;148;31;88
+2017-540;wimbledon;Round of 128;2017-540-j386-kc29;7;26;01:57:00;117;Steve Johnson;j386;Nicolas Kicker;kc29;3;0;19;12;0;0;12;2;63;100;72;100;22;59;3;0;59;86;57;86;17;63
+2017-540;wimbledon;Round of 128;2017-540-mj08-w630;7;50;03:06:00;186;Thiago Monteiro;mj08;Andrew Whittington;w630;3;1;24;21;2;0;8;1;103;152;107;152;14;78;15;8;78;138;97;138;21;103
+2017-540;wimbledon;Round of 128;2017-540-ba47-ca12;7;11;02:22:00;142;Tomas Berdych;ba47;Jeremy Chardy;ca12;3;1;22;19;1;0;12;3;64;111;86;111;13;77;17;2;77;107;77;107;8;64
+2017-540;wimbledon;Round of 128;2017-540-se73-k964;7;60;02:07:00;127;Yuichi Sugita;se73;Brydan Klein;k964;3;0;19;9;1;0;3;2;68;98;68;98;14;53;6;6;53;90;52;90;15;68
+2017-540;wimbledon;3rd Round Qualifying;2017-540-w579-g681;8;15;02:58:00;178;Alexander Ward;w579;Teymuraz Gabashvili;g681;3;1;25;18;1;1;10;2;88;129;98;129;20;90;5;4;90;133;90;133;18;88
+2017-540;wimbledon;3rd Round Qualifying;2017-540-w630-kb09;8;16;02:59:00;179;Andrew Whittington;w630;Denis Kudla;kb09;3;2;26;24;2;0;25;6;96;151;106;151;22;82;7;5;82;140;95;140;20;96
+2017-540;wimbledon;3rd Round Qualifying;2017-540-re44-m850;8;2;02:36:00;156;Andrey Rublev;re44;Paul-Henri Mathieu;m850;3;1;20;20;1;0;14;7;71;120;79;120;23;88;19;4;88;134;87;134;15;71
+2017-540;wimbledon;3rd Round Qualifying;2017-540-gd64-sj55;8;11;03:39:00;219;Christian Garin;gd64;John-Patrick Smith;sj55;2;2;21;22;1;0;10;4;120;182;135;182;40;155;20;3;155;209;143;209;21;120
+2017-540;wimbledon;3rd Round Qualifying;2017-540-bc72-bk92;8;8;02:46:00;166;Daniel Brands;bc72;Alexander Bublik;bk92;2;2;19;17;0;0;8;2;118;163;122;163;23;116;25;12;116;173;116;173;29;118
+2017-540;wimbledon;3rd Round Qualifying;2017-540-me89-w521;8;4;01:57:00;117;Illya Marchenko;me89;Marcus Willis;w521;3;0;19;11;1;0;20;2;70;92;68;92;12;55;8;8;55;90;54;90;15;70
+2017-540;wimbledon;3rd Round Qualifying;2017-540-r685-kc86;8;3;02:45:00;165;Lukas Rosol;r685;Darian King;kc86;3;1;21;17;0;0;4;7;79;127;78;127;34;90;8;4;90;152;85;152;23;79
+2017-540;wimbledon;3rd Round Qualifying;2017-540-j551-n674;8;12;02:13:00;133;Nicolas Jarry;j551;Dennis Novikov;n674;3;1;22;17;0;0;20;3;78;113;83;113;18;80;21;5;80;127;82;127;17;78
+2017-540;wimbledon;3rd Round Qualifying;2017-540-g967-l797;8;1;01:27:00;87;Peter Gojowczyk;g967;Lukas Lacko;l797;3;0;19;10;0;0;10;1;44;68;58;68;18;62;11;6;62;103;61;103;0;44
+2017-540;wimbledon;3rd Round Qualifying;2017-540-be54-mi43;8;6;01:49:00;109;Ruben Bemelmans;be54;Gerald Melzer;mi43;3;0;19;12;0;0;8;2;51;68;55;68;35;82;4;3;82;113;62;113;7;51
+2017-540;wimbledon;3rd Round Qualifying;2017-540-o513-ci14;8;13;03:12:00;192;Sebastian Ofner;o513;Jay Clarke;ci14;3;2;26;22;0;1;11;0;106;147;100;147;18;82;13;10;82;172;106;172;26;106
+2017-540;wimbledon;3rd Round Qualifying;2017-540-sc77-i230;8;5;04:32:00;272;Sergiy Stakhovsky;sc77;Tatsuma Ito;i230;3;2;32;27;0;2;40;3;112;185;129;185;35;119;11;8;119;180;116;180;20;112
+2017-540;wimbledon;3rd Round Qualifying;2017-540-ba98-s483;8;10;01:30:00;90;Simone Bolelli;ba98;Pedro Sousa;s483;3;0;18;7;0;0;7;1;52;70;53;70;25;47;4;3;47;73;36;73;10;52
+2017-540;wimbledon;3rd Round Qualifying;2017-540-ta12-pb22;8;7;03:16:00;196;Stefano Travaglia;ta12;Peter Polansky;pb22;3;2;25;24;0;0;14;6;91;152;90;152;31;104;11;3;104;167;100;167;26;91
+2017-540;wimbledon;3rd Round Qualifying;2017-540-te51-da86;8;14;03:06:00;186;Stefanos Tsitsipas;te51;Joris De Loore;da86;3;2;25;23;0;0;18;2;79;122;92;122;33;113;17;6;113;159;102;159;15;79
+2017-540;wimbledon;3rd Round Qualifying;2017-540-fb98-me31;8;9;01:34:00;94;Taylor Fritz;fb98;Vincent Millot;me31;3;0;19;12;0;0;19;0;59;83;65;83;17;54;5;1;54;80;53;80;8;59
+2017-540;wimbledon;2nd Round Qualifying;2017-540-bk92-mm79;9;11;01:04:00;64;Alexander Bublik;bk92;Blake Mott;mm79;2;0;13;9;0;0;11;2;37;64;45;64;19;45;1;2;45;62;38;62;8;37
+2017-540;wimbledon;2nd Round Qualifying;2017-540-w579-sc47;9;4;01:02:00;62;Alexander Ward;w579;Go Soeda;sc47;2;0;12;4;0;0;4;1;25;44;34;44;17;41;1;1;41;57;29;57;3;25
+2017-540;wimbledon;2nd Round Qualifying;2017-540-w630-sf62;9;31;01:51:00;111;Andrew Whittington;w630;Tim Smyczek;sf62;2;1;18;15;0;1;12;3;69;95;72;95;14;62;4;1;62;92;66;92;13;69
+2017-540;wimbledon;2nd Round Qualifying;2017-540-re44-mg47;9;3;01:49:00;109;Andrey Rublev;re44;James McGee;mg47;2;1;16;11;0;0;5;5;66;94;61;94;23;58;12;3;58;100;59;100;18;66
+2017-540;wimbledon;2nd Round Qualifying;2017-540-gd64-f811;9;14;02:10:00;130;Christian Garin;gd64;Bjorn Fratangelo;f811;2;1;19;16;0;1;14;11;87;130;81;130;22;70;8;4;70;107;68;107;22;87
+2017-540;wimbledon;2nd Round Qualifying;2017-540-bc72-hb48;9;20;01:07:00;67;Daniel Brands;bc72;Calvin Hemery ;hb48;2;0;12;8;0;0;5;2;39;58;40;58;12;37;3;3;37;58;35;58;9;39
+2017-540;wimbledon;2nd Round Qualifying;2017-540-kc86-ka98;9;5;01:35:00;95;Darian King;kc86;Bradley Klahn;ka98;2;1;15;11;0;0;2;2;51;75;52;75;19;60;3;3;60;89;53;89;14;51
+2017-540;wimbledon;2nd Round Qualifying;2017-540-kb09-bh76;9;25;00:40:00;40;Denis Kudla;kb09;Riccardo Bellotti;bh76;2;0;12;2;0;0;6;0;21;37;29;37;11;24;3;2;24;43;18;43;2;21
+2017-540;wimbledon;2nd Round Qualifying;2017-540-n674-ke64;9;19;01:10:00;70;Dennis Novikov;n674;Stefan Kozlov;ke64;2;0;13;7;0;0;3;2;35;63;45;63;10;41;1;2;41;59;36;59;5;35
+2017-540;wimbledon;2nd Round Qualifying;2017-540-mi43-c813;9;17;01:17:00;77;Gerald Melzer;mi43;Ti Chen;c813;2;0;13;7;0;0;6;1;43;61;45;61;14;41;5;2;41;60;35;60;11;43
+2017-540;wimbledon;2nd Round Qualifying;2017-540-me89-b896;9;6;02:24:00;144;Illya Marchenko;me89;Benjamin Becker;b896;2;1;16;16;1;0;11;6;66;105;67;105;19;70;15;6;70;115;71;115;20;66
+2017-540;wimbledon;2nd Round Qualifying;2017-540-ci14-y218;9;21;01:31:00;91;Jay Clarke;ci14;Elias Ymer;y218;2;0;13;10;1;0;5;5;38;70;47;70;9;41;7;1;41;79;49;79;6;38
+2017-540;wimbledon;2nd Round Qualifying;2017-540-sj55-mk66;9;28;01:54:00;114;John-Patrick Smith;sj55;Mackenzie McDonald;mk66;2;1;18;14;0;1;8;2;74;107;77;107;16;57;3;1;57;85;60;85;16;74
+2017-540;wimbledon;2nd Round Qualifying;2017-540-da86-kc04;9;22;01:49:00;109;Joris De Loore;da86;Jozef Kovalik;kc04;2;1;16;14;0;0;20;1;53;72;58;72;17;61;1;5;61;90;62;90;8;53
+2017-540;wimbledon;2nd Round Qualifying;2017-540-l797-a622;9;2;01:23:00;83;Lukas Lacko;l797;Andrea Arnaboldi;a622;2;0;13;10;1;0;12;3;47;75;55;75;8;39;4;3;39;64;44;64;7;47
+2017-540;wimbledon;2nd Round Qualifying;2017-540-r685-r548;9;27;01:20:00;80;Lukas Rosol;r685;Rajeev Ram;r548;2;1;13;10;0;0;5;3;46;75;46;75;24;58;6;3;58;79;45;79;15;46
+2017-540;wimbledon;2nd Round Qualifying;2017-540-w521-bi23;9;32;02:07:00;127;Marcus Willis;w521;Liam Broady;bi23;2;1;19;15;1;1;17;7;48;96;70;96;18;63;11;1;63;111;72;111;5;48
+2017-540;wimbledon;2nd Round Qualifying;2017-540-j551-k776;9;10;02:30:00;150;Nicolas Jarry;j551;Konstantin Kravchuk;k776;2;1;22;20;0;0;9;0;89;121;82;121;17;76;12;1;76;116;83;116;32;89
+2017-540;wimbledon;2nd Round Qualifying;2017-540-m850-g585;9;12;01:03:00;63;Paul-Henri Mathieu;m850;Maximo Gonzalez;g585;2;0;12;5;0;0;5;1;35;54;40;54;13;33;1;0;33;46;26;46;7;35
+2017-540;wimbledon;2nd Round Qualifying;2017-540-s483-d916;9;29;01:42:00;102;Pedro Sousa;s483;Steven Diez;d916;2;1;15;13;0;0;3;4;61;92;53;92;17;48;1;1;48;76;46;76;25;61
+2017-540;wimbledon;2nd Round Qualifying;2017-540-g967-mm66;9;15;01:21:00;81;Peter Gojowczyk;g967;Nikola Milojevic;mm66;2;0;13;9;1;0;15;1;44;83;54;83;14;51;6;5;51;78;48;78;8;44
+2017-540;wimbledon;2nd Round Qualifying;2017-540-pb22-n503;9;9;01:10:00;70;Peter Polansky;pb22;Aleksandr Nedovyesov;n503;2;0;13;8;0;0;3;1;41;60;43;60;15;45;5;1;45;61;34;61;9;41
+2017-540;wimbledon;2nd Round Qualifying;2017-540-be54-bk19;9;8;01:45:00;105;Ruben Bemelmans;be54;Mathias Bourgue;bk19;2;1;15;13;0;0;3;3;63;90;62;90;20;66;7;3;66;93;60;93;16;63
+2017-540;wimbledon;2nd Round Qualifying;2017-540-o513-z246;9;26;01:15:00;75;Sebastian Ofner;o513;Miljan Zekic;z246;2;0;12;7;0;0;2;0;47;62;40;62;13;38;7;2;38;63;32;63;18;47
+2017-540;wimbledon;2nd Round Qualifying;2017-540-sc77-q941;9;7;01:15:00;75;Sergiy Stakhovsky;sc77;Roberto Quiroz;q941;2;0;13;8;0;0;8;4;39;65;48;65;17;44;2;1;44;66;40;66;5;39
+2017-540;wimbledon;2nd Round Qualifying;2017-540-ba98-mb53;9;18;01:30:00;90;Simone Bolelli;ba98;Adrian Menendez-Maceiras;mb53;2;0;12;8;0;0;8;0;39;55;40;55;21;52;4;1;52;77;43;77;4;39
+2017-540;wimbledon;2nd Round Qualifying;2017-540-ta12-hb64;9;16;01:12:00;72;Stefano Travaglia;ta12;Quentin Halys;hb64;2;0;13;5;0;0;2;1;39;65;42;65;13;31;4;5;31;48;22;48;10;39
+2017-540;wimbledon;2nd Round Qualifying;2017-540-te51-h997;9;30;01:44:00;104;Stefanos Tsitsipas;te51;Yannick Hanfmann;h997;2;0;14;12;2;0;4;2;47;77;56;77;18;60;3;3;60;94;60;94;7;47
+2017-540;wimbledon;2nd Round Qualifying;2017-540-i230-dh58;9;24;01:28:00;88;Tatsuma Ito;i230;Alex de Minaur;dh58;2;0;12;6;0;0;3;4;39;68;42;68;17;40;7;3;40;68;36;68;12;39
+2017-540;wimbledon;2nd Round Qualifying;2017-540-fb98-g892;9;13;00:45:00;45;Taylor Fritz;fb98;Alejandro Gonzalez;g892;2;0;12;4;0;0;9;1;27;39;32;39;10;29;3;1;29;49;26;49;4;27
+2017-540;wimbledon;2nd Round Qualifying;2017-540-g681-z189;9;23;01:12:00;72;Teymuraz Gabashvili;g681;Grega Zemlja;z189;2;0;13;8;0;0;3;1;35;60;40;60;9;35;8;4;35;70;39;70;9;35
+2017-540;wimbledon;2nd Round Qualifying;2017-540-me31-sl08;9;1;01:37:00;97;Vincent Millot;me31;Tennys Sandgren;sl08;2;0;13;8;1;0;3;2;53;84;56;84;13;52;11;0;52;76;48;76;14;53
+2017-540;wimbledon;1st Round Qualifying;2017-540-mb53-k839;10;28;02:21:00;141;Adrian Menendez-Maceiras;mb53;Tobias Kamke;k839;2;1;15;13;0;0;4;1;64;103;61;103;17;50;3;4;50;89;54;89;24;64
+2017-540;wimbledon;1st Round Qualifying;2017-540-g892-sn77;10;44;01:55:00;115;Alejandro Gonzalez;g892;Vaclav Safranek;sn77;2;1;18;10;0;1;6;4;48;77;50;77;31;73;6;5;73;120;62;120;14;48
+2017-540;wimbledon;1st Round Qualifying;2017-540-n503-pc33;10;56;00:17:00;17;Aleksandr Nedovyesov;n503;Neil Pauffley;pc33;1;0;5;0;0;0;1;0;11;12;12;12;8;9;0;0;9;10;2;10;0;11
+2017-540;wimbledon;1st Round Qualifying;2017-540-dh58-m762;10;18;02:04:00;124;Alex de Minaur;dh58;Jurgen Melzer;m762;2;1;14;12;0;0;5;8;54;102;61;102;20;61;9;6;61;96;56;96;20;54
+2017-540;wimbledon;1st Round Qualifying;2017-540-bk92-g676;10;19;00:39:00;39;Alexander Bublik;bk92;Daniel Gimeno-Traver;g676;2;0;12;3;0;0;7;4;25;40;30;40;16;24;0;2;24;35;11;35;5;25
+2017-540;wimbledon;1st Round Qualifying;2017-540-w579-gc89;10;63;01:36:00;96;Alexander Ward;w579;Egor Gerasimov;gc89;2;1;14;14;0;0;6;2;63;94;59;94;13;56;3;2;56;81;53;81;15;63
+2017-540;wimbledon;1st Round Qualifying;2017-540-a622-sf41;10;33;01:49:00;109;Andrea Arnaboldi;a622;Aldin Setkic;sf41;2;1;16;13;0;0;8;1;47;81;58;81;13;52;5;4;52;81;52;81;12;47
+2017-540;wimbledon;1st Round Qualifying;2017-540-w630-r612;10;24;02:05:00;125;Andrew Whittington;w630;Stephane Robert;r612;2;1;16;15;0;0;18;3;64;113;67;113;12;56;3;4;56;96;57;96;19;64
+2017-540;wimbledon;1st Round Qualifying;2017-540-re44-d985;10;5;00:58:00;58;Andrey Rublev;re44;Joao Domingues;d985;2;0;12;6;0;0;9;3;41;58;39;58;14;37;1;1;37;57;33;57;10;41
+2017-540;wimbledon;1st Round Qualifying;2017-540-b896-u134;10;34;01:31:00;91;Benjamin Becker;b896;Yasutaka Uchiyama;u134;2;1;15;13;0;0;11;2;45;72;53;72;14;51;11;2;51;80;55;80;8;45
+2017-540;wimbledon;1st Round Qualifying;2017-540-f811-mn20;10;22;00:27:00;27;Bjorn Fratangelo;f811;Daniel Masur;mn20;1;0;6;2;0;0;2;2;13;28;19;28;12;20;2;0;20;23;11;23;3;13
+2017-540;wimbledon;1st Round Qualifying;2017-540-mm79-j400;10;55;01:14:00;74;Blake Mott;mm79;Jeremy Jahn;j400;2;0;12;8;0;0;5;4;41;62;41;62;13;41;5;3;41;63;37;63;8;41
+2017-540;wimbledon;1st Round Qualifying;2017-540-ka98-kf17;10;49;01:18:00;78;Bradley Klahn;ka98;Soon Woo Kwon;kf17;2;0;12;7;0;0;6;1;45;69;47;69;11;37;5;8;37;64;37;64;11;45
+2017-540;wimbledon;1st Round Qualifying;2017-540-hb48-v495;10;10;03:08:00;188;Calvin Hemery ;hb48;Luca Vanni;v495;1;1;9;12;1;0;13;7;105;156;94;156;23;81;15;6;81;146;93;146;33;105
+2017-540;wimbledon;1st Round Qualifying;2017-540-gd64-q948;10;43;01:12:00;72;Christian Garin;gd64;Gianluigi Quinzi;q948;2;0;12;7;0;0;10;3;39;66;40;66;20;42;2;2;42;64;34;64;14;39
+2017-540;wimbledon;1st Round Qualifying;2017-540-bc72-o449;10;37;01:00:00;60;Daniel Brands;bc72;Oscar Otte;o449;2;0;12;8;0;0;8;2;31;51;40;51;7;34;5;9;34;58;38;58;3;31
+2017-540;wimbledon;1st Round Qualifying;2017-540-kc86-ga79;10;8;01:04:00;64;Darian King;kc86;Lorenzo Giustino;ga79;2;0;12;4;0;0;2;1;21;43;28;43;17;33;2;2;33;54;23;54;5;21
+2017-540;wimbledon;1st Round Qualifying;2017-540-kb09-sq80;10;50;02:45:00;165;Denis Kudla;kb09;Akira Santillan;sq80;1;1;12;12;0;0;14;4;92;151;103;151;13;72;18;3;72;131;92;131;23;92
+2017-540;wimbledon;1st Round Qualifying;2017-540-n674-w571;10;57;01:15:00;75;Dennis Novikov;n674;Di Wu;w571;2;0;13;10;1;0;14;2;35;62;48;62;14;48;6;1;48;79;48;79;5;35
+2017-540;wimbledon;1st Round Qualifying;2017-540-y218-le01;10;30;01:03:00;63;Elias Ymer;y218;Duckhee Lee;le01;2;0;12;5;0;0;8;2;33;56;38;56;10;25;0;3;25;55;30;55;6;33
+2017-540;wimbledon;1st Round Qualifying;2017-540-mi43-ce77;10;27;00:49:00;49;Gerald Melzer;mi43;Federico Coria;ce77;2;0;12;3;0;0;2;2;35;45;30;45;20;41;3;2;41;53;23;53;9;35
+2017-540;wimbledon;1st Round Qualifying;2017-540-sc47-ca33;10;6;02:40:00;160;Go Soeda;sc47;Inigo Cervantes;ca33;2;1;19;18;0;0;2;2;76;131;81;131;15;67;23;5;67;112;71;112;22;76
+2017-540;wimbledon;1st Round Qualifying;2017-540-z189-i305;10;64;02:11:00;131;Grega Zemlja;z189;Ilya Ivashka;i305;2;1;16;16;1;0;6;3;80;119;75;119;9;55;9;1;55;98;69;98;27;80
+2017-540;wimbledon;1st Round Qualifying;2017-540-me89-kb05;10;9;01:29:00;89;Illya Marchenko;me89;Filip Krajinovic;kb05;2;0;14;11;1;0;13;1;39;64;55;64;13;51;6;0;51;82;55;82;3;39
+2017-540;wimbledon;1st Round Qualifying;2017-540-mg47-r383;10;52;02:34:00;154;James McGee;mg47;Ruben Ramirez Hidalgo;r383;2;1;18;14;0;1;13;7;63;120;70;120;23;63;3;8;63;112;63;112;16;63
+2017-540;wimbledon;1st Round Qualifying;2017-540-ci14-a853;10;40;01:11:00;71;Jay Clarke;ci14;Marcelo Arevalo;a853;2;0;12;7;0;0;6;7;25;66;41;66;12;30;3;4;30;51;27;51;8;25
+2017-540;wimbledon;1st Round Qualifying;2017-540-sj55-db63;10;13;02:18:00;138;John-Patrick Smith;sj55;Laslo Djere;db63;2;1;18;11;0;1;4;0;66;97;64;97;20;58;4;2;58;104;60;104;12;66
+2017-540;wimbledon;1st Round Qualifying;2017-540-da86-bd80;10;41;01:45:00;105;Joris De Loore;da86;Attila Balazs;bd80;2;0;14;11;1;0;9;2;62;83;59;83;13;46;2;3;46;79;54;79;15;62
+2017-540;wimbledon;1st Round Qualifying;2017-540-kc04-cf59;10;29;01:34:00;94;Jozef Kovalik;kc04;Roberto Carballes Baena;cf59;2;0;13;10;1;0;3;1;42;67;51;67;16;55;8;1;55;74;49;74;7;42
+2017-540;wimbledon;1st Round Qualifying;2017-540-k776-da67;10;16;01:08:00;68;Konstantin Kravchuk;k776;Matteo Donati;da67;2;0;13;8;1;0;9;0;39;52;41;52;13;37;2;2;37;65;39;65;8;39
+2017-540;wimbledon;1st Round Qualifying;2017-540-bi23-d499;10;38;00:55:00;55;Liam Broady;bi23;Frank Dancevic;d499;2;0;12;5;0;0;2;0;27;50;33;50;11;30;4;3;30;41;23;41;8;27
+2017-540;wimbledon;1st Round Qualifying;2017-540-l797-mi01;10;4;01:04:00;64;Lukas Lacko;l797;Hiroki Moriya;mi01;2;0;12;6;0;0;7;2;25;52;39;52;11;31;0;1;31;56;33;56;3;25
+2017-540;wimbledon;1st Round Qualifying;2017-540-r685-j380;10;60;01:33:00;93;Lukas Rosol;r685;Jason Jung;j380;2;0;14;12;2;0;16;2;49;79;60;79;17;62;4;0;62;89;61;89;9;49
+2017-540;wimbledon;1st Round Qualifying;2017-540-mk66-cb14;10;51;01:11:00;71;Mackenzie McDonald;mk66;Daniel Cox;cb14;2;0;13;6;0;0;0;1;37;55;39;55;11;27;3;4;27;53;28;53;8;37
+2017-540;wimbledon;1st Round Qualifying;2017-540-w521-mf35;10;31;01:13:00;73;Marcus Willis;w521;Andrej Martin;mf35;2;0;14;10;0;0;9;5;45;68;50;68;7;36;4;1;36;59;42;59;10;45
+2017-540;wimbledon;1st Round Qualifying;2017-540-bk19-kc12;10;36;01:21:00;81;Mathias Bourgue;bk19;Mitchell Krueger;kc12;2;0;12;7;0;0;7;1;44;59;41;59;12;40;4;3;40;63;37;63;11;44
+2017-540;wimbledon;1st Round Qualifying;2017-540-g585-mi33;10;45;01:02:00;62;Maximo Gonzalez;g585;Petr Michnev;mi33;2;0;12;4;0;0;3;1;31;47;34;47;10;32;4;5;32;57;28;57;6;31
+2017-540;wimbledon;1st Round Qualifying;2017-540-z246-mn13;10;14;01:25:00;85;Miljan Zekic;z246;Maximilian Marterer;mn13;2;0;13;9;1;0;6;1;60;86;58;86;6;32;3;0;32;52;41;52;14;60
+2017-540;wimbledon;1st Round Qualifying;2017-540-j551-gd08;10;48;00:49:00;49;Nicolas Jarry;j551;Lloyd Glasspool;gd08;2;0;12;4;0;0;5;2;26;41;30;41;12;26;6;1;26;48;22;48;3;26
+2017-540;wimbledon;1st Round Qualifying;2017-540-mm66-la93;10;54;01:05:00;65;Nikola Milojevic;mm66;Enrique Lopez-Perez;la93;2;0;12;7;0;0;4;6;34;55;42;55;8;32;5;3;32;60;38;60;5;34
+2017-540;wimbledon;1st Round Qualifying;2017-540-m850-ra82;10;20;01:30:00;90;Paul-Henri Mathieu;m850;Yannik Reuter;ra82;2;0;13;8;1;0;17;0;42;63;48;63;14;42;1;5;42;77;46;77;6;42
+2017-540;wimbledon;1st Round Qualifying;2017-540-s483-g983;10;1;01:30:00;90;Pedro Sousa;s483;Alessandro Giannessi;g983;2;1;16;13;0;0;8;1;60;82;61;82;19;68;5;5;68;104;67;104;14;60
+2017-540;wimbledon;1st Round Qualifying;2017-540-g967-be67;10;23;00:48:00;48;Peter Gojowczyk;g967;Mirza Basic;be67;2;0;12;3;0;0;4;0;27;45;29;45;12;22;2;4;22;48;20;48;5;27
+2017-540;wimbledon;1st Round Qualifying;2017-540-pb22-ta29;10;15;01:28:00;88;Peter Polansky;pb22;Marco Trungelliti;ta29;2;0;13;8;1;0;4;1;40;67;47;67;8;34;3;3;34;71;41;71;9;40
+2017-540;wimbledon;1st Round Qualifying;2017-540-hb64-sy31;10;25;01:16:00;76;Quentin Halys;hb64;Ryan James Storrie;sy31;2;0;13;9;0;0;6;3;38;68;46;68;14;42;2;1;42;62;38;62;8;38
+2017-540;wimbledon;1st Round Qualifying;2017-540-r548-o522;10;17;01:33:00;93;Rajeev Ram;r548;Reilly Opelka;o522;2;0;14;12;2;0;8;2;65;91;65;91;12;49;16;3;49;76;56;76;15;65
+2017-540;wimbledon;1st Round Qualifying;2017-540-bh76-k834;10;7;00:42:00;42;Riccardo Bellotti;bh76;Blaz Kavcic;k834;2;0;9;1;0;0;2;1;22;34;23;34;12;25;3;0;25;36;14;36;7;22
+2017-540;wimbledon;1st Round Qualifying;2017-540-q941-ca71;10;59;01:51:00;111;Roberto Quiroz;q941;Edward Corrie;ca71;2;1;16;10;0;0;6;6;56;94;55;94;19;56;2;4;56;92;48;92;16;56
+2017-540;wimbledon;1st Round Qualifying;2017-540-be54-lc11;10;12;01:37:00;97;Ruben Bemelmans;be54;Tristan Lamasine;lc11;2;1;15;10;0;0;2;3;60;80;49;80;22;56;6;3;56;85;47;85;21;60
+2017-540;wimbledon;1st Round Qualifying;2017-540-o513-cg33;10;58;02:36:00;156;Sebastian Ofner;o513;Kimmer Coppejans;cg33;2;1;20;20;1;0;14;6;82;131;88;131;18;84;9;5;84;128;87;128;19;82
+2017-540;wimbledon;1st Round Qualifying;2017-540-sc77-d750;10;11;01:00:00;60;Sergiy Stakhovsky;sc77;Kenny De Schepper;d750;2;0;12;7;0;0;10;4;24;52;39;52;10;37;6;2;37;50;32;50;2;24
+2017-540;wimbledon;1st Round Qualifying;2017-540-ba98-g940;10;35;02:30:00;150;Simone Bolelli;ba98;Sam Groth;g940;2;1;20;21;1;0;3;1;84;119;87;119;14;74;30;11;74;120;85;120;22;84
+2017-540;wimbledon;1st Round Qualifying;2017-540-ke64-pg94;10;32;01:29:00;89;Stefan Kozlov;ke64;Marc Polmans;pg94;2;0;13;9;0;0;3;3;48;75;44;75;23;47;1;0;47;68;37;68;15;48
+2017-540;wimbledon;1st Round Qualifying;2017-540-ta12-ce25;10;62;01:30:00;90;Stefano Travaglia;ta12;Salvatore Caruso;ce25;2;0;13;8;0;0;5;2;33;66;44;66;15;42;4;2;42;73;41;73;8;33
+2017-540;wimbledon;1st Round Qualifying;2017-540-te51-g725;10;2;01:37:00;97;Stefanos Tsitsipas;te51;Santiago Giraldo;g725;2;1;14;13;0;0;9;0;49;84;57;84;12;50;0;0;50;74;52;74;9;49
+2017-540;wimbledon;1st Round Qualifying;2017-540-d916-sj22;10;42;01:24:00;84;Steven Diez;d916;Gleb Sakharov;sj22;2;0;12;8;0;0;2;2;42;56;41;56;13;41;5;3;41;65;41;65;9;42
+2017-540;wimbledon;1st Round Qualifying;2017-540-i230-ph42;10;47;01:06:00;66;Tatsuma Ito;i230;Matija Pecotic;ph42;2;0;12;4;0;0;6;2;41;58;39;58;10;31;2;2;31;58;30;58;11;41
+2017-540;wimbledon;1st Round Qualifying;2017-540-fb98-c582;10;21;01:38:00;98;Taylor Fritz;fb98;Marco Chiudinelli;c582;2;1;17;11;0;0;17;3;44;81;55;81;19;54;4;1;54;84;50;84;7;44
+2017-540;wimbledon;1st Round Qualifying;2017-540-sl08-mp01;10;3;01:22:00;82;Tennys Sandgren;sl08;Michael Mmoh;mp01;2;0;13;8;0;0;8;0;41;58;45;58;12;38;6;5;38;67;40;67;9;41
+2017-540;wimbledon;1st Round Qualifying;2017-540-g681-sk67;10;26;01:30:00;90;Teymuraz Gabashvili;g681;Jan Satral;sk67;2;0;14;11;1;0;6;1;42;73;55;73;10;47;5;3;47;74;53;74;9;42
+2017-540;wimbledon;1st Round Qualifying;2017-540-c813-o408;10;39;01:55:00;115;Ti Chen;c813;Ricardo Ojeda Lara;o408;2;1;16;14;1;0;11;2;52;83;61;83;15;59;5;2;59;87;62;87;10;52
+2017-540;wimbledon;1st Round Qualifying;2017-540-sf62-mh16;10;61;01:32:00;92;Tim Smyczek;sf62;Yannick Maden;mh16;2;0;13;8;1;0;8;5;43;87;53;87;15;39;4;4;39;65;36;65;9;43
+2017-540;wimbledon;1st Round Qualifying;2017-540-me31-n679;10;53;02:04:00;124;Vincent Millot;me31;Stefano Napolitano;n679;2;1;16;14;0;0;3;3;55;96;65;96;13;52;11;2;52;95;60;95;15;55
+2017-540;wimbledon;1st Round Qualifying;2017-540-h997-gb53;10;46;01:25:00;85;Yannick Hanfmann;h997;Federico Gaio;gb53;2;0;12;7;0;0;13;1;35;56;39;56;19;57;6;5;57;98;54;98;8;35
