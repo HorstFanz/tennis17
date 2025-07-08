@@ -1,0 +1,8 @@
+# ignore everything
+*
+
+# except the following files
+!.gitignore
+!TermPaper.qmd
+!TermPaper.html
+!TermPaper_files/
