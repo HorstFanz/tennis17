@@ -72,10 +72,35 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </head>
 
-<body class="fullcontent">
+<body>
 
 <div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
-
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#tennis-data-set" id="toc-tennis-data-set" class="nav-link active" data-scroll-target="#tennis-data-set">Tennis Data Set</a></li>
+  <li><a href="#describing-the-data" id="toc-describing-the-data" class="nav-link" data-scroll-target="#describing-the-data">Describing the Data</a>
+  <ul class="collapse">
+  <li><a href="#structure-of-the-data-set" id="toc-structure-of-the-data-set" class="nav-link" data-scroll-target="#structure-of-the-data-set">Structure of the Data Set</a></li>
+  <li><a href="#audience-and-research-questions-optional" id="toc-audience-and-research-questions-optional" class="nav-link" data-scroll-target="#audience-and-research-questions-optional">Audience and Research Questions (optional)</a></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a></li>
+  </ul></li>
+  <li><a href="#statistical-analysis" id="toc-statistical-analysis" class="nav-link" data-scroll-target="#statistical-analysis">Statistical Analysis</a>
+  <ul class="collapse">
+  <li><a href="#correlation" id="toc-correlation" class="nav-link" data-scroll-target="#correlation">Correlation</a></li>
+  <li><a href="#regression-model" id="toc-regression-model" class="nav-link" data-scroll-target="#regression-model">Regression Model</a></li>
+  <li><a href="#hypothesis-testing" id="toc-hypothesis-testing" class="nav-link" data-scroll-target="#hypothesis-testing">Hypothesis testing</a></li>
+  </ul></li>
+  <li><a href="#additional-remarks" id="toc-additional-remarks" class="nav-link" data-scroll-target="#additional-remarks">Additional Remarks</a>
+  <ul class="collapse">
+  <li><a href="#what-could-have-also-been-covered" id="toc-what-could-have-also-been-covered" class="nav-link" data-scroll-target="#what-could-have-also-been-covered">What could have also been covered</a></li>
+  <li><a href="#limitations" id="toc-limitations" class="nav-link" data-scroll-target="#limitations">Limitations</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</div>
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
@@ -105,20 +130,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="tennis-data-set" class="level1">
 <h1>Tennis Data Set</h1>
+<p>Introduction</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<section id="describing-the-data" class="level2">
-<h2 class="anchored" data-anchor-id="describing-the-data">Describing the Data</h2>
-<section id="structure-of-the-data-set" class="level3">
-<h3 class="anchored" data-anchor-id="structure-of-the-data-set">Structure of the Data Set</h3>
 </section>
-<section id="audience-and-research-questions-optional" class="level3">
-<h3 class="anchored" data-anchor-id="audience-and-research-questions-optional">Audience and Research Questions (optional)</h3>
+<section id="describing-the-data" class="level1">
+<h1>Describing the Data</h1>
+<section id="structure-of-the-data-set" class="level2">
+<h2 class="anchored" data-anchor-id="structure-of-the-data-set">Structure of the Data Set</h2>
 </section>
-<section id="key-findings" class="level3">
-<h3 class="anchored" data-anchor-id="key-findings">Key findings</h3>
-<p>One of the primary objectives in analyzing this dataset was to explore the question: <em>What makes a great tennis player?</em> To address this, we adopted two distinct perspectives. The first focused on match outcomes, aiming to identify which players had the highest number of match victories.</p>
+<section id="audience-and-research-questions-optional" class="level2">
+<h2 class="anchored" data-anchor-id="audience-and-research-questions-optional">Audience and Research Questions (optional)</h2>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<p>One of the primary objectives in analyzing this dataset was to explore the question: <em>What makes a great tennis player?</em> To address this, we adopted two distinct perspectives. The first focused on match outcomes, aiming to identify which players had the highest number of match victories. We include a section describing the data manipulation process as an example of our coding workflow.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># import dataset</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>tennis <span class="ot">&lt;-</span> <span class="fu">read.csv2</span>(<span class="st">"Dataset3_Tennis.csv"</span>)</span>
@@ -145,7 +172,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(n.x)) <span class="sc">%&gt;%</span> </span>
 <span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">head</span>(<span class="at">n =</span> <span class="dv">10</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>This plot displays the top 10 tennis players with the most match wins. Each bar represents a player’s total number of wins, with the bars ordered from most to least wins. The fill color of each bar reflects the player’s win-loss ratio—darker blue indicates a higher winning rate. A label on each bar shows the win-loss record (e.g., 30:5). This visualization helps highlight not only who won the most matches but also how dominant they were in terms of win percentage.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># plot data using ggplot</span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="at">data =</span> winnerTable, <span class="fu">aes</span>(<span class="at">x =</span> n.x, <span class="at">y =</span> <span class="fu">reorder</span>(player, n.x), <span class="at">fill =</span> win_loss_ratio)) <span class="sc">+</span> </span>
@@ -158,37 +184,48 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>    <span class="fu">scale_x_continuous</span>(<span class="at">limits =</span> <span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">35</span>)) <span class="sc">+</span></span>
 <span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>    <span class="fu">scale_fill_gradient</span>(<span class="at">name =</span> <span class="st">"Winning Rate"</span>, <span class="at">low =</span> <span class="st">"lightblue"</span>, <span class="at">high =</span> <span class="st">"darkblue"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="TermPaper_files/figure-html/plot-overall-wins-1.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Overall Matches Won of Top 10 Players</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>This plot displays the top 10 tennis players with the most match wins. Each bar represents a player’s total number of wins, with the bars ordered from most to least wins. The fill color of each bar reflects the player’s win-loss ratio—darker blue indicates a higher winning rate. A label on each bar shows the win-loss record (e.g., 30:5). This visualization helps highlight not only who won the most matches but also how dominant they were in terms of win percentage. It is immediately apparent that players such as Nadal and Federer demonstrated a high level of consistency across all recorded matches in the dataset.</p>
+<p>Another way to identify the top-performing players is by examining their appearances in the final rounds of the six tournaments under analysis. The following plot demonstrates that, by this measure as well, the same names consistently emerge as the leading players.</p>
+<div class="cell">
+<div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="TermPaper_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="TermPaper_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
 </div>
 <p>The second perspective was more analytical, involving a comparison of performance metrics between two groups—winners and losers. The goal was to determine which factors distinguish successful players from those who are less successful. To achieve this, we calculated and compared several key performance indicators, including ace rate, double fault rate, first serve percentage, first serve return points won, and total service points won. Each of these metrics was expressed as a percentage, allowing for a clear and effective visual comparison across the two groups.</p>
-<p>Additional plots can be found at <a href="https://hansjoerg.shinyapps.io/tennis_stats/#section-why-they-won">this Website</a>.</p>
+<p>A detailied summary of all attempted plots can be found <a href="https://hansjoerg.shinyapps.io/tennis_stats">here in this shinyapp</a>.</p>
 </section>
 </section>
-<section id="statistical-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="statistical-analysis">Statistical Analysis</h2>
-<section id="correlation" class="level3">
-<h3 class="anchored" data-anchor-id="correlation">Correlation</h3>
+<section id="statistical-analysis" class="level1">
+<h1>Statistical Analysis</h1>
+<section id="correlation" class="level2">
+<h2 class="anchored" data-anchor-id="correlation">Correlation</h2>
 </section>
-<section id="regression-model" class="level3">
-<h3 class="anchored" data-anchor-id="regression-model">Regression Model</h3>
+<section id="regression-model" class="level2">
+<h2 class="anchored" data-anchor-id="regression-model">Regression Model</h2>
 </section>
-<section id="hypothesis-testing" class="level3">
-<h3 class="anchored" data-anchor-id="hypothesis-testing">Hypothesis testing</h3>
+<section id="hypothesis-testing" class="level2">
+<h2 class="anchored" data-anchor-id="hypothesis-testing">Hypothesis testing</h2>
 </section>
 </section>
-<section id="additional-remarks" class="level2">
-<h2 class="anchored" data-anchor-id="additional-remarks">Additional Remarks</h2>
-<section id="what-could-have-also-been-covered" class="level3">
-<h3 class="anchored" data-anchor-id="what-could-have-also-been-covered">What could have also been covered</h3>
+<section id="additional-remarks" class="level1">
+<h1>Additional Remarks</h1>
+<section id="what-could-have-also-been-covered" class="level2">
+<h2 class="anchored" data-anchor-id="what-could-have-also-been-covered">What could have also been covered</h2>
 </section>
-<section id="limitations" class="level3">
-<h3 class="anchored" data-anchor-id="limitations">Limitations</h3>
-</section>
+<section id="limitations" class="level2">
+<h2 class="anchored" data-anchor-id="limitations">Limitations</h2>
 </section>
 </section>
 
