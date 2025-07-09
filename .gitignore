@@ -8,3 +8,7 @@
 !TermPaper_files/
 !readme.md
 !Dataset3_Tennis.csv
+!_quarto_yml
+.Rproj.user
+
+/.quarto/
