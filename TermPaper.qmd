@@ -108,7 +108,214 @@ playerDf %>%
   scale_fill_manual(values = c("gold", "#B87333", "#D4AFB9"))
 ```
 
-The second perspective was more analytical, involving a comparison of performance metrics between two groups—winners and losers. The goal was to determine which factors distinguish successful players from those who are less successful. To achieve this, we calculated and compared several key performance indicators, including ace rate, double fault rate, first serve percentage, first serve return points won, and total service points won. Each of these metrics was expressed as a percentage, allowing for a clear and effective visual comparison across the two groups.
+Again, Nadal and Federer are among the best performing players, having reached the most finals.
+
+We also explored whether different court surfaces may have influenced match outcomes, considering that some players perform better on clay, while others excel on grass or hard courts. To illustrate this, we focused again on Nadal and Federer—two of the top-performing players in our dataset. The analysis shows that Nadal dominated on clay courts, whereas Federer secured many of his wins on grass. Both players performed strongly on hard courts. However, while these patterns highlight their individual strengths, they do not offer a clear explanation for *why* these players were so consistently successful overall.
+
+```{r}
+tennis %>%
+  mutate(Surface = case_when(
+    tourney_slug %in% c("australian-open", "beijing", "brisbane", "us-open") ~ "Hard Court",
+    tourney_slug == "roland-garros" ~ "Clay",
+    tourney_slug == "wimbledon" ~ "Grass"
+  )) %>%
+  filter(winner_name == "Rafael Nadal") %>%
+  count(tourney_slug, Surface) %>%
+  ggplot(aes(x = n, y = fct_rev(fct_relevel(tourney_slug, 
+       "brisbane", "australian-open", "roland-garros", 
+       "wimbledon", "us-open", "beijing")), 
+       fill = Surface)) +
+  geom_bar(stat = "identity", alpha = 0.7) +
+  theme_minimal() +
+  scale_fill_manual(values = c("Hard Court" = "steelblue", "Clay" = "tomato4", "Grass" = "green4")) +
+  theme(plot.title = element_text(face = "bold", hjust = 0.5)) +
+  labs(title = "Matches Won by Nadal", x = "", y = "")
+```
+
+```{r}
+tennis %>%
+  mutate(Surface = case_when(
+    tourney_slug %in% c("australian-open", "beijing", "brisbane", "us-open") ~ "Hard Court",
+    tourney_slug == "roland-garros" ~ "Clay",
+    tourney_slug == "wimbledon" ~ "Grass"
+  )) %>%
+  filter(winner_name == "Roger Federer") %>%
+  count(tourney_slug, Surface) %>%
+  ggplot(aes(x = n, y = fct_rev(fct_relevel(tourney_slug, 
+       "brisbane", "australian-open", "roland-garros", 
+       "wimbledon", "us-open", "beijing")), 
+       fill = Surface)) +
+  geom_bar(stat = "identity", alpha = 0.7) +
+  theme_minimal() +
+  scale_fill_manual(values = c("Hard Court" = "steelblue", "Clay" = "tomato4", "Grass" = "green4")) +
+  theme(plot.title = element_text(face = "bold", hjust = 0.5)) +
+  labs(title = "Matches Won by Federer", x = "", y = "")
+```
+
+The second perspective was more analytical, involving a comparison of performance metrics between players. The goal was to determine which factors distinguish successful players from those who are less successful. To achieve this, we calculated and compared several key performance indicators, including ace rate, double fault rate, first serve percentage, first serve return points won, and total service points won. Each of these metrics was expressed as a percentage, allowing for a clear and effective visual comparison across the two groups.
+
+The second perspective can be applied to compare single players or to compare groups of players, e.g. winners and losers. If we are interested in the top player performance again, we can plot the elite players against the average player.
+
+```{r}
+# build stat table based on player metrics
+  
+  playerTennis <- bind_rows(
+    tennis %>%
+      transmute(player = winner_name,
+                first_serves_in = winner_first_serves_in,
+                first_serves_total = winner_first_serves_total,
+                aces = winner_aces,
+                sets_won = winner_sets_won,
+                service_points_won = winner_service_points_won,
+                service_points_total = winner_service_points_total,
+                first_serve_return_won = winner_first_serve_return_won,
+                first_serve_return_total = winner_first_serve_return_total,
+                double_faults = winner_double_faults),
+    tennis %>%
+      transmute(player = loser_name,
+                first_serves_in = loser_first_serves_in,
+                first_serves_total = loser_first_serves_total,
+                aces = loser_aces,
+                sets_won = loser_sets_won,
+                service_points_won = loser_service_points_won,
+                service_points_total = loser_service_points_total,
+                first_serve_return_won = loser_first_serve_return_won,
+                first_serve_return_total = loser_first_serve_return_total,
+                double_faults = loser_double_faults)
+  )
+```
+
+```{r}
+# create vector of players we want to compare
+tennisNames <- c("Roger Federer", "Rafael Nadal", 
+                 "Grigor Dimitrov","Stan Wawrinka")
+
+# create table of key metrics
+tennisData1 <- playerTennis %>%
+  group_by(player) %>%
+  filter(n() >= 5) %>% 
+  summarize(first_serve_pct = sum(first_serves_in)/sum(first_serves_total),
+            service_points_won_pct = sum(service_points_won)/sum(service_points_total),
+            first_serve_return_won_pct = sum(first_serve_return_won)/sum(first_serve_return_total),
+            ace_rate = sum(aces)/sum(service_points_total),
+            double_falut_rate = sum(double_faults)/sum(service_points_total)) %>% 
+  arrange(desc(first_serve_pct)) %>% 
+  ungroup()
+
+# create average player metrics
+avg_player <- playerTennis %>%
+  summarise(
+    first_serve_pct = sum(first_serves_in) / sum(first_serves_total),
+    service_points_won_pct = sum(service_points_won) / sum(service_points_total),
+    first_serve_return_won_pct = sum(first_serve_return_won) / sum(first_serve_return_total),
+    ace_rate = sum(aces) / sum(service_points_total),
+    double_falut_rate = sum(double_faults) / sum(service_points_total)
+  ) %>%
+  mutate(player = "Average")
+
+# bind everything together rowwise
+tennisData_augmented <- bind_rows(tennisData1, avg_player)
+```
+
+```{r}
+# us tidyr to pivot the table and plot the metrics with ggplot
+tennisData_augmented %>%
+  filter(player %in% c(tennisNames, "Average")) %>%
+  pivot_longer(cols = -player, names_to = "metric", values_to = "value") %>%
+  mutate(metric = recode(metric,
+  ace_rate = "Ace Rate",
+  double_falut_rate = "Double Fault Rate",
+  first_serve_pct = "First Serve",
+  first_serve_return_won_pct = "First Serve Return Won",
+  service_points_won_pct = "Service Points Won"
+)) %>%
+  ggplot(aes(x = value, y = reorder(player, -value), color = metric)) +
+  geom_point(size = 4) +
+  scale_x_continuous(labels = scales::percent_format(accuracy = 1)) +
+  labs(title = "Key Metrics of Winning Players",
+       x = "",
+       y = "") +
+  theme_minimal() +
+  theme(plot.title = element_text(face = "bold", hjust = 0.5),
+        legend.title = element_blank())
+```
+
+If we devide the field by winners and losers of matches we get the following metrics:
+
+```{r}
+# calculate winner's metric
+winners <- tennis %>%
+  transmute(
+    player = winner_name,
+    first_serves_in = winner_first_serves_in,
+    first_serves_total = winner_first_serves_total,
+    aces = winner_aces,
+    double_faults = winner_double_faults,
+    service_points_won = winner_service_points_won,
+    service_points_total = winner_service_points_total,
+    first_serve_return_won = winner_first_serve_return_won,
+    first_serve_return_total = winner_first_serve_return_total,
+    sets_won = winner_sets_won,
+    result = "winner"
+  )
+
+# calculate loser's metrics
+losers <- tennis %>%
+  transmute(
+    player = loser_name,
+    first_serves_in = loser_first_serves_in,
+    first_serves_total = loser_first_serves_total,
+    aces = loser_aces,
+    double_faults = loser_double_faults,
+    service_points_won = loser_service_points_won,
+    service_points_total = loser_service_points_total,
+    first_serve_return_won = loser_first_serve_return_won,
+    first_serve_return_total = loser_first_serve_return_total,
+    sets_won = loser_sets_won,
+    result = "loser"
+  )
+
+# combine winners and losers in one dataset for comparison
+combined <- bind_rows(winners, losers)
+```
+
+```{r}
+# summarize the data 
+combSummary <- combined %>%
+  group_by(result) %>%
+  summarize(
+    first_serve_pct = sum(first_serves_in) / sum(first_serves_total),
+    ace_rate = sum(aces) / sum(service_points_total),
+    double_fault_rate = sum(double_faults) / sum(service_points_total),
+    service_points_won_pct = sum(service_points_won) / sum(service_points_total),
+    first_serve_return_won = sum(first_serve_return_won)/ sum(first_serve_return_total)
+  )
+```
+
+```{r}
+combSummary %>% 
+  pivot_longer(cols = -result, names_to = "metric", values_to = "value") %>%
+  mutate(metric = recode(metric,
+  ace_rate = "Ace Rate",
+  double_fault_rate = "Double Fault Rate",
+  first_serve_pct = "First Serve",
+  first_serve_return_won = "First Serve Return Won",
+  service_points_won_pct = "Service Points Won"
+)) %>%
+  ggplot(aes(x = value, y = result, color = metric)) +
+  geom_point(size = 4) +
+  scale_x_continuous(labels = scales::percent_format(accuracy = 1)) +
+  labs(title = "Winners vs. Losers all Rounds",
+       x = "",
+       y = "") +
+  theme_minimal() +
+  theme(plot.title = element_text(face = "bold", hjust = 0.5),
+        legend.title = element_blank())
+```
+
+From this analysis, we conclude that metrics such as first serve percentage, service points won, and first serve return success are more indicative of a winning player than ace rate or double fault rate. This suggests that strong serving ability is a fundamental factor in overall player success. This outcome aligns with general tennis knowledge - serving is the only aspect of the game entirely within a player's control, unaffected by the opponent's actions.
+
+It is worth acknowledging that these findings may appear somewhat self-evident. Our analysis ultimately confirms that players with effective serves and solid return games are more likely to winan - insight already familiar to most tennis players. However, the scope of our conclusions was limited by the dataset, which lacked additional informative variables such as player age or break point statistics. As a result, we were constrained to focus on the available performance metrics.
 
 A detailied summary of all attempted plots can be found [here in this shinyapp](https://hansjoerg.shinyapps.io/tennis_stats).
 
