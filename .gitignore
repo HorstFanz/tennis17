@@ -5,6 +5,7 @@
 !.gitignore
 !TermPaper.qmd
 !TermPaper.html
+!TermPaper.pdf
 !TermPaper_files/
 !readme.md
 !Dataset3_Tennis.csv
