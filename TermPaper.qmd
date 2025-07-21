@@ -6,7 +6,7 @@ execute:
   warning: false
   message: false
 format: 
-  pdf:
+  html:
     toc: true
 editor: visual
 ---
@@ -326,6 +326,78 @@ A detailied summary of all attempted plots can be found [here in this shinyapp](
 # Statistical Analysis
 
 ## Correlation
+
+```{r}
+# Load required library
+library(corrplot)
+
+# Recreate key performance metrics manually from base data
+tennis$winner_aces_rate_service_points <- with(tennis, as.numeric(as.character(winner_aces)) / as.numeric(as.character(winner_service_points_total)))
+tennis$loser_aces_rate_service_points <- with(tennis, as.numeric(as.character(loser_aces)) / as.numeric(as.character(loser_service_points_total)))
+
+tennis$winner_double_fault_rate <- with(tennis, as.numeric(as.character(winner_double_faults)) / as.numeric(as.character(winner_service_points_total)))
+tennis$loser_double_fault_rate <- with(tennis, as.numeric(as.character(loser_double_faults)) / as.numeric(as.character(loser_service_points_total)))
+
+tennis$winner_first_serves_in_rate <- with(tennis, as.numeric(as.character(winner_first_serves_in)) / as.numeric(as.character(winner_first_serves_total)))
+tennis$loser_first_serves_in_rate <- with(tennis, as.numeric(as.character(loser_first_serves_in)) / as.numeric(as.character(loser_first_serves_total)))
+
+tennis$winner_service_points_won_rate <- with(tennis, as.numeric(as.character(winner_service_points_won)) / as.numeric(as.character(winner_service_points_total)))
+tennis$loser_service_points_won_rate <- with(tennis, as.numeric(as.character(loser_service_points_won)) / as.numeric(as.character(loser_service_points_total)))
+
+tennis$winner_first_serve_return_won_rate <- with(tennis, as.numeric(as.character(winner_first_serve_return_won)) / as.numeric(as.character(winner_first_serve_return_total)))
+tennis$loser_first_serve_return_won_rate <- with(tennis, as.numeric(as.character(loser_first_serve_return_won)) / as.numeric(as.character(loser_first_serve_return_total)))
+
+# Select variables for correlation
+winner_cols <- c(
+  "winner_first_serves_in_rate",
+  "winner_service_points_won_rate",
+  "winner_first_serve_return_won_rate",
+  "winner_double_fault_rate", 
+  "winner_aces_rate_service_points"  
+)
+
+loser_cols <- c(
+  "loser_first_serves_in_rate",
+  "loser_service_points_won_rate",
+  "loser_first_serve_return_won_rate",
+  "loser_double_fault_rate", 
+  "loser_aces_rate_service_points"  
+)
+
+all_cols <- c(winner_cols, loser_cols)
+all_data <- tennis[, all_cols]
+
+# Convert columns to numeric just in case
+all_data <- data.frame(lapply(all_data, function(x) as.numeric(as.character(x))))
+
+# Compute correlation matrix
+all_corr <- cor(all_data, use = "pairwise.complete.obs")
+
+# Fill matrix with both upper and lower triangles
+combined_corr <- matrix(NA, nrow = length(all_cols), ncol = length(all_cols))
+rownames(combined_corr) <- colnames(all_corr)
+colnames(combined_corr) <- colnames(all_corr)
+
+combined_corr[upper.tri(combined_corr, diag = TRUE)] <- all_corr[upper.tri(all_corr, diag = TRUE)]
+combined_corr[lower.tri(combined_corr)] <- all_corr[lower.tri(all_corr)]
+
+# Plot
+par(mar = c(6, 6, 3, 3))
+corrplot(combined_corr, method = "color", type = "upper", 
+         diag = TRUE, tl.col = "black", tl.srt = 45, tl.cex = 0.8,
+         title = NULL)
+
+```
+
+The corrplot serves as a graphical representation of a correlation matrix, offering valuable insights into the relationships among multiple performance metrics in tennis matches. In this case, the upper triangle of the plot visualizes correlations among winner-specific variables, while the lower triangle reflects relationships among corresponding loser-specific variables. The color scheme conveys both the direction and strength of each pairwise Pearson correlation coefficient: dark blue indicates strong positive correlations (close to +1), dark red represents strong negative correlations (close to –1), and white or pale shades signify weak or negligible correlations (values near 0).
+
+Among match winners, several serve-related variables show strong positive connections. For example, the first serve in rate is closely linked to both the percentage of service points won and the number of aces per service point. This suggests that players who consistently land their first serves tend to perform better in service situations and hit more aces. These relationships reflect a cohesive serve performance, where both precision and power contribute jointly to match success.
+
+Among match losers, the same serve-related correlations exist but are notably weaker. This indicates that losing players often show less consistent or effective serve strategies. Their performance lacks the strong connections seen among the winners, hinting at serve quality as a potential factor in match outcomes.
+
+The double fault rate stands out as a negatively correlated variable across both groups. For winners and losers alike, it shows inverse relationships with important performance indicators such as service points won. This implies that committing more double faults is statistically harmful to service effectiveness. The negative correlation confirms that reducing unforced service errors plays a key role in staying competitive, especially on serve.
+
+Return performance presents a different pattern. The first serve return won rate shows only moderate correlations with other match statistics, particularly among winners. This means that a player’s ability to return serves effectively tends to operate independently from other areas of performance, like serving strength or ace production. This independence reflects how successful players may use different winning strategies some excel through powerful serves, while others rely on strong returns. In short, return skills contribute uniquely and do not necessarily align with patterns seen in serve metrics.
 
 ## Regression Model
 
