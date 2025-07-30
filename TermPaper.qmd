@@ -1,17 +1,25 @@
 ---
-title: "TermPaper - Tennis"
-author: "Group 3"
+title: "Tennis (Group 3)"
+author: 
+  - "Oleksandra Bezuievska" 
+  - "Angelyn Mananghaya"
+  - "Sarasi Supulnima Pamunuwa"
+  - "Franz-Xaver Wienerroither"
 execute: 
   echo: false
   warning: false
   message: false
 format: 
-  html:
+  pdf:
     toc: true
 editor: visual
 ---
 
+\pagebreak
+
 # Introduction
+
+Tennis is a globally popular sport renowned for its mix of physical agility, mental strategy, and endurance. Matches are structured into points, which accumulate to form games; games form sets, and winning the required number of sets secures the match. Each point carries significant weight, with momentum often shifting rapidly on the court. Analyzing match data such as serve percentages and return success offers valuable insights into player performance. These statistics are indispensable tools for understanding the strengths, weaknesses, and unique playing styles, particularly when examining the competitive landscape of 2017 men’s singles tennis.
 
 ```{r, output=FALSE}
 library(tidyverse)
@@ -21,13 +29,13 @@ library(tidyverse)
 
 ## Structure of the Data Set
 
-## Audience and Research Questions (optional)
+The Tennis dataset contains the results of 925 men's singles tennis matches in the year 2017 for 4 Grand Slam Tournaments (Australian Open, Roland Garros, US Open, Wimbledon) and 2 ATP Tours (Beijing, Brisbane). Each match includes the tournament and match information, winning and losing players, sets and games won by the players, and serving/returning statistics of both winning and losing players.
 
 ## Key findings
 
-One of the primary objectives in analyzing this dataset was to explore the question: *What makes a great tennis player?* To address this, we adopted two distinct perspectives. The first focused on match outcomes, aiming to identify which players had the highest number of match victories. We include a section describing the data manipulation process as an example of our coding workflow.
+One of the primary objectives in analyzing this dataset was to explore the question: *What makes a great tennis player?* To address this, we adopted two distinct perspectives. The first focused on match outcomes, aiming to identify which players had the highest number of match victories.
 
-```{r,echo=TRUE}
+```{r}
 # import dataset
 tennis <- read.csv2("Dataset3_Tennis.csv")
 
@@ -46,7 +54,7 @@ totalLosses <- tennis %>%
   arrange(desc(n))
 ```
 
-```{r, echo=TRUE}
+```{r}
 # create subset using dplyr
 winnerTable <- left_join(totalWins, totalLosses, by = "player") %>%
   mutate(win_loss_score = paste0(n.x, ":", n.y)) %>%
@@ -55,7 +63,7 @@ winnerTable <- left_join(totalWins, totalLosses, by = "player") %>%
   head(n = 10)
 ```
 
-```{r,echo=TRUE}
+```{r}
 # plot data using ggplot
   ggplot(data = winnerTable, 
          aes(x = n.x, y = reorder(player, n.x), 
@@ -158,8 +166,6 @@ tennis %>%
 
 The second perspective was more analytical, involving a comparison of performance metrics between players. The goal was to determine which factors distinguish successful players from those who are less successful. To achieve this, we calculated and compared several key performance indicators, including ace rate, double fault rate, first serve percentage, first serve return points won, and total service points won. Each of these metrics was expressed as a percentage, allowing for a clear and effective visual comparison across the two groups.
 
-The second perspective can be applied to compare single players or to compare groups of players, e.g. winners and losers. If we are interested in the top player performance again, we can plot the elite players against the average player.
-
 ```{r}
 # build stat table based on player metrics
   
@@ -243,8 +249,6 @@ tennisData_augmented %>%
   theme(plot.title = element_text(face = "bold", hjust = 0.5),
         legend.title = element_blank())
 ```
-
-If we divide the field by winners and losers of matches we get the following metrics:
 
 ```{r}
 # calculate winner's metric
@@ -399,11 +403,286 @@ The double fault rate stands out as a negatively correlated variable across both
 
 Return performance presents a different pattern. The first serve return won rate shows only moderate correlations with other match statistics, particularly among winners. This means that a player’s ability to return serves effectively tends to operate independently from other areas of performance, like serving strength or ace production. This independence reflects how successful players may use different winning strategies some excel through powerful serves, while others rely on strong returns. In short, return skills contribute uniquely and do not necessarily align with patterns seen in serve metrics.
 
-## Regression Model
-
 ## Hypothesis testing
 
-# End
+The difference in the performance of winners and losers were compared using tests of hypothesis. This is done under the assumption that the matches in the dataset are considered "representative". Both mean and median were used to see if the results change based on the distribution of the dataset.
+
+The table below shows that winning players have a significantly better performance than losing players across all player statistics, which is expected.
+
+|  |  |  |
+|:----------------------:|:----------------------:|:----------------------:|
+| **Player Statistics** | **Mean Difference (Winner – Loser)** | **Median Difference (Winner – Loser)** |
+| Service Ace (%) | 0.03\*[^1] | 0.02\* |
+| Double Faults (%) | -0.01\* | -0.01\* |
+| First Serve In (%) | 0.02\* | 0.02\* |
+| Service Points Won (%) | 0.11\* | 0.10\* |
+| First Serve Return Won (%) | 0.11\* | 0.10\* |
+| Tiebreaks Won (%) | 0.57\* | 1\* |
+
+[^1]: An \* means significant at 5% alpha.
+
+Difference in Performance Between Winning and Losing Players
+
+## Regression Model
+
+```{r, echo=FALSE}
+
+library(readr)
+library(dplyr)
+library(car)
+library(ggplot2)
+library(pROC)
+library(corrplot)
+library(caret)
+
+# dataset for winners
+winner <- tennis %>%
+  transmute(
+    match_id,
+    player_id = winner_player_id,
+    player_name = winner_name,
+    aces = winner_aces,
+    double_faults = winner_double_faults,
+    first_serves_in = winner_first_serves_in,
+    first_serves_total = winner_first_serves_total,
+    service_points_won = winner_service_points_won,
+    service_points_total = winner_service_points_total,
+    first_serve_return_won = winner_first_serve_return_won,
+    first_serve_return_total = winner_first_serve_return_total,
+    win = 1,
+    aces_rate = aces/service_points_total,
+    double_faults_rate = double_faults/service_points_total
+  )
+
+# dataset for losers
+loser <- tennis %>%
+  transmute(
+    match_id,
+    player_id = loser_player_id,
+    player_name = loser_name,
+    aces = loser_aces,
+    double_faults = loser_double_faults,
+    first_serves_in = loser_first_serves_in,
+    first_serves_total = loser_first_serves_total,
+    service_points_won = loser_service_points_won,
+    service_points_total = loser_service_points_total,
+    first_serve_return_won = loser_first_serve_return_won,
+    first_serve_return_total = loser_first_serve_return_total,
+    win = 0,
+    aces_rate = aces/service_points_total,
+    double_faults_rate = double_faults/service_points_total
+  )
+
+# combine
+winner_loser <- bind_rows(winner, loser) %>%
+  mutate(
+    first_serve_pct = first_serves_in / first_serves_total,
+    service_win_pct = service_points_won / service_points_total,
+    return_win_pct = first_serve_return_won / first_serve_return_total
+  ) %>%
+  filter(!is.na(first_serve_pct), !is.na(service_win_pct), !is.na(return_win_pct))
+
+# shuffle
+data <- winner_loser[sample(nrow(winner_loser)), ]
+
+
+# split
+train_index <- sample(1:nrow(data), 0.8 * nrow(data))
+train <- data[train_index, ]
+test <- data[-train_index, ]
+
+
+# model 1
+model_1 <- glm(win ~ aces_rate + double_faults_rate + 
+                     first_serve_pct + service_win_pct + return_win_pct,
+                   data = train, family = "binomial")
+
+# prediction
+test$predicted_prob_1 <- predict(model_1, newdata = test, type = "response")
+test$predicted_class_1 <- ifelse(test$predicted_prob_1 > 0.5, 1, 0)
+
+# metrics
+conf_matrix_1 <- table(Predicted = test$predicted_class_1, Actual = test$win)
+accuracy_1 <- sum(diag(conf_matrix_1)) / sum(conf_matrix_1)
+sensitivity_1 <- conf_matrix_1[2, 2] / sum(conf_matrix_1[, 2]) # if 1 is positive value and 0 is negative
+specificity_1 <- conf_matrix_1[1, 1] / sum(conf_matrix_1[, 1])
+```
+
+For modeling we first considered the following model: win \~ aces_rate + double_faults_rate + first_serve_pct + service_win_pct + return_win_pct. The results were as follows:
+
+```{r}
+
+cat('Initial model summary', "\n")
+summary(model_1)
+cat("VIF values for the initial model:", "\n")
+vif(model_1)
+
+cat("Confusion matrix for the test predictions of the initial model:", "\n")
+print(conf_matrix_1)
+cat("Test accuracy:", round(accuracy_1 * 100, 2), "%\n")
+cat("Sensitivity:", sensitivity_1, "\n")
+cat("Specificity:", specificity_1, "\n")
+```
+
+What may surprise in this results is that intuitively we may have expected aces_rate to have a strong (significant) impact, but the model disproves it.
+
+The accuracy of the initial model is also quite high, 88.92%, as is the sensitivity, 90.66%, and specificity, 87.23%.
+
+The plot for predictions based on the initial model:
+
+```{r}
+# scatterplot
+ggplot(test, aes(x = predicted_prob_1, y = win)) +
+  geom_jitter(height = 0.1, width = 0, alpha = 0.5) +
+  geom_smooth(method = "loess", se = FALSE, color = "blue") +
+  labs(title = "Predicted Probability vs Actual Outcome",
+       x = "Predicted Probability of Win",
+       y = "Actual Win (1 = win, 0 = loss)") +
+  theme_minimal()
+```
+
+After seeing the results of the initial model we proposed the second one, which eliminated the statistically insignificant variables. This did not introduce great changes, the accuracy and the recall stayed pretty much the same, so we decided to go with the initial model.
+
+```{r}
+model_simple <- glm(win ~ service_win_pct + return_win_pct,
+                    family = "binomial", data = train)
+
+
+# prediction
+test$predicted_prob_s <- predict(model_simple, newdata = test, type = "response")
+test$predicted_class_s <- ifelse(test$predicted_prob_s > 0.5, 1, 0)
+
+# metrics
+conf_matrix_s <- table(Predicted = test$predicted_class_s, Actual = test$win)
+accuracy_s <- sum(diag(conf_matrix_s)) / sum(conf_matrix_s)
+sensitivity_s <- conf_matrix_s[2, 2] / sum(conf_matrix_s[, 2]) # if 1 is positive value and 0 is negative
+specificity_s <- conf_matrix_s[1, 1] / sum(conf_matrix_s[, 1])
+```
+
+```{r}
+cat('Revised model summary', "\n")
+summary(model_simple)
+cat("VIF values for the revisedl model:", "\n")
+vif(model_simple)
+
+cat("Comparing the AIC scores of the initial and revised models:", "\n")
+AIC(model_1, model_simple)
+
+cat("Confusion matrix for the test predictions of the revised model:", "\n")
+print(conf_matrix_s)
+cat("Test accuracy:", round(accuracy_s * 100, 2), "%\n")
+cat("Sensitivity:", sensitivity_s, "\n")
+cat("Specificity:", specificity_s, "\n")
+```
+
+Also the 10-fold cross-validation showed the accuracy of ≈ 88%, which tells us that the results we get are not random and the model is pretty consistent.
+
+```{r}
+# standardized residuals
+plot(rstandard(model_1), main = "Standardized Residuals")
+abline(h = 0, col = "red")
+```
+
+The residuals plot showed no visible trend, which tells us that the linearity assumption is not violated, and no homoscedasticity was detected (insert residuals plot).
+
+The correlation plot mentioned earlier showed moderate correlation between variables aces_rate and service_win_pct, but the multicollinearity check that was conducted on the model didn't show anything significant. The VIF values of the model all lie between 1 and 2, which is considered a good result and absence of the multicollinearity. (see results for initial model above)
+
+Another thing we looked into was the presence of the non-linear dependence, but the check also didn't show anything significant.
+
+```{r, echo=FALSE}
+# Create binned average probabilities
+data$win_numeric <- as.numeric(data$win)
+
+ggplot(data, aes(x = aces_rate, y = win_numeric)) +
+  geom_smooth(method = "loess", color = "blue", se = FALSE) +
+  labs(title = "Non-linear relationship? Aces Rate vs Win",
+       y = "Probability of Winning", x = "Aces Rate")
+
+logit_quad <- glm(win ~ I(aces_rate^2),
+                  data = train, family = "binomial")
+summary(logit_quad)
+# prediction
+test$predicted_prob_4 <- predict(logit_quad, newdata = test, type = "response")
+test$predicted_class_4 <- ifelse(test$predicted_prob_4 > 0.5, 1, 0)
+
+# metrics
+conf_matrix_4 <- table(Predicted = test$predicted_class_4, Actual = test$win)
+accuracy_4 <- sum(diag(conf_matrix_4)) / sum(conf_matrix_4)
+sensitivity_4 <- conf_matrix_4[2, 2] / sum(conf_matrix_4[, 2]) # if 1 is positive value and 0 is negative
+specificity_4 <- conf_matrix_4[1, 1] / sum(conf_matrix_4[, 1])
+
+print(conf_matrix_4)
+cat("Test accuracy:", round(accuracy_4 * 100, 2), "%\n")
+cat("Sensitivity:", sensitivity_4, "\n")
+cat("Specificity:", specificity_4, "\n")
+```
+
+Additionally we decided to try the random forest approach, which confirmed the results of the initial model.
+
+```{r}
+library(randomForest)
+
+
+# Fit random forest model
+set.seed(123)  
+rf_model <- randomForest(
+  factor(win) ~ aces_rate + double_faults_rate + first_serve_pct +
+    service_win_pct + return_win_pct,
+  data = train,
+  ntree = 500,       # number of trees
+  mtry = 3,          # number of variables tried at each split (you can tune this)
+  importance = TRUE  # to measure variable importance
+)
+
+
+# Predict on test set
+rf_preds <- predict(rf_model, newdata = test)
+
+# Confusion matrix
+conf_matrix_rf <- table(Predicted = rf_preds, Actual = test$win)
+print(conf_matrix_rf)
+
+# Accuracy
+accuracy_rf <- sum(diag(conf_matrix_rf)) / sum(conf_matrix_rf)
+cat("Random Forest Accuracy:", round(accuracy_rf * 100, 2), "%\n")
+
+
+# Plot variable importance
+importance(rf_model)
+varImpPlot(rf_model)
+
+```
+
+Finally it is very important to say, that the model we chose performs well only on the given data and can not be generalized because of lack of history data and other important variables.
+
+## Additional Analyses
+
+The performance of winning players varied notably by court type. On grass courts, winners recorded the highest percentage of service aces (0.11%) and service points won (0.71%), indicating grass courts favor stronger service games. Clay court winners, meanwhile, had the lowest service ace rate (0.07%) but performed best in first serve return won percentage (0.36%) and had competitive service points won (0.68%), highlighting the greater importance of return skills and extended rallies on clay. Hard court winners had the highest double faults percentage (0.035%). Overall, these results show performance of players differ across the three court surfaces.
+
+|  |  |  |  |  |  |
+|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|
+| **Court Type** | **Service Aces(%)** | **Double Faults (%)** | **First Serves In (%)** | **Service Points Won (%)** | **First Serve Return Won (%)** |
+| Clay | 0.07 a[^2] | 0.032 ab | 0.62 a | 0.68 a | 0.36 a |
+| Grass | 0.11 b | 0.031 a | 0.64 b | 0.71 b | 0.32 b |
+| Hard Court | 0.09 c | 0.035 b | 0.61 a | 0.69 a | 0.34 a |
+
+[^2]: Means in the same column are significantly different at 5% level of significance if not followed by any letter in common.
+
+Performance of Winners among Court Types
+
+Among the top three-ranked men’s singles players in 2017, Federer stood out with the highest percentage of service aces (0.138%) and service points won (0.73%), indicating his dominant and effective serve. Nadal excelled in first serves in (0.67%) and first serve return won (0.37%), reflecting his consistent serving and strong return game. Dimitrov, meanwhile, had the highest rate of double faults (0.042%) but maintained competitive figures in other areas. Compared to the averages, all three players exceeded the benchmarks for first serves in, service points won, and first serve return won, highlighting their all-around superiority in both offensive and defensive aspects of the game.
+
+|  |  |  |  |  |  |  |
+|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
+| **Rank** | **Player** | **Service Aces (%)** | **Double Faults (%)** | **First Serves In (%)** | **Service Points Won (%)** | **First Serve Return Won (%)** |
+| 1 | Nadal | 0.049 | 0.023 | 0.67 | 0.71 | 0.37 |
+| 2 | Federer | 0.138 | 0.020 | 0.64 | 0.73 | 0.34 |
+| 3 | Dimitrov | 0.099 | 0.042 | 0.63 | 0.69 | 0.32 |
+| \- | Average | 0.067 | 0.041 | 0.61 | 0.63 | 0.29 |
+
+Performance of the Highest Ranked Players (2017)
+
+# Conclusion
 
 ## Summary
 
@@ -416,5 +695,3 @@ This analysis is subject to several important limitations. First, the dataset in
 Second, the limited time frame restricts the possibility of longitudinal analysis or year-over-year comparisons. Certain top-ranked players, such as Novak Djokovic, appear to be absent from the dataset, possibly due to injury or non-participation in the selected tournaments. Including data from all four Grand Slam tournaments over multiple years would likely allow for more comprehensive and generalizable insights.
 
 Third, the dataset lacks several key performance metrics commonly used in tennis analysis, such as the number of winners, unforced errors, and break points won. While tiebreak information is included, it is less informative than break point data, which is often considered a critical indicator of match dynamics and player resilience under pressure.
-
-## Additional Remarks
